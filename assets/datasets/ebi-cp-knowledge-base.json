@@ -1,0 +1,2258 @@
+[
+    {
+        "competencyMapping": "2.5",
+        "name": "Homology modelling / MD with Gromacs / docking with HADDOCK",
+        "domain": "HADDOCK, GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.bonvinlab.org/education/molmod/\nRelated data on Github: https://github.com/haddocking/molmod",
+        "bioexcelPartner": "UU",
+        "courseComments": "Related data on Github: https://github.com/haddocking/molmod"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "Homology modelling / MD with Gromacs / docking with HADDOCK",
+        "domain": "HADDOCK, GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.bonvinlab.org/education/molmod/\nRelated data on Github: https://github.com/haddocking/molmod",
+        "bioexcelPartner": "UU",
+        "courseComments": "Related data on Github: https://github.com/haddocking/molmod"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "HADDOCK CASP-CAPRI T70 ab-initio docking tutorial",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/\nRelated data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial",
+        "bioexcelPartner": "UU",
+        "courseComments": "Related data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "HADDOCK CASP-CAPRI T70 ab-initio docking tutorial",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/\nRelated data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial",
+        "bioexcelPartner": "UU",
+        "courseComments": "Related data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "WeNMR lecture on information-driven docking with HADDOCK",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/watch?v=InwxoiVy3QQ",
+        "bioexcelPartner": "UU"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "WeNMR lecture on information-driven docking with HADDOCK",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/watch?v=InwxoiVy3QQ",
+        "bioexcelPartner": "UU"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "Demonstration of the WeNMR HADDOCK webportal (easy interface)",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5eS8BAOJ6es",
+        "bioexcelPartner": "UU"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "Demonstration of the WeNMR HADDOCK webportal (easy interface)",
+        "domain": "HADDOCK",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5eS8BAOJ6es",
+        "bioexcelPartner": "UU"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "CPMD tutorial",
+        "domain": "CPMD",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://cpmd.org/cpmd-tutorial",
+        "bioexcelPartner": "Juelich"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "CPMD tutorial",
+        "domain": "CPMD",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://cpmd.org/cpmd-tutorial",
+        "bioexcelPartner": "Juelich"
+    },
+    {
+        "competencyMapping": "4.2",
+        "name": "ARCHER intro / driving test",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "ARCHER intro / driving test",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "ARCHER intro / driving test",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "ARCHER intro / driving test",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "2.7",
+        "name": "Practical Introduction to High Performance Computing (PItHPC)",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Postgraduate course - \nOnline Distance Learning",
+        "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "Practical Introduction to High Performance Computing (PItHPC)",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Postgraduate course - \nOnline Distance Learning",
+        "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "Practical Introduction to High Performance Computing (PItHPC)",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Postgraduate course - \nOnline Distance Learning",
+        "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "Practical Introduction to High Performance Computing (PItHPC)",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Postgraduate course - \nOnline Distance Learning",
+        "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
+        "bioexcelPartner": "UEDIN"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "GROMACS.org",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.gromacs.org/Documentation/Tutorials",
+        "bioexcelPartner": "KTH"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "GROMACS.org",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.gromacs.org/Documentation/Tutorials",
+        "bioexcelPartner": "KTH"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Best bang for your buck: GPU nodes for GROMACS biomolecular simulations",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Journal Paper",
+        "url": "https://doi.org/10.1002/jcc.24030",
+        "bioexcelPartner": "KTH"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "Best bang for your buck: GPU nodes for GROMACS biomolecular simulations",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Journal Paper",
+        "url": "https://doi.org/10.1002/jcc.24030",
+        "bioexcelPartner": "KTH"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "MDWeb - Molecular Dynamics on Web Tutorials (Protein Atomistic/Coarse-Grained Molecular Dynamics Setup, Analysis, Run)",
+        "domain": "Atomistic/Coarse-Grained Molecular Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorial\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialAnalysis\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialRun",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "MDWeb - Molecular Dynamics on Web Tutorials (Protein Atomistic/Coarse-Grained Molecular Dynamics Setup, Analysis, Run)",
+        "domain": "Atomistic/Coarse-Grained Molecular Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorial\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialAnalysis\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialRun",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "NAFlex - Nucleic Acids Flexibility Server Tutorials (Nucleic Acids Atomistic/Coarse-grained Molecular Dynamics Setup, Analysis)",
+        "domain": "Nucleic Acids Atomistic / Coarse-Grained Molecular Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "NAFlex - Nucleic Acids Flexibility Server Tutorials (Nucleic Acids Atomistic/Coarse-grained Molecular Dynamics Setup, Analysis)",
+        "domain": "Nucleic Acids Atomistic / Coarse-Grained Molecular Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "FlexServ - Protein Flexibility Server",
+        "domain": "Protein Flexibility from Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/FlexServ/tutorial.php",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "FlexServ - Protein Flexibility Server",
+        "domain": "Protein Flexibility from Dynamics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Online Tutorials / PDF",
+        "url": "http://mmb.irbbarcelona.org/FlexServ/tutorial.php",
+        "bioexcelPartner": "IRB"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "COMPSs tutorials and manuals",
+        "domain": "Programming models/Workflows ",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Training material ",
+        "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "COMPSs tutorials and manuals",
+        "domain": "Programming models/Workflows ",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Training material ",
+        "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "COMPSs tutorials and manuals",
+        "domain": "Programming models/Workflows ",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Training material ",
+        "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "COMP Superscalar",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/channel/UCxx5hojMjCNqKRJclMaJbHQ",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "COMP Superscalar",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/channel/UCxx5hojMjCNqKRJclMaJbHQ",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "COMP Superscalar",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "YouTube",
+        "url": "https://www.youtube.com/channel/UCxx5hojMjCNqKRJclMaJbHQ",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Apache Taverna documentation",
+        "domain": "Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Documentation, tutorials, videos",
+        "url": "https://taverna.incubator.apache.org/documentation/",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Taverna developer guide",
+        "domain": "Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://dev.mygrid.org.uk/wiki/display/developer/Developers+Guide",
+        "bioexcelPartner": "UNIMAN"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Taverna tutorials",
+        "domain": "Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Training material ",
+        "url": "https://github.com/taverna/taverna-tutorials",
+        "bioexcelPartner": "UNIMAN"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Common Workflow Language user guide",
+        "domain": "Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Tutorial",
+        "url": "http://www.commonwl.org/draft-3/UserGuide.html",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Using the Open PHACTS API",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Webinar",
+        "url": "https://www.youtube.com/watch?v=8XV0kC7PuSU",
+        "bioexcelPartner": "UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Open PHACTS YouTube channel",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Webinars",
+        "url": "https://www.youtube.com/playlist?list=PLQ_ieWFru1xHMUoWtHypLvbVjZLoQMev3",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Open PHACTS support portal",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Support portal",
+        "url": "http://support.openphacts.org/support/home",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Open PHACTS API docs",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Documentation",
+        "url": "https://dev.openphacts.org/docs",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Open PHACTS developer portal",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Documentation",
+        "url": "https://dev.openphacts.org/resources",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Open PHACTS ops.js API docs",
+        "domain": "Pharmacology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Documentation",
+        "url": "http://openphacts.github.io/ops.js/Openphacts.html",
+        "bioexcelPartner": "UNIMAN"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Open PHACTS example workflows",
+        "domain": "Pharmacology, Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Examples",
+        "url": "http://www.myexperiment.org/groups/1125",
+        "bioexcelPartner": "External, UNIMAN"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Taverna example workflows",
+        "domain": "Workflows",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Examples",
+        "url": "http://www.myexperiment.org/packs/609",
+        "bioexcelPartner": "UNIMAN"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "Presentations from GROMACS developers/users workshop",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Presentation recordings",
+        "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
+        "bioexcelPartner": "KTH, MPG, External"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "Presentations from GROMACS developers/users workshop",
+        "domain": "GROMACS",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "Presentation recordings",
+        "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
+        "bioexcelPartner": "KTH, MPG, External"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "PATC PERFORMANCE ANALYSIS WORKSHOP",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.vi-hps.org/training"
+    },
+    {
+        "competencyMapping": "2.7",
+        "name": "Hands-on Introduction to HPC @ EPCC",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://events.prace-ri.eu/event/479/"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "Hands-on Introduction to HPC @ EPCC",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://events.prace-ri.eu/event/479/"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "Hands-on Introduction to HPC @ EPCC",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://events.prace-ri.eu/event/479/"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "Hands-on Introduction to HPC @ EPCC",
+        "domain": "HPC",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://events.prace-ri.eu/event/479/"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "MPI - PRACE Training Portal",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=15\nhttp://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=17",
+        "courseComments": "training portal material is partially years old and/or previous workshop material. Quality assessment by user would be helpful"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "Debugging, Profiling and Optimization Tools (10) - PRACE Training Portal",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=33"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "Performance Analysis - PRACE Training Portal",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=1"
+    },
+    {
+        "competencyMapping": "4.5 ",
+        "name": "Performance Analysis Workshop @ EPCC at University of Cambridge",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://events.prace-ri.eu/event/490/"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - Parallel Programming Workshop (Oct 2016)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - Administration of Petaflop Machine (Jan/Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "PATC@BSC - Administration of Petaflop Machine (Jan/Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - Programming of Petaflop Machine (April 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - HPC core training (May 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings",
+        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - HPC core training (May 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings",
+        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "PATC@BSC - HPC core training (May 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings",
+        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
+        "domain": "Programming models/Workflows ",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
+        "domain": "Programming models/Workflows ",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
+        "bioexcelPartner": "BSC"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - HPC simulations for Science and Engineering",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\n"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "PATC@BSC - Introduction to simulation environments for Life sciences (March 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/lifescience-patc"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - Introduction to simulation environments for Life sciences (March 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/lifescience-patc"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - Introduction to programming in CUDA (June/July 2016, 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - Introduction to programming in CUDA (June/July 2016, 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "PATC@BSC - PUMPS (July 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "PATC@BSC - PUMPS (July 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "PATC@BSC - PUMPS (July 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics"
+    },
+    {
+        "competencyMapping": "2.11",
+        "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-face",
+        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics"
+    },
+    {
+        "competencyMapping": "1.3",
+        "name": "Media and Communications Training: Masterclass for Senior Executives",
+        "domain": "on-course",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/media-and-communications-training-masterclass-for-/",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "Media and Communications Training: Masterclass for Senior Executives",
+        "domain": "on-course",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/media-and-communications-training-masterclass-for-/",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.12",
+        "name": "Effective Reading and Speed Reading",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.government-knowledge.com/seminar/1876/",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "Writing in the Sciences",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/course/sciwrite",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "How to Write and Publish a Scientific Paper (Project-Centered Course)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/how-to-write-a-scientific-paper",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.7",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "Clouds, Distributed Systems, Networking",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/cloud-computing",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Machine Learning Specialization (6 courses)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/machine-learning",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Mining Specialization (6 courses)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-mining",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Data Mining Specialization (6 courses)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-mining",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Science at Scale Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.7",
+        "name": "Data Science at Scale Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Data Science at Scale Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Data Science at Scale Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "Data Science at Scale Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Big Data Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/bigdata",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Big Data Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/bigdata",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Big Data Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/bigdata",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Data Structures and Algorithms Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Data Structures and Algorithms Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Data Structures and Algorithms Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "1.5",
+        "name": "User Experience: Research & Prototyping",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/user-research",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Biology Meets Programming: Bioinformatics for Beginners",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/bioinformatics",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Biology Meets Programming: Bioinformatics for Beginners",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/bioinformatics",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Fundamentals of Computing Specialization ",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/computer-fundamentals",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Bioinformatics Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/computational-biology",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Bioinformatics Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/computational-biology",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Agile Development Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/agile-development",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Genomic Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/genomic-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Genomic Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/genomic-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Genomic Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/genomic-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "Genomic Data Science Specialization",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/specializations/genomic-data-science",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "The Hardware/Software Interface",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/course/hwswinterface",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "The Hardware/Software Interface",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/course/hwswinterface",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/build-a-computer",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/build-a-computer",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "2.6",
+        "name": "Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)",
+        "domain": "coursera",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/build-a-computer",
+        "bioexcelPartner": "External"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Parallel programming",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/parprog1"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Parallel programming",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/parprog1"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "Parallel programming",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/parprog1"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Python for Genomic Data Science",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/python-genomics"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "Python for Genomic Data Science",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/python-genomics"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Command Line Tools for Genomic Data Science",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/genomic-tools"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Command Line Tools for Genomic Data Science",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.coursera.org/learn/genomic-tools"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Molecular Machines: Integrative Structural and Molecular Biology",
+        "domain": "EMBO",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Conference",
+        "url": "http://www.embl.de/training/events/2016/HYB16-01/"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "ChEMBL: Exploring bioactive drug-like molecules",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online course",
+        "url": "https://www.on-course.eu/courses/chembl-exploring-bioactive-drug-like-molecules/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "PDBeChem: Searching for small molecules and small molecule fragments",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online course",
+        "url": "https://www.on-course.eu/courses/pdbechem-searching-for-small-molecules-and-small-m/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Structural Bioinformatics",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-Face",
+        "url": "https://www.on-course.eu/courses/embo-practical-course-on-computational-structural-/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "In Silico Systems Biology",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "Face-to-Face",
+        "url": "https://www.on-course.eu/courses/biopredyn-the-systems-biology-modelling-cycle-buil/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Cheminformatics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.on-course.eu/courses/cheminformatics/",
+        "courseComments": "Synergix"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Structural Bioinformatics",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.on-course.eu/courses/structural-bioinformatics/",
+        "courseComments": "Synergix"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Drug Design",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.on-course.eu/courses/drug-design/",
+        "courseComments": "Synergix"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Practical Drug Discovery: Case Studies",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.on-course.eu/courses/practical-drug-discovery-case-studies/",
+        "courseComments": "Synergix"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Medicinal Chemistry",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.on-course.eu/courses/medicinal-chemistry-n2/",
+        "courseComments": "Synergix"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Python for Everybody Specialization (4 courses)",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.coursera.org/specializations/python",
+        "courseComments": "Coursera"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Python for Everybody Specialization (4 courses)",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.coursera.org/specializations/python",
+        "courseComments": "Coursera"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "R Programming",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.coursera.org/learn/r-programming"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "R Programming",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online ",
+        "url": "https://www.coursera.org/learn/r-programming"
+    },
+    {
+        "competencyMapping": "2.5",
+        "name": "Computing Skills for Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Computing Skills for Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Computing Skills for Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "Computing Skills for Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Introduction to Modelling Biological Systems",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Introduction to Modelling Biological Systems",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.12",
+        "name": "Introduction to Modelling Biological Systems",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Functional Genomics and Systems Biology",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/functional-genomics-and-systems-biology/",
+        "courseComments": "Wellcome Trust Advanced Courses"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Structure Determination of Drug Targets",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/structure-determination-of-drug-targets/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "1.3",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "1.5",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "3.6",
+        "name": "Software Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://software-carpentry.org/"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Databases & Data Modelling",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/databases-data-modelling/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Databases & Data Modelling",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/databases-data-modelling/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Principles of Digital Biology",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/principles-of-digital-biology/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Principles of Digital Biology",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/principles-of-digital-biology/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Principles of Digital Biology",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/principles-of-digital-biology/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "PDBe: Searching the Protein Data Bank",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbe-searching-the-protein-data-bank/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "PDBe: Searching the Protein Data Bank",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbe-searching-the-protein-data-bank/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "ChEBI: the online chemical dictionary for small molecules",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/chebi-the-online-chemical-dictionary-for-small-mol/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "ChEBI: the online chemical dictionary for small molecules",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/chebi-the-online-chemical-dictionary-for-small-mol/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "1.1",
+        "name": "Professional Skills in Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "1.4",
+        "name": "Professional Skills in Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.12",
+        "name": "Professional Skills in Drug Discovery",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "System Design & Analysis Using UML",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/system-design-analysis-using-uml/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Measuring Drug Binding",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/measuring-drug-binding/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Introduction to Integrative Omics",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/introduction-to-integrative-omics/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Introduction to Integrative Omics",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/introduction-to-integrative-omics/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Quantitative Methods for Scientific Research I",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/quantitative-methods-for-scientific-research-i/",
+        "courseComments": "Lancaster University"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Quantitative Methods for Scientific Research I",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/quantitative-methods-for-scientific-research-i/",
+        "courseComments": "Lancaster University"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Quantitative Methods for Scientific Research II",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/quantitative-methods-for-scientific-research-ii/",
+        "courseComments": "Lancaster University"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Quantitative Methods for Scientific Research II",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/quantitative-methods-for-scientific-research-ii/",
+        "courseComments": "Lancaster University"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "UniProt: Exploring protein sequence and functional information",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/uniprot-exploring-protein-sequence-and-functional-/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "UniProt: Exploring protein sequence and functional information",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/uniprot-exploring-protein-sequence-and-functional-/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Analytical Methods",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/healthcare-science-2-analytical-methods/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.12",
+        "name": "Analytical Methods",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/healthcare-science-2-analytical-methods/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Functional Genomics and Research Skills Analytical Techniques",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/functional-genomics-and-research-skills-analytical/",
+        "courseComments": "Oxford Brookes University"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Functional Genomics and Research Skills Analytical Techniques",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/functional-genomics-and-research-skills-analytical/",
+        "courseComments": "Oxford Brookes University"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "PDBe: Exploring a Protein Data Bank (PDB) entry",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbe-exploring-a-protein-data-bank-pdb-entry/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "PDBe: Exploring a Protein Data Bank (PDB) entry",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbe-exploring-a-protein-data-bank-pdb-entry/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Bioinformatics for Systems Biology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/bioinformatics-for-systems-biology/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.9",
+        "name": "Bioinformatics for Systems Biology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/bioinformatics-for-systems-biology/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Principles of Protein Structure",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/principles-of-protein-structure/",
+        "courseComments": "Birkbeck, University of London"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "PDBePISA: Identifying and interpreting the likely biological assemblies of a protein structure",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbepisa-identifying-and-interpreting-the-likely-b/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "PDBeFold: Searching for structural homologues of a protein",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/pdbefold-searching-for-structural-homologues-of-a-/",
+        "courseComments": "EMBL-European Bioinformatics Institute"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Druggable Systems",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/druggable-systems/",
+        "courseComments": "University of Edinburgh"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Techniques in Structural Molecular Biology",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "https://www.on-course.eu/courses/techniques-in-structural-molecular-biology/",
+        "courseComments": "Birkbeck, University of London"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.datacarpentry.org/"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Data Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.datacarpentry.org/"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Data Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.datacarpentry.org/"
+    },
+    {
+        "competencyMapping": "3.5",
+        "name": "Data Carpentry Workshop",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.datacarpentry.org/"
+    },
+    {
+        "competencyMapping": "2.4",
+        "name": "KNIME User Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training",
+        "courseComments": "KNIME"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "KNIME User Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training",
+        "courseComments": "KNIME"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "KNIME User Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training",
+        "courseComments": "KNIME"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "KNIME Text Mining Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "KNIME Developer Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "KNIME Developer Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "KNIME Server Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training"
+    },
+    {
+        "competencyMapping": "4.1",
+        "name": "KNIME Server Training",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "http://www.knime.org/training"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Mathematics for Metabolic Modelling",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/mathematics-for-metabolic-modelling/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.2",
+        "name": "Mathematics for Metabolic Modelling",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/mathematics-for-metabolic-modelling/",
+        "courseComments": "The University of Manchester"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Data Mining Techniques",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/data-mining-techniques/",
+        "courseComments": "Lancaster University"
+    },
+    {
+        "competencyMapping": "1.3",
+        "name": "Effective Virtual Working",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "typeDetail": "face-to-face",
+        "url": "https://www.on-course.eu/courses/effective-virtual-working/",
+        "courseComments": "ICR -The Institute of Clinical Research"
+    },
+    {
+        "competencyMapping": "1.2",
+        "name": "Biomedical data: Ethical, legal and social implications",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.ebi.ac.uk/training/online/course/biomedical-data-ethical-legal-and-social-implicati"
+    },
+    {
+        "competencyMapping": "1.5",
+        "name": "User experience design",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.ebi.ac.uk/training/online/course/user-experience-design"
+    },
+    {
+        "competencyMapping": "2.12",
+        "name": "Europe PMC: Quick tour",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.ebi.ac.uk/training/online/course/europe-pmc-quick-tour-0"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Text mining: Key concepts and applications",
+        "typeOnlineOrFacetoface": "online",
+        "typeDetail": "online",
+        "url": "http://www.ebi.ac.uk/training/online/course/text-mining-key-concepts-and-applications"
+    },
+    {
+        "competencyMapping": "2.4",
+        "name": "Journal paper",
+        "typeOnlineOrFacetoface": "online",
+        "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406002/"
+    },
+    {
+        "competencyMapping": "2.4",
+        "name": "Software Sustainability Institute",
+        "typeOnlineOrFacetoface": "online",
+        "url": "http://www.software.ac.uk/resources/guides/adopting-open-source-licence"
+    },
+    {
+        "competencyMapping": "4.2",
+        "name": "Short course for use of the PBS system",
+        "typeOnlineOrFacetoface": "online",
+        "url": "http://www.cgl.ucsf.edu/Resources/pbs/user_guide.html"
+    },
+    {
+        "competencyMapping": "4.2",
+        "name": "Sun Grid Engine Tutorial",
+        "typeOnlineOrFacetoface": "online",
+        "url": "http://cbi.utsa.edu/book/export/html/29"
+    },
+    {
+        "competencyMapping": "4.2",
+        "name": "SGE tutorial",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.uibk.ac.at/zid/systeme/hpc-systeme/common/tutorials/sge-howto.html"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Linux Network and System Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/linux-network-and-system-administration",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Linux Network and System Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/linux-network-and-system-administration",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "Linux Network and System Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/linux-network-and-system-administration",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Advanced Linux Network and Systems Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/advanced-linux-network-system-admin",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Advanced Linux Network and Systems Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/advanced-linux-network-system-admin",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "Advanced Linux Network and Systems Administration",
+        "typeOnlineOrFacetoface": "face-to-face ",
+        "url": "http://www.city.ac.uk/courses/short-courses/advanced-linux-network-system-admin",
+        "bioexcelPartner": "(10w in London)"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Linux training",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://training.linuxfoundation.org/linux-courses"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Linux training",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://training.linuxfoundation.org/linux-courses"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "Linux training",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://training.linuxfoundation.org/linux-courses"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Machine Learning Engineer Nanodegree by Google",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "Writing READMEs",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/writing-readmes--ud777"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Writing READMEs",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/writing-readmes--ud777"
+    },
+    {
+        "competencyMapping": "1.5",
+        "name": "UX Design for Mobile Developers",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/ux-design-for-mobile-developers--ud849"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Introduction to Operating Systems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/introduction-to-operating-systems--ud923"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Advanced Operating Systems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/advanced-operating-systems--ud189"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Advanced Operating Systems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/advanced-operating-systems--ud189"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "Advanced Operating Systems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/advanced-operating-systems--ud189"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Software Development Process",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-development-process--ud805"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "High Performance Computer Architecture",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/high-performance-computer-architecture--ud007"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "High Performance Computer Architecture",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/high-performance-computer-architecture--ud007"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "High Performance Computing",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/high-performance-computing--ud281"
+    },
+    {
+        "competencyMapping": "4.4",
+        "name": "High Performance Computing",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/high-performance-computing--ud281"
+    },
+    {
+        "competencyMapping": "4.5",
+        "name": "High Performance Computing",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/high-performance-computing--ud281"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Computability, Complexity & Algorithms",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Computability, Complexity & Algorithms",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Computability, Complexity & Algorithms",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "GT - Refresher - Advanced OS",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/gt-refresher-advanced-os--ud098"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Computer Networking",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/computer-networking--ud436"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "Computer Networking",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/computer-networking--ud436"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Linux Command Line Basics",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/linux-command-line-basics--ud595"
+    },
+    {
+        "competencyMapping": "1.5",
+        "name": "Product Design - Validation and UX through Design Sprints",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/product-design--ud509"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Visualization and D3.js",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/data-visualization-and-d3js--ud507"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Wrangling with MongoDB - Data Manipulation and Retrieval",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032"
+    },
+    {
+        "competencyMapping": "2.10",
+        "name": "Data Wrangling with MongoDB - Data Manipulation and Retrieval",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Intro to Data Analysis - Data Analysis Using NumPy and Pandas",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-data-analysis--ud170"
+    },
+    {
+        "competencyMapping": "2.3",
+        "name": "Data Analysis with R - Visually Analyze and Summarize Data Sets",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/data-analysis-with-r--ud651"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Intro to Machine Learning",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Deep Learning",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/deep-learning--ud730"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Intro to DevOps - Improving Software Lifecycle",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-devops--ud611"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Intro to DevOps - Improving Software Lifecycle",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-devops--ud611"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Intro to Computer Science - Build a Search Engine & a Social Network",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Intro to Computer Science - Build a Search Engine & a Social Network",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "How to Use Git and GitHub - Version Control for Code",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "How to Use Git and GitHub - Version Control for Code",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
+    },
+    {
+        "competencyMapping": "3.3",
+        "name": "Configuring Linux Web Servers - Your First Ubuntu Server",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/configuring-linux-web-servers--ud299"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "Configuring Linux Web Servers - Your First Ubuntu Server",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/configuring-linux-web-servers--ud299"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Xcode Debugging - Print Statements, Breakpoints, and LLDB",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/xcode-debugging--ud774"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Xcode Debugging - Print Statements, Breakpoints, and LLDB",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/xcode-debugging--ud774"
+    },
+    {
+        "competencyMapping": "4.3",
+        "name": "Intro to Parallel Programming - Using CUDA to Harness the Power of GPUs",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-parallel-programming--cs344"
+    },
+    {
+        "competencyMapping": "3.1",
+        "name": "Software Testing - How to Make Software Fail",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-testing--cs258"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Software Testing - How to Make Software Fail",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-testing--cs258"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Software Testing - How to Make Software Fail",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-testing--cs258"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Intro to Algorithms - Social Network Analysis",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-algorithms--cs215"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Design of Computer Programs - Programming Principles",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Software Debugging - Automating the Boring Tasks",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-debugging--cs259"
+    },
+    {
+        "competencyMapping": "3.7",
+        "name": "Software Debugging - Automating the Boring Tasks",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/software-debugging--cs259"
+    },
+    {
+        "competencyMapping": "2.1",
+        "name": "Intro to Theoretical Computer Science - Dealing with Challenging Problems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313"
+    },
+    {
+        "competencyMapping": "3.2",
+        "name": "Intro to Theoretical Computer Science - Dealing with Challenging Problems",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313"
+    },
+    {
+        "competencyMapping": "3.4",
+        "name": "Java Programming Basics - Learn Java Syntax and Functions",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/java-programming-basics--ud282"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Machine Learning: Supervised Learning - Conversations on Analyzing Data (1/3)",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/machine-learning-supervised-learning--ud675"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Machine Learning: Unsupervised Learning - Conversations on Analyzing Data (2/3)",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/machine-learning-unsupervised-learning--ud741"
+    },
+    {
+        "competencyMapping": "2.8",
+        "name": "Machine Learning: Reinforcement Learning - Conversations on Analyzing Data (3/3)",
+        "domain": "Udacity",
+        "typeOnlineOrFacetoface": "online",
+        "url": "https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "FitSM Advanced Training in Service Planning and Delivery",
+        "domain": "EGI",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "url": "https://www.on-course.eu/courses/fitsm-advanced-training-in-service-planning-and-de/"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "FitSM Foundation Training",
+        "domain": "EGI",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "url": "https://www.on-course.eu/courses/fitsm-foundation-training/"
+    },
+    {
+        "competencyMapping": "3.8",
+        "name": "FitSM Advanced Training in Service Operation and Control",
+        "domain": "EGI",
+        "typeOnlineOrFacetoface": "face-to-face",
+        "url": "https://www.on-course.eu/courses/fitsm-advanced-training-in-service-operation-and-c/"
+    },
+    {
+        "competencyMapping": "2.13",
+        "name": "TED Talk - Amy Cuddy: Your body language shapes who you are",
+        "domain": "TED",
+        "typeOnlineOrFacetoface": "online",
+        "url": "http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are"
+    }
+]
