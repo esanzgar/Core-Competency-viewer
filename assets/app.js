@@ -1,28 +1,28 @@
 // adapted: https://facebook.github.io/react/docs/thinking-in-react.html
 
-
-// <td>{row.TrainingResourceMapping}</td>
-// <td>{row.name}</td>
-// <td>{row.domain}</td>
-// <td>{row.typeOnlineOrFacetoface}</td>
-// <td>{row.typeDetail}</td>
-// <td>{row.url}</td>
-// <td>{row.bioexcelPartner}</td>
-// <td>{row.courseComments}</td>
-// <td>to come: startDate</td>
-// <td>to come: endDate</td>
-// <td>to come: description</td>
-// <td>to come: location</td>
-// <td>to come: contact</td>
-// <td>to come: hostInstitution</td>
-// <td>to come: eventType</td>
+// {row.TrainingResourceMapping}
+// {row.name}
+// {row.domain}
+// {row.typeOnlineOrFacetoface}
+// {row.typeDetail}
+// {row.url}
+// {row.bioexcelPartner}
+// {row.courseComments}
+// bioschemas
+// to come: startDate
+// to come: endDate
+// to come: description
+// to come: location
+// to come: contact
+// to come: hostInstitution
+// to come: eventType
 
 
 // load the json
+$('#interactive').html('JavaScript detected..')
 $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
   // console.log(data);
-  console.log('data received');
-
+  $('#interactive').html('Data fetched...')
   renderKb(data);
 });
 
@@ -30,7 +30,7 @@ $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
 
 class TrainingResourceCategoryRow extends React.Component {
   render() {
-    return (<tr><th colSpan="2">{this.props.name}</th></tr>);
+    return (<tr><th colSpan="4">{this.props.category}</th></tr>);
   }
 }
 
@@ -43,7 +43,9 @@ class TrainingResourceRow extends React.Component {
       </span>;
     return (
       <tr>
+        <td>{this.props.TrainingResource.competencyMapping}</td>
         <td>{name}</td>
+        <td>{this.props.TrainingResource.typeOnlineOrFacetoface}</td>
         <td>{this.props.TrainingResource.domain}</td>
       </tr>
     );
@@ -53,28 +55,41 @@ class TrainingResourceRow extends React.Component {
 class TrainingResourceTable extends React.Component {
   render() {
     var rows = [];
-    var lastCategory = null;
-    console.log(this.props.enabledOnly)
+    var lastCompetency = null;
+    // console.log(this.props.faceToFaceTraining)
+    // console.log(this.props.onlineTraining)
     this.props.TrainingResources.forEach((TrainingResource) => {
-      if (TrainingResource.name.indexOf(this.props.filterText) === -1 || (!TrainingResource.expired && this.props.enabledOnly)) {
+      if (TrainingResource.name.indexOf(this.props.filterText) === -1) {
         return;
       }
-      if (TrainingResource.category !== lastCategory) {
-        rows.push(<TrainingResourceCategoryRow category={TrainingResource.category} key={TrainingResource.category} />);
+      if (!TrainingResource.expired && this.props.enabledOnly) {
+        return;
       }
-      rows.push(<TrainingResourceRow TrainingResource={TrainingResource} key={TrainingResource.name} />);
-      lastCategory = TrainingResource.category;
+      if ((TrainingResource.typeOnlineOrFacetoface == 'online') && (this.props.onlineTraining === false)) {
+        // console.log('fail',TrainingResource.typeOnlineOrFacetoface,this.props.onlineTraining);
+        return;
+      }
+      if ((TrainingResource.typeOnlineOrFacetoface == 'face-to-face') && (this.props.faceToFaceTraining === false)) {
+        // console.log('fail',TrainingResource.typeOnlineOrFacetoface,this.props.onlineTraining);
+        return;
+      }
+      // if (TrainingResource.competencyMapping !== lastCompetency) {
+      //   rows.push(<TrainingResourceCategoryRow category={TrainingResource.competencyMapping} key={TrainingResource.competencyMapping} />);
+      // }
+      var uniqueKey = TrainingResource.competencyMapping + "_" + TrainingResource.name + "_";
+      // var uniqueKey = TrainingResource.competencyMapping + "_" + TrainingResource.name + "_" + Math.floor(Math.random()*1000);
+      rows.push(<TrainingResourceRow TrainingResource={TrainingResource} key={uniqueKey} />);
+      lastCompetency = TrainingResource.competencyMapping;
     });
     return (
       <div>
-        <h2>
-          BioExcel Core Competency: Knowledge Base
-        </h2>
         <table>
           <thead>
             <tr>
+              <th>Competency</th>
               <th>Name</th>
               <th>Domain</th>
+              <th>Type</th>
             </tr>
           </thead>
           <tbody>{rows}</tbody>
@@ -88,11 +103,21 @@ class SearchBar extends React.Component {
   constructor(props) {
     super(props);
     this.handleFilterTextInputChange = this.handleFilterTextInputChange.bind(this);
+    this.handleOnlineTrainingInputChange = this.handleOnlineTrainingInputChange.bind(this);
+    this.handleFaceToFaceTrainingInputChange = this.handleFaceToFaceTrainingInputChange.bind(this);
     this.handleInStockInputChange = this.handleInStockInputChange.bind(this);
   }
 
   handleFilterTextInputChange(e) {
     this.props.onFilterTextInput(e.target.value);
+  }
+
+  handleOnlineTrainingInputChange(e) {
+    this.props.onOnlineTrainingInput(e.target.checked);
+  }
+
+  handleFaceToFaceTrainingInputChange(e) {
+    this.props.onFaceToFaceTrainingInput(e.target.checked);
   }
 
   handleInStockInputChange(e) {
@@ -104,18 +129,34 @@ class SearchBar extends React.Component {
       <form>
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Filter training resources"
           value={this.props.filterText}
           onChange={this.handleFilterTextInputChange}
         />
         <p>
           <input
             type="checkbox"
+            checked={this.props.onlineTraining}
+            onChange={this.handleOnlineTrainingInputChange}
+          />
+          {' '}
+          Show online courses
+          {' | '}
+          <input
+            type="checkbox"
+            checked={this.props.faceToFaceTraining}
+            onChange={this.handleFaceToFaceTrainingInputChange}
+          />
+          {' '}
+          Show face-to-face
+          {' | '}
+          <input
+            type="checkbox"
             checked={this.props.enabledOnly}
             onChange={this.handleInStockInputChange}
           />
-          {' '}
-          Only show active training resources
+          {'  '}
+          Show only active training resources
         </p>
       </form>
     );
@@ -127,10 +168,14 @@ class FilterableTrainingResourceTable extends React.Component {
     super(props);
     this.state = {
       filterText: '',
+      faceToFaceTraining: true,
+      onlineTraining: true,
       enabledOnly: false
     };
 
     this.handleFilterTextInput = this.handleFilterTextInput.bind(this);
+    this.handleFaceToFaceTrainingInput = this.handleFaceToFaceTrainingInput.bind(this);
+    this.handleOnlineTrainingInput = this.handleOnlineTrainingInput.bind(this);
     this.handleInStockInput = this.handleInStockInput.bind(this);
   }
 
@@ -138,6 +183,18 @@ class FilterableTrainingResourceTable extends React.Component {
     this.setState({
       filterText: filterText
     });
+  }
+
+  handleFaceToFaceTrainingInput(faceToFaceTraining) {
+    this.setState({
+      faceToFaceTraining: faceToFaceTraining
+    })
+  }
+
+  handleOnlineTrainingInput(onlineTraining) {
+    this.setState({
+      onlineTraining: onlineTraining
+    })
   }
 
   handleInStockInput(enabledOnly) {
@@ -151,6 +208,10 @@ class FilterableTrainingResourceTable extends React.Component {
       <div>
         <SearchBar
           filterText={this.state.filterText}
+          onFaceToFaceTrainingInput={this.handleFaceToFaceTrainingInput}
+          faceToFaceTraining={this.state.faceToFaceTraining}
+          onOnlineTrainingInput={this.handleOnlineTrainingInput}
+          onlineTraining={this.state.onlineTraining}
           enabledOnly={this.state.enabledOnly}
           onFilterTextInput={this.handleFilterTextInput}
           onInStockInput={this.handleInStockInput}
@@ -158,6 +219,8 @@ class FilterableTrainingResourceTable extends React.Component {
         <TrainingResourceTable
           TrainingResources={this.props.TrainingResources}
           filterText={this.state.filterText}
+          faceToFaceTraining={this.state.faceToFaceTraining}
+          onlineTraining={this.state.onlineTraining}
           enabledOnly={this.state.enabledOnly}
         />
       </div>
@@ -166,8 +229,9 @@ class FilterableTrainingResourceTable extends React.Component {
 }
 
 function renderKb(data) {
+  $('#interactive').html('Rendering....')
   ReactDOM.render(
     <FilterableTrainingResourceTable TrainingResources={data} />,
-    document.getElementById('main-content-area')
+    document.getElementById('interactive')
   );
 }
