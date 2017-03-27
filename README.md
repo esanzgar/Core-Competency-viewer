@@ -1,5 +1,6 @@
 # Core-Competency-viewer
-[View Knowledge Base](https://ebiwd.github.io/Core-Competency-viewer/knowledge-base.html)
+- [View poject milestones](https://github.com/ebiwd/Core-Competency-viewer/milestones?direction=asc&sort=due_date&state=open)
+- [View Knowledge Base prototype](https://ebiwd.github.io/Core-Competency-viewer/knowledge-base.html)
 
 This current iteration is a prototype to help demonstrate the IA for BioExcel Core Competency Profile. It shows only the KB aspect.
 
