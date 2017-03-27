@@ -19,7 +19,7 @@
 
 
 // load the json
-$.getJSON( "/assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
+$.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
   // console.log(data);
   console.log('data received');
 
