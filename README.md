@@ -10,3 +10,5 @@ Columns from the Core Competency spreadsheet + BioSchemas mandatory fields (name
 ## The KB data model as a subset of Core Competency
   - Each entry in the KB contains at least one Competency Mapping ID (competencyMapping)
   - Each entry in the KB contains a UUID
+  
+[More about the data model in this Google Doc](https://calendar.google.com/calendar/render?pli=1#main_7)
