@@ -38,15 +38,42 @@ class TrainingResourceRow extends React.Component {
   render() {
     var name = this.props.TrainingResource.expired ?
       this.props.TrainingResource.name :
-      <span style={{color: 'grey'}}>
-        {this.props.TrainingResource.name}
-      </span>;
+      <div>
+        <div>
+          <span className="label">
+            {this.props.TrainingResource.typeOnlineOrFacetoface}
+          </span>
+          {" "}
+          <span className="label">
+            {this.props.TrainingResource.typeDetail}
+          </span>
+        </div>
+        <span style={{color: 'grey'}}>
+          <a target="_blank" href={this.props.TrainingResource.url}>
+            {this.props.TrainingResource.name}
+          </a>
+        </span>
+        <div>
+          <span className="small">
+            Partner: {this.props.TrainingResource.bioexcelPartner},{" "}Contact info
+          </span>{" "}
+          <div className="small">
+            {" "}
+          </div>
+          <div className="small">
+            {" "}{this.props.TrainingResource.courseComments}
+          </div>
+
+        </div>
+      </div>
+      ;
     return (
       <tr>
         <td>{this.props.TrainingResource.competencyMapping}</td>
-        <td>{name}</td>
-        <td>{this.props.TrainingResource.typeOnlineOrFacetoface}</td>
+        <td colSpan='2'>{name}</td>
         <td>{this.props.TrainingResource.domain}</td>
+        <td>XX Mar 2017 - XX Mar 2017</td>
+        <td>Somewhere at hostInstitution</td>
       </tr>
     );
   }
@@ -81,15 +108,19 @@ class TrainingResourceTable extends React.Component {
       rows.push(<TrainingResourceRow TrainingResource={TrainingResource} key={uniqueKey} />);
       lastCompetency = TrainingResource.competencyMapping;
     });
+    if (rows.length === 0) {
+      rows.push(<tr><td>Nothing found, sorry.</td></tr>);
+    }
     return (
       <div>
         <table>
           <thead>
             <tr>
               <th>Competency</th>
-              <th>Name</th>
+              <th colSpan='2'>Name and description</th>
               <th>Domain</th>
-              <th>Type</th>
+              <th>Dates</th>
+              <th>Location and institute</th>
             </tr>
           </thead>
           <tbody>{rows}</tbody>
