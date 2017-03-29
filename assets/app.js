@@ -173,12 +173,13 @@ class SearchBar extends React.Component {
   render() {
     return (
       <form>
-        <input
+        <select
           type="text"
+          id="searchfilter"
           placeholder="Filter training resources"
           value={this.props.filterText}
-          onChange={this.handleFilterTextInputChange}
-        />
+          onChange={this.handleFilterTextInputChange}>
+        </select>
         <p>
           <input
             type="checkbox"
@@ -211,11 +212,14 @@ class SearchBar extends React.Component {
 
 class FilterableTrainingResourceTable extends React.Component {
   componentDidMount() {
+    // invoke the keyword filter
+    $('#content').liveFilter('#searchfilter');
     $(".tablesorter").tablesorter();
   }
   componentDidUpdate() {
     // console.log('updated');
-    $(".tablesorter").trigger('update'); 
+    $(".tablesorter").trigger('update');
+    // http://tablesorter.com/docs/example-ajax.html
   }
 
   constructor(props) {
