@@ -213,12 +213,13 @@ class SearchBar extends React.Component {
 class FilterableTrainingResourceTable extends React.Component {
   componentDidMount() {
     // invoke the keyword filter
-    $('#content').liveFilter('#searchfilter');
+    $().liveFilter('#searchfilter');
     $(".tablesorter").tablesorter();
   }
   componentDidUpdate() {
     // console.log('updated');
     $(".tablesorter").trigger('update');
+    $('#searchfilter').trigger('update');
     // http://tablesorter.com/docs/example-ajax.html
   }
 
