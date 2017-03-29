@@ -16,13 +16,27 @@
 // to come: contact
 // to come: hostInstitution
 // to come: eventType
-
+$('#interactive').html('JavaScript detected..')
 
 // load the json
-$('#interactive').html('JavaScript detected..')
+// https://facebook.github.io/react-native/docs/network.html
+function loadData() {
+  return fetch('assets/datasets/ebi-cp-knowledge-base.json')
+    .then((response) => response.json())
+    .then((responseJson) => {
+      $('#interactive').html('Data fetched...')
+      // return responseJson.movies;
+      renderKb(responseJson);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+loadData();
+
+
 $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
   // console.log(data);
-  $('#interactive').html('Data fetched...')
   renderKb(data);
 });
 
@@ -111,9 +125,10 @@ class TrainingResourceTable extends React.Component {
     if (rows.length === 0) {
       rows.push(<tr><td>Nothing found, sorry.</td></tr>);
     }
+
     return (
       <div>
-        <table>
+        <table className='tablesorter'>
           <thead>
             <tr>
               <th>Competency</th>
@@ -195,6 +210,14 @@ class SearchBar extends React.Component {
 }
 
 class FilterableTrainingResourceTable extends React.Component {
+  componentDidMount() {
+    $(".tablesorter").tablesorter();
+  }
+  componentDidUpdate() {
+    // console.log('updated');
+    $(".tablesorter").trigger('update'); 
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -258,6 +281,7 @@ class FilterableTrainingResourceTable extends React.Component {
     );
   }
 }
+
 
 function renderKb(data) {
   $('#interactive').html('Rendering....')
