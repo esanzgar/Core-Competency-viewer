@@ -99,6 +99,7 @@ class TrainingResourceTable extends React.Component {
     var lastCompetency = null;
     // console.log(this.props.faceToFaceTraining)
     // console.log(this.props.onlineTraining)
+    console.log('val',this.props.filterText,$('#searchfilter').val());
     this.props.TrainingResources.forEach((TrainingResource) => {
       if (TrainingResource.name.indexOf(this.props.filterText) === -1) {
         return;
@@ -152,9 +153,11 @@ class SearchBar extends React.Component {
     this.handleOnlineTrainingInputChange = this.handleOnlineTrainingInputChange.bind(this);
     this.handleFaceToFaceTrainingInputChange = this.handleFaceToFaceTrainingInputChange.bind(this);
     this.handleInStockInputChange = this.handleInStockInputChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleFilterTextInputChange(e) {
+    console.log('handleFilterTextInputChange',e.target);
     this.props.onFilterTextInput(e.target.value);
   }
 
@@ -170,15 +173,33 @@ class SearchBar extends React.Component {
     this.props.onInStockInput(e.target.checked);
   }
 
+  handleSubmit(e) {
+    console.log('submit',$('#searchfilter').val());
+    e.preventDefault();
+    var filterVal = '';
+    if ($('#searchfilter').val() != undefined) {
+      filterVal = $('#searchfilter').val().join(' ');
+    }
+    this.props.onFilterTextInput(filterVal);
+  }
+
+  // To do: concat the logic of the change events:
+  // https://github.com/react-toolbox/react-toolbox/issues/652
+
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
+        <input
+          className="hidden"
+          id="inputfilter"
+          type="text"
+          placeholder="Filter training resources - not user acceisble"
+          value={this.props.filterText}
+          onChange={this.handleFilterTextInputChange}/>
         <select
           type="text"
           id="searchfilter"
-          placeholder="Filter training resources"
-          value={this.props.filterText}
-          onChange={this.handleFilterTextInputChange}>
+          placeholder="Filter training resources">
         </select>
         <p>
           <input
@@ -204,6 +225,14 @@ class SearchBar extends React.Component {
           />
           {'  '}
           Show only active training resources
+          {'  '}
+          <input
+            className="button filtersubmit"
+            type="submit"
+            value="Filter these"
+            onChange={this.handleInStockInputChange}
+          />
+          {'  '}
         </p>
       </form>
     );
@@ -213,13 +242,21 @@ class SearchBar extends React.Component {
 class FilterableTrainingResourceTable extends React.Component {
   componentDidMount() {
     // invoke the keyword filter
+    $('.tablesorter').tablesorter();
     $().liveFilter('#searchfilter');
-    $(".tablesorter").tablesorter();
+
+    // $('#searchfilter').trigger('update');
+    // connect select2 to reactjs via submit button
+    // the submit button will then map our jquery value to react components
+    $('#searchfilter').on('change', function(){
+      // console.log('user added new query');
+      $('#searchfilter').parent().find($('.button')).click();
+    });
   }
   componentDidUpdate() {
-    // console.log('updated');
-    $(".tablesorter").trigger('update');
-    $('#searchfilter').trigger('update');
+    // update the parent form by "submitting"
+
+    $('.tablesorter').trigger('update');
     // http://tablesorter.com/docs/example-ajax.html
   }
 

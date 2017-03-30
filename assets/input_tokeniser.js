@@ -1,8 +1,8 @@
 // A text filter that also utilizes a tokenized string
-// Note: currently requires Select2, but that could be removed
+// Note: leverages Select2, which is reqired. Ensure you use the "full" version
 // Form elements should have a parent of #filter-buttons
+// https://select2.github.io/examples.html
 
-// This runs the keyword filter.
 // High level:
 // - Splits the user's input into keyworks
 // - event:syntax filters by event
@@ -10,7 +10,7 @@ $.fn.liveFilter = function(inputEl) {
   // inputEl = target input element
 
   $(inputEl).bind("update", function () {
-    console.log('update fn to be written');
+    console.log('update fn to be written',$(inputEl).val());
   });
 
   // strap the filter field as a select2 element
@@ -66,10 +66,20 @@ $.fn.liveFilter = function(inputEl) {
   });
 
   function updateIncoming() {
-    var inputString = $(inputEl).val().join(' ').toLowerCase() + " " + $('.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted').text().toLowerCase();
-    var filter = $(inputString);
-    var filterArray = filter.selector.split(" "); // an array of what we're to search for
-    console.log(filterArray);
+    // // trigger for react
+    // var element = document.getElementById('inputfilter');
+    // element.value = 'triggerUpdate';
+    // var event = new Event('change', { bubbles: true });
+    // element.dispatchEvent(event);
+
+
+
+
+
+    // var inputString = $(inputEl).val().join(' ').toLowerCase() + " " + $('.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted').text().toLowerCase();
+    // var filter = $(inputString);
+    // var filterArray = filter.selector.split(" "); // an array of what we're to search for
+    // console.log(filterArray);
 
     // $(wrapper + ' ' + item).each( function() { // search each entry
     //   var targetDiv = $(this);
