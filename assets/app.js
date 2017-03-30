@@ -241,8 +241,29 @@ class SearchBar extends React.Component {
 
 class FilterableTrainingResourceTable extends React.Component {
   componentDidMount() {
-    // invoke the keyword filter
-    $('.tablesorter').tablesorter();
+    $.tablesorter.addParser({
+      id: 'decimal',
+      is: function(s) {
+        // return false so this parser is not auto detected
+        return false;
+      },
+      format: function(s) {
+        // format your data for normalization
+        var lNumber = Math.floor(s); // the large part
+        var sNumber = s.split('.')[1]; // the small part
+        var calcNumber = ((lNumber * 100) + Math.floor(sNumber));
+        return calcNumber;
+      },
+      // set type, either numeric or text
+      type: 'numeric'
+     });
+    $('.tablesorter').tablesorter({
+      // sortInitialOrder: "asc",
+      sortList: [[0,0],[1,0]],
+      headers: {
+        0: { sorter: "decimal", empty : "top", sortInitialOrder: "asc" }
+      }
+    });
     $().liveFilter('#searchfilter');
 
     // $('#searchfilter').trigger('update');
