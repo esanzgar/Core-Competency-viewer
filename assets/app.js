@@ -25,14 +25,40 @@ function loadData() {
     .then((response) => response.json())
     .then((responseJson) => {
       $('#interactive').html('Data fetched...')
-      // return responseJson.movies;
-      renderKb(responseJson);
+      renderKb(processData(responseJson));
     })
     .catch((error) => {
       console.error(error);
     });
 }
 loadData();
+
+
+// Currently each training resource is duplicated for each competency,
+// let's merge them
+function processData(data) {
+
+  for (var i = 0; i < data.length; i++) {
+    // console.log(data[i]);
+    // see if any future rows have same name (that is our unique ID for now)
+    for (var i2 = i+1; i2 < data.length; i2++) {
+      if (data[i] != undefined && data[i2] != undefined) {
+        if (data[i].name == data[i2].name) {
+          // note the addition
+          data[i].competencyMapping += ', ' + data[i2].competencyMapping;
+          // remove duplicate entry
+          data[i2] = undefined;
+        }
+      }
+    }
+  }
+
+  // we have object keys that are undefine, prune them
+  let prunedData = [Object.keys(data).forEach((key) =>
+    (data[key] == null) && delete data[key]), data][1];
+
+  return prunedData;
+}
 
 
 // $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
@@ -259,7 +285,7 @@ class FilterableTrainingResourceTable extends React.Component {
      });
     $('.tablesorter').tablesorter({
       // sortInitialOrder: "asc",
-      sortList: [[0,0],[1,0]],
+      // sortList: [[0,0],[1,0]],
       headers: {
         0: { sorter: "decimal", empty : "top", sortInitialOrder: "asc" }
       }
