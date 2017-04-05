@@ -67,6 +67,27 @@ function processData(data) {
 // });
 
 
+var SplitCommasToBadges = React.createClass({
+  render: function() {
+    var data = this.props.data.split(',').map(function (data, index) {
+        return <span className="badge small margin-right-small" key={index}>{ data }</span>;
+    });
+
+    return <span className="SplitCommasToBadges">{data}</span>;
+  }
+});
+
+var SplitCommasToTags = React.createClass({
+  render: function() {
+    if (this.props.data) {
+      var data = this.props.data.split(',').map(function (data, index) {
+          return <span className="tag small margin-right-small" key={index}>{ data }</span>;
+      });
+    }
+
+    return <span className="SplitCommasToTags">{data}</span>;
+  }
+});
 
 class TrainingResourceCategoryRow extends React.Component {
   render() {
@@ -94,9 +115,7 @@ class TrainingResourceRow extends React.Component {
           </a>
         </span>
         <div>
-          <span className="small">
-            Partner: {this.props.TrainingResource.bioexcelPartner},{" "}Contact info
-          </span>{" "}
+          {" "}
           <div className="small">
             {" "}
           </div>
@@ -107,13 +126,19 @@ class TrainingResourceRow extends React.Component {
         </div>
       </div>
       ;
+
+      if (this.props.TrainingResource.typeOnlineOrFacetoface == 'online') {
+        var attendanceInfo = <div><a className="small readmore" href={this.props.TrainingResource.url} target="_blank">Take now</a></div>;
+      } else {
+        var attendanceInfo = <div><a className="small readmore" href={this.props.TrainingResource.url} target="_blank">View event location and date</a></div>;
+      }
+
     return (
       <tr>
-        <td>{this.props.TrainingResource.competencyMapping}</td>
         <td colSpan='2'>{name}</td>
-        <td>{this.props.TrainingResource.domain}</td>
-        <td>XX Mar 2017 - XX Mar 2017</td>
-        <td>Somewhere at hostInstitution</td>
+        <td><SplitCommasToBadges data={this.props.TrainingResource.competencyMapping} /></td>
+        <td><SplitCommasToTags data={this.props.TrainingResource.domain} /></td>
+        <td><span className="tag">{this.props.TrainingResource.typeDetail}</span> <span className="tag">{this.props.TrainingResource.typeOnlineOrFacetoface}</span>{attendanceInfo}</td>
       </tr>
     );
   }
@@ -158,11 +183,10 @@ class TrainingResourceTable extends React.Component {
         <table className='tablesorter'>
           <thead>
             <tr>
-              <th>Competency</th>
               <th colSpan='2'>Name and description</th>
+              <th>Competency</th>
               <th>Domain</th>
-              <th>Dates</th>
-              <th>Location and institute</th>
+              <th>Type</th>
             </tr>
           </thead>
           <tbody>{rows}</tbody>
