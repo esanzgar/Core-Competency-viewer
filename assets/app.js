@@ -35,10 +35,10 @@ function loadData() {
 loadData();
 
 
-$.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
-  // console.log(data);
-  renderKb(data);
-});
+// $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
+//   // console.log(data);
+//   renderKb(data);
+// });
 
 
 
