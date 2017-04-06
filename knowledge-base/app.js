@@ -1,42 +1,6 @@
-// adapted: https://facebook.github.io/react/docs/thinking-in-react.html
-
-// {row.TrainingResourceMapping}
-// {row.name}
-// {row.domain}
-// {row.typeOnlineOrFacetoface}
-// {row.typeDetail}
-// {row.url}
-// {row.bioexcelPartner}
-// {row.courseComments}
-// bioschemas
-// to come: startDate
-// to come: endDate
-// to come: description
-// to come: location
-// to come: contact
-// to come: hostInstitution
-// to come: eventType
-$('#interactive').html('JavaScript detected..')
-
-// load the json
-// https://facebook.github.io/react-native/docs/network.html
-function loadData() {
-  return fetch('assets/datasets/ebi-cp-knowledge-base.json')
-    .then((response) => response.json())
-    .then((responseJson) => {
-      $('#interactive').html('Data fetched...')
-      renderKb(processData(responseJson));
-    })
-    .catch((error) => {
-      console.error(error);
-    });
-}
-loadData();
-
-
 // Currently each training resource is duplicated for each competency,
 // let's merge them
-function processData(data) {
+function appProcessData(data) {
 
   for (var i = 0; i < data.length; i++) {
     // console.log(data[i]);
@@ -60,12 +24,13 @@ function processData(data) {
   return prunedData;
 }
 
-
-// $.getJSON( "assets/datasets/ebi-cp-knowledge-base.json", function( data ) {
-//   // console.log(data);
-//   renderKb(data);
-// });
-
+function appTask(data) {
+  $('#interactive').html('Rendering....')
+  ReactDOM.render(
+    <FilterableTrainingResourceTable TrainingResources={data} />,
+    document.getElementById('interactive')
+  );
+}
 
 var SplitCommasToBadges = React.createClass({
   render: function() {
@@ -393,13 +358,4 @@ class FilterableTrainingResourceTable extends React.Component {
       </div>
     );
   }
-}
-
-
-function renderKb(data) {
-  $('#interactive').html('Rendering....')
-  ReactDOM.render(
-    <FilterableTrainingResourceTable TrainingResources={data} />,
-    document.getElementById('interactive')
-  );
 }
