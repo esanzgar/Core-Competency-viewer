@@ -16,7 +16,7 @@ Columns from the Core Competency spreadsheet + BioSchemas mandatory fields (name
 - typeOnlineOrFacetoface
 - typeDetail
 - url
-- bioexcelPartner _currently not used_
+- ~~bioexcelPartner~~ _currently not used in front end_
 - courseComments (bioschemas: description)
 - startDate (bioschemas)
 - endDate (bioschemas)

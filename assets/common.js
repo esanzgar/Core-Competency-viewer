@@ -2,6 +2,10 @@
 // Your local app will need two functions:
 // - appProcessData (process or clean up data)
 // - appTask (whatever you want to do with the loaded data)
+
+// Base logic
+// ---------
+// Loading message(s)
 $('#interactive').html('JavaScript detected..')
 
 // load the json
@@ -17,11 +21,12 @@ fetch('../datasets/ebi-cp-knowledge-base.json')
   });
 
 // Utility react classes
+// ---------
 // <SplitCommasToBadges data={this.props.TrainingResource.competencyMapping} />
 class SplitCommasToBadges extends React.Component {
   render() {
     var data = this.props.data.split(',').map(function (data, index) {
-        return <span className="badge small margin-right-small" key={index}>{ data }</span>;
+      return <span className="badge small margin-right-small" key={index}>{ data }</span>;
     });
     return <span className="SplitCommasToBadges">{data}</span>;
   }
@@ -32,7 +37,7 @@ class SplitCommasToTags extends React.Component {
   render() {
     if (this.props.data) {
       var data = this.props.data.split(',').map(function (data, index) {
-          return <span className="tag small margin-right-small" key={index}>{ data }</span>;
+        return <span className="tag small margin-right-small" key={index}>{ data }</span>;
       });
     }
     return <span className="SplitCommasToTags">{data}</span>;
