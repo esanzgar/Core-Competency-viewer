@@ -1,3 +1,6 @@
+var dataSource = '../datasets/ebi-cp-knowledge-base.json';
+loadData(dataSource);
+
 // Currently each training resource is duplicated for each competency,
 // let's merge them
 function appProcessData(data) {

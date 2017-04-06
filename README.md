@@ -1,12 +1,18 @@
 # Core-Competency-viewer
 - [View project milestones](https://github.com/ebiwd/Core-Competency-viewer/milestones?direction=asc&sort=due_date&state=open)
 - [View the prototype](https://ebiwd.github.io/Core-Competency-viewer/)
+  - [Knowledge Base](https://ebiwd.github.io/Core-Competency-viewer/knowledge-base)
+  - [Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/core-competencies)
+  - To Come ~~[Event List](https://ebiwd.github.io/Core-Competency-viewer/event-list)~~
 
-This current iteration is a prototype to help demonstrate the IA for BioExcel Core Competency Profile. It shows only the KB aspect.
+The Competency Profile is a definition system of competencies based on knowledge, skills and behaviour requirements. These three (KSB) are mapped onto training resources.
 
-The Competency Profile creates a consistent definition system of competencies based on knowledge, skills and behaviours requirements that can be mapped onto learning resources.
+What you find here is a prototype to help demonstrate and understand the IA and APIs for the BioExcel Core Competency Profile project.
 
-## The display
+## The structure
+See: https://app.swaggerhub.com/api/jhickford/ebi_training_knowledge_framework/0.0.2
+
+### The display
 Columns from the Core Competency spreadsheet + BioSchemas mandatory fields (name, startDate, endDate, description, location, contact, hostInstitution, eventType) with some user tools (sort, keyword filter, facets, etc.)
 
 ### Required data fields
