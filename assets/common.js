@@ -15,3 +15,26 @@ fetch('../datasets/ebi-cp-knowledge-base.json')
   .catch((error) => {
     console.error(error);
   });
+
+// Utility react classes
+// <SplitCommasToBadges data={this.props.TrainingResource.competencyMapping} />
+var SplitCommasToBadges = React.createClass({
+  render: function() {
+    var data = this.props.data.split(',').map(function (data, index) {
+        return <span className="badge small margin-right-small" key={index}>{ data }</span>;
+    });
+    return <span className="SplitCommasToBadges">{data}</span>;
+  }
+});
+
+// <SplitCommasToTags data={this.props.TrainingResource.domain} />
+var SplitCommasToTags = React.createClass({
+  render: function() {
+    if (this.props.data) {
+      var data = this.props.data.split(',').map(function (data, index) {
+          return <span className="tag small margin-right-small" key={index}>{ data }</span>;
+      });
+    }
+    return <span className="SplitCommasToTags">{data}</span>;
+  }
+});

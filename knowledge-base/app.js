@@ -32,28 +32,6 @@ function appTask(data) {
   );
 }
 
-var SplitCommasToBadges = React.createClass({
-  render: function() {
-    var data = this.props.data.split(',').map(function (data, index) {
-        return <span className="badge small margin-right-small" key={index}>{ data }</span>;
-    });
-
-    return <span className="SplitCommasToBadges">{data}</span>;
-  }
-});
-
-var SplitCommasToTags = React.createClass({
-  render: function() {
-    if (this.props.data) {
-      var data = this.props.data.split(',').map(function (data, index) {
-          return <span className="tag small margin-right-small" key={index}>{ data }</span>;
-      });
-    }
-
-    return <span className="SplitCommasToTags">{data}</span>;
-  }
-});
-
 class TrainingResourceCategoryRow extends React.Component {
   render() {
     return (<tr><th colSpan="4">{this.props.category}</th></tr>);
