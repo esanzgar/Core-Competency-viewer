@@ -1,7 +1,6 @@
 // Currently each training resource is duplicated for each competency,
 // let's merge them
 function appProcessData(data) {
-
   for (var i = 0; i < data.length; i++) {
     // console.log(data[i]);
     // see if any future rows have same name (that is our unique ID for now)
@@ -24,6 +23,7 @@ function appProcessData(data) {
   return prunedData;
 }
 
+// Bootstrap the app
 function appTask(data) {
   $('#interactive').html('Rendering....')
   ReactDOM.render(
@@ -65,7 +65,6 @@ class TrainingResourceRow extends React.Component {
           <div className="small">
             {" "}{this.props.TrainingResource.courseComments}
           </div>
-
         </div>
       </div>
       ;
