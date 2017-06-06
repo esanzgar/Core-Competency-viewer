@@ -97,10 +97,7 @@ class TrainingResourceTable extends React.Component {
     // console.log(this.props.onlineTraining)
     console.log('val',this.props.filterText,$('#searchfilter').val());
     this.props.TrainingResources.forEach((TrainingResource) => {
-      if (TrainingResource.name.indexOf(this.props.filterText) === -1) {
-        return;
-      }
-      if (!TrainingResource.expired && this.props.enabledOnly) {
+      if (TrainingResource.name.toLowerCase().indexOf(this.props.filterText.toLowerCase()) === -1) {
         return;
       }
       if ((TrainingResource.typeOnlineOrFacetoface == 'online') && (this.props.onlineTraining === false)) {
@@ -147,7 +144,6 @@ class SearchBar extends React.Component {
     this.handleFilterTextInputChange = this.handleFilterTextInputChange.bind(this);
     this.handleOnlineTrainingInputChange = this.handleOnlineTrainingInputChange.bind(this);
     this.handleFaceToFaceTrainingInputChange = this.handleFaceToFaceTrainingInputChange.bind(this);
-    this.handleInStockInputChange = this.handleInStockInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -162,10 +158,6 @@ class SearchBar extends React.Component {
 
   handleFaceToFaceTrainingInputChange(e) {
     this.props.onFaceToFaceTrainingInput(e.target.checked);
-  }
-
-  handleInStockInputChange(e) {
-    this.props.onInStockInput(e.target.checked);
   }
 
   handleSubmit(e) {
@@ -212,20 +204,11 @@ class SearchBar extends React.Component {
           />
           {' '}
           Show face-to-face
-          {' | '}
-          <input
-            type="checkbox"
-            checked={this.props.enabledOnly}
-            onChange={this.handleInStockInputChange}
-          />
-          {'  '}
-          Show only active training resources
           {'  '}
           <input
-            className="button filtersubmit"
+            className="button filtersubmit hidden"
             type="submit"
             value="Filter these"
-            onChange={this.handleInStockInputChange}
           />
           {'  '}
         </p>
@@ -236,29 +219,29 @@ class SearchBar extends React.Component {
 
 class FilterableTrainingResourceTable extends React.Component {
   componentDidMount() {
-    $.tablesorter.addParser({
-      id: 'decimal',
-      is: function(s) {
-        // return false so this parser is not auto detected
-        return false;
-      },
-      format: function(s) {
-        // format your data for normalization
-        var lNumber = Math.floor(s); // the large part
-        var sNumber = s.split('.')[1]; // the small part
-        var calcNumber = ((lNumber * 100) + Math.floor(sNumber));
-        return calcNumber;
-      },
-      // set type, either numeric or text
-      type: 'numeric'
-     });
-    $('.tablesorter').tablesorter({
-      // sortInitialOrder: "asc",
-      // sortList: [[0,0],[1,0]],
-      headers: {
-        0: { sorter: "decimal", empty : "top", sortInitialOrder: "asc" }
-      }
-    });
+    // $.tablesorter.addParser({
+    //   id: 'decimal',
+    //   is: function(s) {
+    //     // return false so this parser is not auto detected
+    //     return false;
+    //   },
+    //   format: function(s) {
+    //     // format your data for normalization
+    //     var lNumber = Math.floor(s); // the large part
+    //     var sNumber = s.split('.')[1]; // the small part
+    //     var calcNumber = ((lNumber * 100) + Math.floor(sNumber));
+    //     return calcNumber;
+    //   },
+    //   // set type, either numeric or text
+    //   type: 'numeric'
+    //  });
+    // $('.tablesorter').tablesorter({
+    //   // sortInitialOrder: "asc",
+    //   // sortList: [[0,0],[1,0]],
+    //   headers: {
+    //     0: { sorter: "decimal", empty : "top", sortInitialOrder: "asc" }
+    //   }
+    // });
     $().liveFilter('#searchfilter');
 
     // $('#searchfilter').trigger('update');
@@ -281,14 +264,12 @@ class FilterableTrainingResourceTable extends React.Component {
     this.state = {
       filterText: '',
       faceToFaceTraining: true,
-      onlineTraining: true,
-      enabledOnly: false
+      onlineTraining: true
     };
 
     this.handleFilterTextInput = this.handleFilterTextInput.bind(this);
     this.handleFaceToFaceTrainingInput = this.handleFaceToFaceTrainingInput.bind(this);
     this.handleOnlineTrainingInput = this.handleOnlineTrainingInput.bind(this);
-    this.handleInStockInput = this.handleInStockInput.bind(this);
   }
 
   handleFilterTextInput(filterText) {
@@ -309,11 +290,6 @@ class FilterableTrainingResourceTable extends React.Component {
     })
   }
 
-  handleInStockInput(enabledOnly) {
-    this.setState({
-      enabledOnly: enabledOnly
-    })
-  }
 
   render() {
     return (
@@ -324,16 +300,13 @@ class FilterableTrainingResourceTable extends React.Component {
           faceToFaceTraining={this.state.faceToFaceTraining}
           onOnlineTrainingInput={this.handleOnlineTrainingInput}
           onlineTraining={this.state.onlineTraining}
-          enabledOnly={this.state.enabledOnly}
           onFilterTextInput={this.handleFilterTextInput}
-          onInStockInput={this.handleInStockInput}
         />
         <TrainingResourceTable
           TrainingResources={this.props.TrainingResources}
           filterText={this.state.filterText}
           faceToFaceTraining={this.state.faceToFaceTraining}
           onlineTraining={this.state.onlineTraining}
-          enabledOnly={this.state.enabledOnly}
         />
       </div>
     );
