@@ -2,7 +2,7 @@
 // - detect input param and just show that result
 // - ability to show child TrainingResources
 // - make true react view that doesn't reload page
-var dataSource = '../datasets/ebi-cp-knowledge-base.json'; // eventually we may have a seperate list of only competencies...
+var dataSource = '../datasets/ebi-cp-knowledge-base.json'; // eventually we may have a separate list of only competencies...
 loadData(dataSource);
 
 function appProcessData(data) {

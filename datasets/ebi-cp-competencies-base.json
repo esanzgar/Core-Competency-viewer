@@ -1,0 +1,70 @@
+[
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.2",
+		"name": "Apply expertise in formal & natural sciences appropriate to the discipline.",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Has a deep comprehension of biological problems\n- Comprehends that a biological theory is not necessarily true\n- Fundamental scientific knowledge (biology, chemistry, physics)\n- Mathematics and statistics"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Has an interdisciplinary view\n- Asks relevant, well-defined biological questions"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Takes a comprehensive approach to problems\n- Consults with colleagues\n- Looks for prior work\n- Displays scientific humbleness (own and other results)\n- Allows for unexpected results"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "5fe5960c-67b3-11e7-907b-a6006ad3dba0",
+		"number": "2.5",
+		"name": "Use a computer-based system, process, component, or program to meet desired needs in a biomolecular context.",
+		"details": [ 
+			{
+				"type": "Knowledge", 
+				"details": "Knows where tools are available"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Chooses the right tool for the problem at hand"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Actively searches for available sources of support (training material, forum, helpdesk etc)"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+	},
+	{
+		"id": "52fe3bf2-67b2-11e7-907b-a6006ad3dba0",
+		"number": "2.6",
+		"name": "Evaluate the ability of a computer-based system, process, component, or program to meet desired needs in a biomolecular context.",
+		"details": [ 
+			{
+				"type": "Knowledge", 
+				"details": "- Has a deep comprehension of biological problems\n- Comprehend the capabilities and limitations of computer-based system, process, component and programs."
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Creative thinking & problem solving\n- Has an interdisciplinary view"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Keeps up-to-date with emerging techniques and applications"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+	}
+]
+
+
+
+
+
+
+
