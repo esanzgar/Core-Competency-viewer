@@ -1,4 +1,130 @@
-[
+[	
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "1.1",
+		"name": "Function effectively in teams to accomplish a common goal.",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Understanding of the context of the persons in the team\n- Aware of cultural differences"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Communication\n- Conflict management\n- Time management"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Invites two-way communication; actively listens/pays attention; able to excite participation and commitment from others\n- Delivers on his/her actions and inspires this behaviour in others\n- Informs others of relevant information appropriately and on time"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "1.2",
+		"name": "Comprehend and comply with professional, ethical, legal, security, and social issues and responsibilities, and uphold these in the workplace as appropriate.",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Broad understanding of the relevant ethical, legal, and social issues\n- Understanding of internal ethical and legal policies\n- Understanding of organisational responsibilities"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Can interpret the letter and spirit of policies (ethical, legal, etc)\n- Applies risk management skills"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Confronts or reports potentially unethical behaviour or behaviour at odds with the organisation's values\n- Complies with internal policies\n- Respects confidentiality"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "1.3",
+		"name": "Communicate effectively with a range of audiences, technical and nonprofessional.",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Broad understanding of communication models\n- Can distinguish between different target audiences and identify the most appropriate means of reaching them"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Active listening skills\n- Appreciates the value of social media and uses it effectively to communicate effectively with different audiences\n- Able to work effectively with creative professionals (e.g. designers, animators, journalists\n- Ability to translate complex concepts to different audiences "
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Communicates clearly and precisely with people at all levels\n- Delivers points in a structured and logical manner\n- Seeks out openness from others; gives straightforward, candid opinions to all\n- Communicates effectively even in difficult situations\n- Anticipates audience needs and tailors communications to the audience and the context"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "1.4",
+		"name": "Engage in continuing professional development (CPD).",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Aware of organisational changes and external environment"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Face-to-face communication skills\n- Ability to objectively review own performance"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Demonstrates curiosity to learn new skills or knowledge outside current expertise\n- Prioritises and plans for CPD"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "1.5",
+		"name": "Identification and understanding of user needs.",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Broad understanding of scientific disciplines and its ecosystem\n- Recognises different types of user, their interests and motivation\n- Appreciates the importance of user experience"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Ability to differentiate wants from needs\n- User requirements/needs collection\n- Expectations management"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Proactive in discovering different users and their motivation\n- Actively facilitates gathering of use cases and user requirements\n- Seeks out and acts on user feedback"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.1",
+		"name": "Apply computing expertise appropriate to the discipline and level of expertise (software as well as hardware).",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "Knowledge including but not limited to:\n- Computer architecture\n- Essential Algorithms\n- Programming\n- Databases & data structure\n- Information security"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Evaluates software\n- Understands applicability, optimisation and scope of different tools"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Keeps up-to-date with knowledge domain"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "2.2",
@@ -15,6 +141,48 @@
 			{
 				"type": "Behaviour", 
 				"details": "- Takes a comprehensive approach to problems\n- Consults with colleagues\n- Looks for prior work\n- Displays scientific humbleness (own and other results)\n- Allows for unexpected results"
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.3",
+		"name": "Detailed comprehension of the scientific process and an ability to apply it (e.g. experimental design; inclusion of controls; QA, QC, processing, visualisation and interpretation of results).",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.4",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": "- Knows where to find help\n- Comprehends the need for positive and negative controls\n- Comprehends the need for replicates (and what type, how many etc.)\n- Comprehends the principle garbage in, garbage out (GIGO) (for example generic or custom parameters for molecular dynamics)\n- Has a deep understanding of his/her own data"
+			}, 
+			{
+				"type": "Skill", 
+				"details": "- Formulates a hypothesis\n- Tests a hypothesis\n- Accurately judges the validity of his/her results"
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": "- Asks for help and/or verification\n- Prepares before starting a new process"
 			} 
 		],
 		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
@@ -59,6 +227,426 @@
 			} 
 		],
 		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.7",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.8",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.9",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.10",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.11",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.12",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "2.13",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.1",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.2",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.3",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.4",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.5",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.6",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.7",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "3.8",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "4.1",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	},
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "4.2",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	}
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "4.3",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	}
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "4.4",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
+	}
+	{
+		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
+		"number": "4.5",
+		"name": "",
+		"details": [
+			{
+				"type": "Knowledge", 
+				"details": ""
+			}, 
+			{
+				"type": "Skill", 
+				"details": ""
+			}, 
+			{
+				"type": "Behaviour", 
+				"details": ""
+			} 
+		],
+		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+
 	}
 ]
 

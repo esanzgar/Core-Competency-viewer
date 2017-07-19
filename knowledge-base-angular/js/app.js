@@ -1,6 +1,6 @@
 // jQuery code
 $(document).ready(function () {
-
+	// $("#searchfilter").select2();
 });
 
 // Angular code
@@ -11,7 +11,10 @@ $(document).ready(function () {
 		// Scope variables
 		$scope.dataObjs = Array();
 		$scope.types = Array();
-		// $scope.types = ["online", "face-to-face"];
+		$scope.knowledgeObj = new Knowledge();
+		$scope.select2Domains = new Array();
+		// $scope.select2Domains = ["hola", "adios"];
+		$scope.inputFilter = "";
 
 		// Functions
 		this.loadData = function () {
@@ -38,11 +41,34 @@ $(document).ready(function () {
 					}
 				}
 				for (var i = 0; i < dataSource.length; i++) {
-					if (dataSource[i] != undefined) {
-						$scope.dataObjs.push(dataSource[i]);
+					var knowledgeObj = new Knowledge();
+					knowledgeObj = dataSource[i];
+					if (knowledgeObj != undefined) {
+						$scope.dataObjs.push(knowledgeObj);
 					}
 				}
-				console.log($scope.dataObjs);       
+				console.log($scope.dataObjs);   
+
+				$("#searchfilter").select2({
+					placeholder: "Filter by a keyword or two",
+					width: 1170,
+					minimumResultsForSearch: -1,
+					tags: true,
+					allowClear: true,
+					selectOnBlur: true,
+					
+				});    
+
+				$('#searchfilter').on('change', function(){
+				    // console.log('user added new query');
+				    // console.log('val searchfilter', $('#searchfilter').val());
+				    $scope.inputFilter = $('#searchfilter').val().join(" ");
+				    // console.log('val inputFilter', $scope.inputFilter);
+				    $('#searchfilter').parent().find($('.button')).click();
+			    });
+
+			    var searchSelect = document.getElementById('searchfilter');
+				searchSelect.style.visibility = 'hidden';
 			});
 		}
 
@@ -56,12 +82,17 @@ $(document).ready(function () {
 		}
 
 		$scope.typeFilter = function (knowledge) {
-			if ($scope.types.length > 0) {
+		 	if ($scope.types.length > 0) {
 				if ($.inArray(knowledge.typeOnlineOrFacetoface, $scope.types) > -1) {
 					return;
 				}
 			} 
-			return knowledge;
+		 	return knowledge;
+		}
+
+		this.submitQuery = function () {
+			
+		 	console.log('form submit');
 		}
 
 	});
@@ -70,7 +101,7 @@ $(document).ready(function () {
 		return{
 			restrict: 'E',
 			templateUrl:"templates/knowledge-table.html",
-			controller: function(){
+			controller: function() {
 
 			},
 			controllerAs: 'knowledgeTable'

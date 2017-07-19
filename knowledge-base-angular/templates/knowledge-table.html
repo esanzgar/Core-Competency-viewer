@@ -1,20 +1,7 @@
-<form name="knowledgeForm" ng-submit="knowledgeForm.$valid" novalidate>
-	<input class="hidden" id="inputfilter" type="text" placeholder="Filter training resources - not user acceisble" value="" onChange="" />
+<form name="knowledgeForm" ng-submit="knowledgeForm.$valid && KnowledgeCtrl.submitQuery()" novalidate>
+	<input class="hidden" id="inputfilter" type="text" placeholder="Filter training resources - not user accessible" ng-model="inputFilter" />
 
-	<select type="text" id="searchfilter" placeholder="Filter training resources" multiple tabindex="-1" class="select2-hidden-accessible" aria-hidden="true" ></select>
-
-	<span class="select2 select2-container select2-container--default select2-container--focus select2-container--below" dir="ltr" style="width: 1170px;">
-		<span class="selection">
-			<span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expandex="false" tabindex="-1">
-				<ul class="select2-selection__rendered">
-					<li class="select2-search select2-search--inline">
-						<input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" role="textbox" aria-autocomplete="list" placeholder="Filter by a keyword or two" style="width: 1168px;" /> 
-					</li>
-				</ul>
-			</span>
-		</span>
-		<span class="dropdown-wrapper" aria-hidden="true"></span>
-	</span>
+	<select type="text" id="searchfilter" placeholder="Filter training resources" multiple tabindex="-1" class="select2-hidden-accessible" aria-hidden="true"></select>
 	
 	<p>
 	    <input id="checkboxOnline" type="checkbox" checked ng-click="includeType('online')" />
@@ -22,6 +9,7 @@
 	      | 
 	    <input id="checkboxFaceToFace" type="checkbox" checked ng-click="includeType('face-to-face')" />
 	      Show face-to-face
+	    <input id="" type="submit" class="button filtersubmit hidden" value="Filter these" />
     </p>
 </form>
 <table class="tablesorter">
@@ -33,6 +21,7 @@
             <th>Type</th>
         </tr>
 	</thead>
+	<!-- filter:typeFilter | -->
 	<tbody>
 		<tr ng-repeat="obj in dataObjs | filter:typeFilter">
 			<td colSpan='2'>
@@ -70,7 +59,24 @@
 		</tr>
 	</tbody>
 </table>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		
+	});
+</script>
 	
 
-
+<!-- <span class="select2 select2-container select2-container--default select2-container--focus select2-container--below" dir="ltr" style="width: 1170px;">
+	<span class="selection">
+		<span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expandex="false" tabindex="-1">
+			<ul class="select2-selection__rendered">
+				<li class="select2-search select2-search--inline">
+					<input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" role="textbox" aria-autocomplete="list" placeholder="Filter by a keyword or two" style="width: 1168px;" /> 
+				</li>
+			</ul>
+		</span>
+	</span>
+	<span class="dropdown-wrapper" aria-hidden="true"></span>
+</span> -->
 
