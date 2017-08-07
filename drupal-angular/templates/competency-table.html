@@ -1,0 +1,50 @@
+<form name="competencyForm" data-ng-submit="competencyForm.$valid && CompetencyCtrl.submitQuery()" novalidate>
+	<div class="form-group">
+		<textarea id="typeFilterCompetency" type="text" data-ng-model="typeFilterCompetency" class="form-control" rows="3" placeholder="Filter by a keyword or two"> </textarea>
+	</div>
+</form>
+<table id="competenciesBaseTable" class="responsive-table">
+	<thead>
+		<tr>
+			<th>
+				<div>Competency</div>
+			</th>
+			<th>
+				<div>Name and description</div>
+			</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr data-ng-repeat="obj in $parent.competencyArray | orderBy:'number' | filter:typeFilterCompetency" data-ng-show="$parent.competencyArray.length || ($parent.competencyArray | filter:typeFilterCompetency).length">
+			<td id="{{ obj.number }}">
+				{{ obj.number }}
+			</td>
+			<td colspan='2'>
+				<div>
+					<span style="color: grey;">
+						<h4>{{ obj.name }}</h4>
+					</span>
+					<div data-ng-repeat="detail in obj.details track by $index"> 
+						<p>
+							<h5>{{ detail.type }}</h5>
+							<ul style="list-style-type:circle" data-ng-repeat="detailContent in detail.details.split('\n') track by $index">
+								<li data-ng-bind-html="detailContent" style="margin-left:30px;"> </li>
+							</ul>
+						</p>
+						
+					</div>
+					<span><a id="{{ obj.number }}" name="{{ obj.number }}" href="" data-ng-click="findCourses(obj.number)">View related training resources</a></span>
+				</div>
+			</td>
+		</tr>
+		<tr  data-ng-show="!$parent.competencyArray.length || !($parent.competencyArray | filter:typeFilterCompetency).length"><td>Nothing found, sorry.</td></tr>
+	</tbody>
+	
+</table>
+
+<a href="#skip-to">Go to top</a>
+
+
+
+
