@@ -1,27 +1,27 @@
 // JQuery code
 $(document).ready(function() {
-    // $("#knowledgeBaseTable").tablesorter();
+	// $("#knowledgeBaseTable").tablesorter();
 
-   	$('.optionClicked li').click(function(e) {
-        e.preventDefault();
-        $('li').removeClass('active');
-        $(this).addClass('active');
-        $('#training').addClass('active');
-    });
+	$('.optionClicked li').click(function(e) {
+		e.preventDefault();
+		$('li').removeClass('active');
+		$(this).addClass('active');
+		$('#training').addClass('active');
+	});
 });
 
 //Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$filter', '$window', function ($http, $scope, $filter, $window) {
+	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$filter', '$window', '$timeout', function ($http, $scope, $filter, $window, $timeout) {
 
 		//scope variables
 		$scope.types = Array();
 		$scope.selectOnline = true;
 		$scope.selectFaceToFace = true;
 
-	 	// $("select").change(function() {
-	 	//		$scope.domainFilter = $(this).val();
+		// $("select").change(function() {
+		//		$scope.domainFilter = $(this).val();
 		// });
 
 		$scope.includeType = function (type) {
@@ -49,23 +49,27 @@ $(document).ready(function() {
 		}
 
 		$scope.reloadPage = function () {
-			$scope.$parent.loadDataKnowledge();
-
 			$scope.types = Array();
-			
-			if (!$scope.selectOnline){
-				$scope.selectOnline = true;
+			if ($scope.selectFilterOption != "" && $scope.selectFilterOption != undefined) {
+				$scope.selectFilterOption = "";
+				$timeout( function () {
+					$(".choices__button").click();
+					document.getElementById("typeFilterKnowledge").focus();
+				});
+				$("select").focus(function(){
+			        $(".choices__list").css("display", "none");
+			    });
 			}
 			if (!$scope.selectFaceToFace) {
 				$scope.selectFaceToFace = true;
 			}
-			if ($scope.typeFilterKnowledge != "" || $scope.typeFilterKnowledge != undefined) {
+			if (!$scope.selectOnline){
+				$scope.selectOnline = true;
+			}
+			if ($scope.typeFilterKnowledge != "" && $scope.typeFilterKnowledge != undefined) {
 				$scope.typeFilterKnowledge = "";
 			}
-			if ($scope.selectFilterOption != "" || $scope.selectFilterOption != undefined) {
-				$scope.selectFilterOption = "";
-				$(".choices__button").click();
-			}
+			// $scope.$parent.loadDataKnowledge();
 		}
 		
 	}]);

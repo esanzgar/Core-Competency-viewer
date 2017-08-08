@@ -4,7 +4,7 @@
 	angular.module('compentencyProfile').controller("UserController", ['$http', '$resource', '$scope', '$filter', '$window', function ($http, $resource, $scope, $filter, $window){
 
 		// Local variables 
-		var mySite = 'http://dev-competency-profile.pantheonsite.io/knowledge_base'
+		// var mySite = 'http://dev-competency-profile.pantheonsite.io/knowledge_base'
 
 		//scope variables
 		$scope.userOption = 0;
@@ -124,7 +124,7 @@
 					"X-CSRF-Token": "FC3YiHYNUrmxB7KXCViHKfqqGyAJ5bx1MK93uuxYC5s", // http://dev-competency-profile.pantheonsite.io/session/token
 					"Content-Type": "application/hal+json",
 					'Access-Control-Allow-Origin': '*',
-					// 'Access-Control-Allow-Origin': 'http://dev-competency-profile.pantheonsite.io',
+					"Access-Control-Allow-Methods": "GET, PUT, POST",
 				}
 			})
 
