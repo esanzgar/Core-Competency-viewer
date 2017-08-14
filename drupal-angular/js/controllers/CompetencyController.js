@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 		//scope variables
 		$scope.findCourses = function (number) {
-			$scope.$parent.competencyNumber = 0;
+			// $scope.$parent.competencyNumber = "";
 			$scope.$parent.competencyNumber = number;
 		}
 

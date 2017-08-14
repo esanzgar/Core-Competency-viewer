@@ -68,11 +68,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
 		<script src="https://code.angularjs.org/1.4.3/angular-route.min.js"></script>
         <script src="https://code.angularjs.org/1.4.3/angular-sanitize.min.js"></script>
-        <script src="https://code.angularjs.org/1.4.3/angular-resource.min.js"></script>
 
 		<!--App -->
 		<script src="js/app.js"></script>
-		<script src="js/controllers/UserController.js"></script>
+		<script src="js/controllers/MainController.js"></script>
 		<script src="js/controllers/KnowledgeController.js"></script>
 		<script src="js/models/KnowledgeObj.js"></script>
 		<script src="js/controllers/CompetencyController.js"></script>
@@ -83,8 +82,6 @@
 		<!-- The Foundation theme JavaScript -->
 		<script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/foundation-6/js/foundation.js"></script>
 		<script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/foundationExtendEBI.js"></script>
-		<script type="text/JavaScript">$(document).foundation();</script>
-		<script type="text/JavaScript">$(document).foundationExtendEBI();</script>
 
 		<!-- <script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/tablesorter/js/jquery.tablesorter.js"></script> -->
 		<link rel="stylesheet" href="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/styles/css/choices.min.css" />
@@ -104,7 +101,7 @@
 
 	</head>
 
-	<body class="level2" data-ng-controller="UserController as UserCtrl"data-ng-init="loadDataKnowledge(); loadDataCompetency();"><!-- add any of your classes or IDs -->
+	<body class="level2" data-ng-controller="MainController as MainCtrl" data-ng-init="loadDataKnowledge(); loadDataCompetency();"><!-- add any of your classes or IDs -->
 		<div id="skip-to">
 			<ul>
 				<li><a href="#content">Skip to main content</a></li>
@@ -132,7 +129,7 @@
 									<li id="training" class="active"><a href="//www.ebi.ac.uk/training"><i class="icon icon-generic" data-icon="t"></i> Training</a></li>
 									<li id="about"><a href="//www.ebi.ac.uk/about"><i class="icon icon-generic" data-icon="i"></i> About us</a></li>
 									<li id="search">
-									<a href="#" data-toggle="search-global-dropdown"><i class="icon icon-functional" data-icon="1"></i> <span class="show-for-small-only">Search</span></a>
+									<a href="#" data-toggle="search-global-dropdown"><i class="icon icon-functional" data-icon="1"></i><span class="show-for-small-only">Search</span></a>
 									<div id="search-global-dropdown" class="dropdown-pane" data-dropdown data-options="closeOnClick:true;">
 										<form id="global-search" name="global-search" action="/ebisearch/search.ebi" method="GET">
 											<fieldset>
@@ -171,7 +168,7 @@
 						<nav >
 							<ul class="dropdown menu float-left optionClicked" data-description="navigational">
 								<li id="linkCompetencies" class=""><a href="#" data-ng-click="userOption=1;">Core Competencies</a></li>
-								<li id="linkKnowledges" class="active"><a href="#" data-ng-click="userOption=0; UserCtrl.update();">Knowledge Base</a></li>
+								<li id="linkKnowledges" class="active"><a href="#" data-ng-click="userOption=0; MainCtrl.update();">Knowledge Base</a></li>
 							</ul>
 						</nav>
 						<!-- /local-nav -->
@@ -182,61 +179,11 @@
 
 		<div id="content" role="main" class="row">
 			<!-- Suggested layout containers -->
-			<section>
-				<!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
-				<nav aria-label="You are here:" role="navigation" data-ng-show="userOption==0">
-					<ul class="breadcrumbs">
-						<li><a href="../">Knowledge Resource Center</a></li>
-						<li>
-							<span class="show-for-sr">Current: </span> Knowledge Base
-						</li>
-					</ul>
-				</nav>
-				<nav aria-label="You are here:" role="navigation" data-ng-show="userOption==1">
-		 			<ul class="breadcrumbs">
-						<li><a href="../">BioExcel Core Competency</a></li>
-						<li>
-							<span class="show-for-sr">Current: </span> Core Competencies
-						</li>
-					</ul>
-				</nav>
-
-				<div id="main-content-area" class="row">
-					<div class="columns">
-						<section>
-							<h2 data-ng-show="userOption==0">
-								Knowledge Base
-								<img src="images/BioExcel_logo.png" style="height: 4rem;" class="float-right" />
-							</h2>
-							<h2 style="color: rgb(0,124,130);" data-ng-show="userOption==1">
-								Core Competencies
-								<img src="images/BioExcel_logo.png" style="height: 4rem;" class="float-right" />
-							</h2>
-							<div id="interactive">
-								<p>Loading...</p>
-								<p class="small">This application requires JavaScript.</p>
-							</div>
-							<div data-ng-controller="KnowledgeController as KnowledgeCtrl" data-ng-show="userOption==0">
-								<form>
-									<div class="row">
-										<div class="medium-6 columns">
-											<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" />
-										</div>
-										<div class="medium-6 columns">
-											<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectFilterOption">
-											</select>
-										</div>
-									</div>
-									
-								</form>
-								<knowledge-table></knowledge-table>
-							</div>
-							<div data-ng-controller="CompetencyController as CompetencyCtrl" data-ng-show="userOption==1">
-								<competency-table></competency-table>
-							</div>
-						</section>
-					</div>
-				</div>
+			<section data-ng-show="userOption==0">
+				<knowledge-table></knowledge-table>
+			</section>
+			<section data-ng-show="userOption==1">
+				<competency-table></competency-table>
 			</section>
 			<!-- End suggested layout containers -->
 
@@ -250,7 +197,6 @@
 					</div>
 				 -->
 				<!-- End optional local footer -->
-
 				<div id="global-footer">
 					<nav id="global-nav-expanded" class="row">
 					<!-- Footer will be automatically inserted by footer.js -->
@@ -262,6 +208,8 @@
 				</div>
 			</footer>
 		</div> <!--! end of #wrapper -->
+		<script type="text/JavaScript">$(document).foundation();</script>
+		<script type="text/JavaScript">$(document).foundationExtendEBI();</script>
 	</body>
 </html>
 

@@ -1,10 +1,7 @@
 //Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("UserController", ['$http', '$resource', '$scope', '$filter', '$window', function ($http, $resource, $scope, $filter, $window){
-
-		// Local variables 
-		// var mySite = 'http://dev-competency-profile.pantheonsite.io/knowledge_base'
+	angular.module('compentencyProfile').controller("MainController", ['$http', '$scope', '$filter', '$window', function ($http, $scope, $filter, $window){
 
 		//scope variables
 		$scope.userOption = 0;
@@ -45,12 +42,12 @@
 					"Access-Control-Allow-Methods": "GET, PUT, POST",
 				}
 			})
-
-			.then(function(response){
+			.then(function(res) {
 				// $('#interactive').html('Data fetched...');
-				dataSource = response.data;
-				$('#interactive').html(''); 
-
+				dataSource = res.data;
+				// console.log(dataSource);
+				$('#interactiveKnwoledge').html(''); 
+				
 				for (var i = 0; i < dataSource.length; i++) {
 					// see if any future rows have same name (that is our unique ID for now)
 					for (var j = i+1; j < dataSource.length; j++) {
@@ -64,7 +61,7 @@
 						}
 					}
 				}
-
+				
 				for (var i = 0; i < dataSource.length; i++) {
 					if (dataSource[i] != undefined) {
 						var domainsArray = new Array();
@@ -87,9 +84,11 @@
 						}
 					}
 				}
+				
 				$scope.filteredCourses = $scope.knowledgeArray;
 				// console.log($scope.knowledgeArray);
-				// console.log($scope.domainsArray);
+				// console.log("UserController", $scope.domainsArray);
+
 				const multipleCancelButton = new Choices('#choices-multiple-remove-button', {
 					// choices: [{'value':'HPC'}, {'value':'HADDOCK'}, {'value':'Performance analysis'}, {'value':'Life Science'}, {'value':'GROMACS'}, {'value':'Molecular Dynamics'}],
 					choices: $scope.domainsArray,
@@ -98,24 +97,16 @@
 					maxItemCount: 1,
 					// placeholder : false,
 					removeItemButton: true,
-				})
+				});
 			})
 			.catch(function(response) {
-				console.error('Knowledge base error:', response.status);
-
-			// data – {string|Object} – The response body transformed with the transform functions.
-			// status – {number} – HTTP status code of the response.
-			// headers – {function([headerName])} – Header getter function.
-			// config – {Object} – The configuration object that was used to generate the request.
-			// statusText – {string} – HTTP status text of the response.
-
+				console.error('Knowledge base error', response.status);
 			});
 		}
 
 		$scope.loadDataCompetency = function () {
 			// $('#interactive').html('JavaScript detected...');
 			dataSource = new Array();
-
 			$http({
 				url: 'http://dev-competency-profile.pantheonsite.io/competencies',
 				method: 'GET',
@@ -127,12 +118,11 @@
 					"Access-Control-Allow-Methods": "GET, PUT, POST",
 				}
 			})
-
 			.then(function(res) {
 				// $('#interactive').html('Data fetched...');
 				dataSource = res.data; 
 				// console.log(dataSource);
-				$('#interactive').html(''); 
+				$('#interactiveCompetency').html(''); 
 
 				for (var i = 0; i < dataSource.length; i++) {
 					// see if any future rows have same name (that is our unique ID for now)
@@ -174,8 +164,9 @@
 				// console.log($scope.competencyArray);
 			})
 			.catch(function(response) {
-				console.error('Competencies error:', response.status);
+				console.error('Competencies error', response.status);
 			});
+
 		}
 
 		this.update = function () {

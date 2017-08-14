@@ -19,11 +19,7 @@ $(document).ready(function() {
 		$scope.types = Array();
 		$scope.selectOnline = true;
 		$scope.selectFaceToFace = true;
-
-		// $("select").change(function() {
-		//		$scope.domainFilter = $(this).val();
-		// });
-
+		
 		$scope.includeType = function (type) {
 			var i = $.inArray(type, $scope.types);
 			if (i > -1) {
@@ -50,6 +46,7 @@ $(document).ready(function() {
 
 		$scope.reloadPage = function () {
 			$scope.types = Array();
+			$scope.$parent.competencyNumber = "";
 			if ($scope.selectFilterOption != "" && $scope.selectFilterOption != undefined) {
 				$scope.selectFilterOption = "";
 				$timeout( function () {
@@ -69,7 +66,6 @@ $(document).ready(function() {
 			if ($scope.typeFilterKnowledge != "" && $scope.typeFilterKnowledge != undefined) {
 				$scope.typeFilterKnowledge = "";
 			}
-			// $scope.$parent.loadDataKnowledge();
 		}
 		
 	}]);
