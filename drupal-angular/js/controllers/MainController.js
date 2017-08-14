@@ -16,7 +16,7 @@
 			$scope.userOption = 0;
 			$("#linkCompetencies").removeClass('active');
 			$("#linkKnowledges").addClass('active');
-		});
+		})
 
 		function containsObject(list, obj) {
 			for (var i = 0; i < list.length; i++) {
@@ -31,7 +31,7 @@
 			// $('#interactive').html('JavaScript detected...');
 			var dataSource = new Array();
 			$http({
-				url: 'http://dev-competency-profile.pantheonsite.io/knowledge_base',
+				url: '//dev-competency-profile.pantheonsite.io/knowledge_base',
 				method: 'GET',
 				headers: {
 					// "Authorization": "Basic ",
@@ -108,7 +108,7 @@
 			// $('#interactive').html('JavaScript detected...');
 			dataSource = new Array();
 			$http({
-				url: 'http://dev-competency-profile.pantheonsite.io/competencies',
+				url: '//dev-competency-profile.pantheonsite.io/competencies',
 				method: 'GET',
 				headers: {
 					// "Authorization": "Basic ",
