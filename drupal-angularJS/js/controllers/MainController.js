@@ -178,11 +178,11 @@
 		$scope.setBackground = function () {
 			if ($scope.userOption == 0) {
 				return {
-					'background-image':'url(http://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/training-yellow-5.jpg)'
+					'background-image':'url(//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/training-yellow-5.jpg)'
 				}
 			} else if ($scope.userOption == 1) {
 				return {
-					'background-image':'url(http://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/industry-blue-4.jpg)'
+					'background-image':'url(//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/industry-blue-4.jpg)'
 				}
 			}
 		}
