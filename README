@@ -1,7 +1,8 @@
 # Core-Competency-viewer
 - [View project milestones](https://github.com/ebiwd/Core-Competency-viewer/milestones?direction=asc&sort=due_date&state=open)
 - [View the prototype](https://ebiwd.github.io/Core-Competency-viewer/)
-  - [Knowledge Base-Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/drupal-angularJS)
+  - [Knowledge Base](https://ebiwd.github.io/Core-Competency-viewer/knowledge-base)
+  - [Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/core-competencies)
   - To Come ~~[Event List](https://ebiwd.github.io/Core-Competency-viewer/event-list)~~
 
 The Competency Profile is a definition system of competencies based on knowledge, skills and behaviour requirements. These three (KSB) are mapped onto training resources.
@@ -38,4 +39,4 @@ Columns from the Core Competency spreadsheet + BioSchemas mandatory fields (name
   - [More about the data model in this Google Doc](https://calendar.google.com/calendar/render?pli=1#main_7)
 
 ## About the viewer
-Built with Angular.js + some of the EBI Framework jQuery stuff. 
+Built with React.js + some of the EBI Framework jQuery stuff. Kernel of approach was based off https://facebook.github.io/react/docs/thinking-in-react.html
