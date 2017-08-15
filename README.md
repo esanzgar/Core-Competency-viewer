@@ -9,7 +9,7 @@ The Competency Profile is a definition system of competencies based on knowledge
 What you find here is a prototype to help demonstrate and understand the IA and APIs for the BioExcel Core Competency Profile project.
 
 ## The structure
-See: https://app.swaggerhub.com/api/jhickford/ebi_training_knowledge_framework/0.0.2
+See: https://swaggerhub.com/apis/alba/obi_training_knowledge_framework/1.0.0
 
 ### The display
 Columns from the Core Competency spreadsheet + BioSchemas mandatory fields (name, startDate, endDate, description, location, contact, hostInstitution, eventType) with some user tools (sort, keyword filter, facets, etc.)
