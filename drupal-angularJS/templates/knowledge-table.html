@@ -62,11 +62,11 @@
 											<span class="label">{{ obj.typeDetail }}</span>
 										</div>
 										<span style="color: grey;">
-											<a target="_blank" href="{{ obj.url }}">{{ obj.name }}</a>
+											<a target="_blank" data-ng-href="{{ obj.url }}">{{ obj.name }}</a>
 										</span>
 										<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='online'">
 											<div class="small"></div>
-											<div class="small">Related data on Github: {{ obj.courseComments }}</div>
+											<div class="small">Related data on Github: <a data-ng-href="{{ obj.courseComments }}">{{ obj.courseComments }}</a></div>
 										</div>
 									</div>
 								</td>
@@ -84,8 +84,8 @@
 									<span class="tag">{{ obj.typeDetail }}</span> 
 									<span class="tag">{{ obj.typeOnlineOrFacetoface }}</span>
 									<div>
-										<a ng-show="obj.typeOnlineOrFacetoface=='online'" class="small readmore" href="{{ obj.url }}" target="_blank">Take now</a>
-										<a ng-show="obj.typeOnlineOrFacetoface=='face-to-face'" class="small readmore" href="{{ obj.courseComments }}" target="_blank">View event location and date</a>
+										<a ng-show="obj.typeOnlineOrFacetoface=='online'" class="small readmore" data-ng-href="{{ obj.url }}" target="_blank">Take now</a>
+										<a ng-show="obj.typeOnlineOrFacetoface=='face-to-face'" class="small readmore" data-ng-href="{{ obj.courseComments }}" target="_blank">View event location and date</a>
 									</div>
 								</td>
 							</tr>

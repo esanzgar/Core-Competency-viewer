@@ -1,7 +1,5 @@
 // JQuery code
 $(document).ready(function() {
-	// $("#knowledgeBaseTable").tablesorter();
-
 	$('.optionClicked li').click(function(e) {
 		e.preventDefault();
 		$('li').removeClass('active');

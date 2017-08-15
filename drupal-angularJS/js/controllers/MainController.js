@@ -170,8 +170,9 @@
 		}
 
 		this.update = function () {
-			// $scope.loadDataKnowledge();
-			$scope.competencyNumber = "";
+			$timeout( function () {
+				$("#showAll").click();
+			});
 		}
 
 		$scope.setBackground = function () {

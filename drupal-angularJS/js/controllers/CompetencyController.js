@@ -1,4 +1,4 @@
-// JQurey code
+// JQuery code
 $(document).ready(function() {
     $('.optionClicked li').click(function(e) {
         e.preventDefault();
