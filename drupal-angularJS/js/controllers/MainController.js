@@ -1,7 +1,7 @@
 //Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("MainController", ['$http', '$scope', '$filter', '$window', function ($http, $scope, $filter, $window){
+	angular.module('compentencyProfile').controller("MainController", ['$http', '$scope', '$filter', '$window', '$timeout', function ($http, $scope, $filter, $window, $timeout){
 
 		//scope variables
 		$scope.userOption = 0;
@@ -178,11 +178,11 @@
 		$scope.setBackground = function () {
 			if ($scope.userOption == 0) {
 				return {
-					'background-image':'url(//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/training-yellow-5.jpg)'
+					'background-image':'url(https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/training-yellow-5.jpg)'
 				}
 			} else if ($scope.userOption == 1) {
 				return {
-					'background-image':'url(//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/industry-blue-4.jpg)'
+					'background-image':'url(https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/industry-blue-4.jpg)'
 				}
 			}
 		}
