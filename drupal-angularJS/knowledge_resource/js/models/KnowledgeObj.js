@@ -10,9 +10,6 @@
 *		typeOnlineOrFacetoface;
 *		typeDetail;
 *		url;
-*		provider;
-*		providerUrl;
-*		bioexcelPartner;
 *		courseComments;
 * @methods:
 *       construct
@@ -32,9 +29,6 @@ function Knowledge() {
 	this.typeOnlineOrFacetoface;
 	this.typeDetail;
 	this.url;
-	// this.provider;
-	// this.providerUrl;
-	// this.bioexcelPartner;
 	this.courseComments;
 
 	//methods declaration
