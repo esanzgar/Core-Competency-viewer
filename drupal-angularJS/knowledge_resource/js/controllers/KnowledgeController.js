@@ -109,7 +109,7 @@ $(document).ready(function() {
 					choices: $scope.domainsArray,
 					delimiter: ',',
 					editItems: true,
-					// maxItemCount: 1,
+					maxItemCount: 1,
 					// placeholder : false,
 					removeItemButton: true,
 				});
@@ -152,9 +152,9 @@ $(document).ready(function() {
 		}
 
 		$scope.reloadPage = function () {
-			$scope.types = Array();
-			$scope.$parent.competencyNumber = "";
-			if ($scope.selectedDomains != "" && $scope.selectedDomains != undefined) {
+			// $scope.$parent.competencyNumber = "";
+
+			if ($scope.selectedDomains != [] && $scope.selectedDomains != undefined) {
 				$scope.selectedDomains = "";
 				$timeout(function () {
 					$(".choices__button").click();
@@ -164,12 +164,15 @@ $(document).ready(function() {
 					$(".choices__list").css("display", "none");
 				});
 			}
+
+			$scope.types = Array();
 			if (!$scope.selectFaceToFace) {
 				$scope.selectFaceToFace = true;
 			}
 			if (!$scope.selectOnline){
 				$scope.selectOnline = true;
 			}
+
 			if ($scope.typeFilterKnowledge != "" && $scope.typeFilterKnowledge != undefined) {
 				$scope.typeFilterKnowledge = "";
 			}
