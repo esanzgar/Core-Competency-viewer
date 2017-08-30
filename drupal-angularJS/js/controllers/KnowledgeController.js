@@ -140,15 +140,17 @@ $(document).ready(function() {
 		}
 
 		$scope.filterByDomain = function (knowledge) {
-			// for (var i = 0; i < knowledge.domain.length; i++) {
-			// 	var matches = 0;
-			// 	if ($.inArray(knowledge.domain[i], $scope.selectedDomains) > -1) {
-			// 		matches++;
-			// 	}
-			// }
-			// if (matches != $scope.selectedDomains.length) {
-			// 	return;
-			// }
+			if ($scope.selectedDomains.length > 0) {
+				var matches = 0;
+				for (i = 0; i < $scope.selectedDomains.length; i++) {
+					if ($.inArray($scope.selectedDomains[i], knowledge.domain) > -1) {
+						matches++;
+					}
+				}
+				if (matches != $scope.selectedDomains.length) {
+					return
+				}
+			}
 			return knowledge;
 		}
 

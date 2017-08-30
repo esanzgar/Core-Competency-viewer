@@ -116,7 +116,7 @@
 															</thead>
 															
 															<tbody>
-																<tr data-ng-repeat="obj in filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge" data-ng-show="(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length">
+																<tr data-ng-repeat="obj in filteredCourses | filter:filterByDomain | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge" data-ng-show="(filteredCourses | filter:filterByDomain | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length">
 																	<td colSpan='2'>
 																		<div>
 																			<span> 
@@ -148,7 +148,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr data-ng-show="!(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length"><td>Nothing found, sorry.</td></tr>
+																<tr data-ng-show="!(filteredCourses | filter:filterByDomain | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length"><td>Nothing found, sorry.</td></tr>
 															</tbody>
 														</table>
 													</form>
