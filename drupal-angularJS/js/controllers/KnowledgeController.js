@@ -110,7 +110,7 @@ $(document).ready(function() {
 					choices: $scope.domainsArray,
 					delimiter: ',',
 					editItems: true,
-					maxItemCount: 1,
+					// maxItemCount: 1,
 					// placeholder : false,
 					removeItemButton: true,
 				});

@@ -1,193 +1,180 @@
 <!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-	<![endif]-->
-	<!--[if IE 8]>
-	<html class="ie ie8 no-js" lang="en-US">
+<html class="no-js" lang="en-US"  ng-app="compentencyProfile">
+	<!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="profile" href="//gmpg.org/xfn/11" />
+		<link rel="pingback" href="//bioexcel.eu/xmlrpc.php" />
+		<!-- html5shiv for IE8 and less  -->
+		<!--[if lt IE 9]>
+		<script src="//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/js/html5.js"></script>
 		<![endif]-->
-		<!--[if !(IE 7) | !(IE 8)  ]><!-->
-		<html class="no-js" lang="en-US"  ng-app="compentencyProfile">
-			<!--<![endif]-->
-			<head>
-				<meta charset="UTF-8" />
-				<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<link rel="profile" href="//gmpg.org/xfn/11" />
-				<link rel="pingback" href="//bioexcel.eu/xmlrpc.php" />
-				<!-- html5shiv for IE8 and less  -->
-				<!--[if lt IE 9]>
-				<script src="//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/js/html5.js"></script>
-				<![endif]-->
-				<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-				<style id="dyn-style-fonts" type="text/css"></style>
-				<title>Training &#8211; BioExcel</title>
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+		<style id="dyn-style-fonts" type="text/css"></style>
+		<title>Training &#8211; BioExcel</title>
 
-				<link rel='stylesheet' id='tc-gfonts-css'  href='//fonts.googleapis.com/css?family=Alegreya:700%7CRoboto' type='text/css' media='all' />
-				<link rel='stylesheet' id='customizr-common-css'  href='//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/css/tc_common.min.css?ver=2.0.5' type='text/css' media='all' />
-				<link rel='stylesheet' id='customizr-skin-css'  href='//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/css/orange.min.css?ver=2.0.5' type='text/css' media='all' />
-				<style id='customizr-skin-inline-css' type='text/css'>
-					.site-title,.site-description,h1,h2,h3,.tc-dropcap {
-						font-family : 'Alegreya';
-						font-weight : 700;
-					}
-					body,.navbar .nav>li>a {
-						font-family : 'Roboto';
-						font-weight : inherit;
-					}
-					table { border-collapse: separate; }
-					body table { border-collapse: collapse; }
-				</style>
-				<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='//bioexcel.eu/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.1' type='text/css' media='all' />
-								
-				<!-- JQuery -->
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel='stylesheet' id='tc-gfonts-css'  href='//fonts.googleapis.com/css?family=Alegreya:700%7CRoboto' type='text/css' media='all' />
+		<link rel='stylesheet' id='customizr-common-css'  href='//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/css/tc_common.min.css?ver=2.0.5' type='text/css' media='all' />
+		<link rel='stylesheet' id='customizr-skin-css'  href='//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/css/orange.min.css?ver=2.0.5' type='text/css' media='all' />
+		<style id='customizr-skin-inline-css' type='text/css'>
+			.site-title,.site-description,h1,h2,h3,.tc-dropcap {
+				font-family : 'Alegreya';
+				font-weight : 700;
+			}
+			body,.navbar .nav>li>a {
+				font-family : 'Roboto';
+				font-weight : inherit;
+			}
+			table { border-collapse: separate; }
+			body table { border-collapse: collapse; }
+		</style>
+		<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='//bioexcel.eu/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.1' type='text/css' media='all' />
+						
+		<!-- JQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-				<!-- Angular -->
-				<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
-				<script src="//code.angularjs.org/1.4.3/angular-route.min.js"></script>
-		        <script src="//code.angularjs.org/1.4.3/angular-sanitize.min.js"></script>
+		<!-- Angular -->
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-sanitize.min.js"></script>
 
-				<!--App -->
-				<script src="../js/app.js"></script>
-				<script src="../js/controllers/KnowledgeController.js"></script>
-				<script src="../js/models/KnowledgeObj.js"></script>
-				<link rel="stylesheet" type="text/css" href="../css/app.css">
-				
-				<!-- Tooltipster -->
-				<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/tooltipster.bundle.min.css" />
-				<script type="text/javascript" src="../tooltipster/dist/js/tooltipster.bundle.min.js"></script>
-				<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
+		<!--App -->
+		<script src="../js/app.js"></script>
+		<script src="../js/controllers/KnowledgeController.js"></script>
+		<script src="../js/models/KnowledgeObj.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/app.css">
+		
+		<!-- Tooltipster -->
+		<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/tooltipster.bundle.min.css" />
+		<script type="text/javascript" src="../tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
 
-				<!-- EMBL-EBI Choices -->
-				<link rel="stylesheet" href="//wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/styles/css/choices.min.css" />
-				<script src="//wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/scripts/dist/choices.min.js"></script>
-				<link rel="stylesheet" href="//wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/css/ebi-code.css" />
+		<!-- Choices -->
+		<!-- Include Choices CSS -->
+		<link rel="stylesheet" href="../assets/styles/css/choices.min.css">
+		<!-- Include Choices JavaScript -->
+		<script src="../assets/scripts/dist/choices.min.js"></script>
 
-			</head>
-			<body class="page-template-default page page-id-1129 page-child parent-pageid-14 tc-fade-hover-links tc-r-sidebar tc-center-images skin-orange tc-sticky-header sticky-disabled tc-solid-color-on-scroll no-navbar tc-regular-menu tc-sticky-footer" itemscope itemtype="//schema.org/WebPage">
-				<div id="tc-page-wrap" class="">
-					<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px"></div>
-					<div id="main-wrapper" class="container">
-						<div class="tc-hot-crumble container" role="navigation">
-							<div class="row">
-								<div class="span12">
-									<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
-										<span class="trail-begin"><a href="//bioexcel.eu" title="BioExcel" rel="home" class="trail-begin">Home</a></span> 
-										<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/" title="Services">Services</a> 
-										<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/training/" title="Training">Training</a> <span class="sep">&raquo;</span> 
-										<span class="trail-end">Knowledge Resource Center</span>
+	</head>
+	<body class="page-template-default page page-id-1129 page-child parent-pageid-14 tc-fade-hover-links tc-r-sidebar tc-center-images skin-orange tc-sticky-header sticky-disabled tc-solid-color-on-scroll no-navbar tc-regular-menu tc-sticky-footer" itemscope itemtype="//schema.org/WebPage">
+		<div id="tc-page-wrap" class="">
+			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px"></div>
+			<div id="main-wrapper" class="container">
+				<div class="tc-hot-crumble container" role="navigation">
+					<div class="row">
+						<div class="span12">
+							<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+								<span class="trail-begin"><a href="//bioexcel.eu" title="BioExcel" rel="home" class="trail-begin">Home</a></span> 
+								<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/" title="Services">Services</a> 
+								<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/training/" title="Training">Training</a> <span class="sep">&raquo;</span> 
+								<span class="trail-end">Knowledge Resource Center</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container" role="main">
+					<div class="row column-content-wrapper">
+						<div id="content" class="span9 article-container tc-gallery-style">
+							<article id="page-1129" class="row-fluid post-1129 page type-page status-publish hentry">
+								<header class="entry-header">
+									<h1 class="entry-title">Knowledge Resource Center</h1>
+									<hr class="featurette-divider __before_content">
+								</header>
+								<div class="entry-content" data-ng-controller="KnowledgeController as KnowledgeCtrl" data-ng-init="loadDataKnowledge();">
+									<div id="main-content-area" class="row">
+										<div class="columns">
+											<section>
+												<div id="interactiveKnwoledge">
+													<p>Loading...</p>
+													<p>This application requires JavaScript.</p>
+												</div>
+												<div>
+													<form>
+														<div>
+															<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" />
+															<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectedDomains"></select>
+															<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('Online')" ng-model="selectOnline" />
+																Show Online courses
+																| 
+															<input id="checkboxFaceToFace" type="checkbox" data-ng-click="includeType('Face to face')" ng-model="selectFaceToFace" />
+																Show Face to face
+														</div>
+														<br>
+														<div>
+															<a id="showAll" class="fasc-button fasc-size-large fasc-type-flat fasc-ico-before dashicons-welcome-learn-more" style="background-color: #ea9b54; color: #ffffff;" ng-model="all" ng-click="reloadPage()">Show all knowledge resources</a>
+														</div>
+														<table id="knowledgeBaseTable">
+															<thead>
+																<tr>
+																	<th colSpan='2'>Name and description</th>
+																	<th>Competency<span data-tooltip aria-haspopup="true" class="has-tip [tip-top tip-bottom tip-left tip-right] [radius round]" title="Tooltip: definition of Competencies"><i class="icon icon-generic" data-icon="i"></i></span></th>
+																	<th>Domain<span data-tooltip aria-haspopup="true" class="has-tip [tip-top tip-bottom tip-left tip-right] [radius round]" title="Tooltip: definition of Domains"><i class="icon icon-generic" data-icon="i"></i></span></th>
+																	<th>Type</th>
+																</tr>
+															</thead>
+															
+															<tbody>
+																<tr data-ng-repeat="obj in filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge" data-ng-show="(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length">
+																	<td colSpan='2'>
+																		<div>
+																			<span> 
+																				{{ obj.name }}
+																			</span>
+																			<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='Online'">
+																				<div></div>
+																				<div style="font-size: x-small;">Related data on Github: <a data-ng-href="{{ obj.courseComments }}">{{ obj.courseComments }}</a></div>
+																			</div>
+																		</div>
+																	</td>
+																	<td>
+																		<span data-ng-repeat="competency in obj.competencyMapping track by $index" ng-click="tooltipClick(competency.number, competency.name)"> <!-- ng-mouseover="tooltipClick(competency)" -->
+																			<!-- <a class="badge small margin-right-small" id="linkToCompetency" data-ng-href="#{{ competency }}" data-ng-click="seeCompetency(competency)">{{ competency }}</a>  -->
+																			<span class="badge small cursorPointer" data-tooltip-content="#tooltip_content" tooltipster >{{ competency.number }}</span>
+																		</span>
+																	</td>
+																	<td>
+																		<span data-ng-repeat="domain in obj.domain track by $index">
+																			<span class="tag small">{{ domain }}</span>
+																		</span>
+																	</td>
+																	<td>
+																		<span ng-show="obj.typeDetail.length > 0">{{ obj.typeDetail }}</span> 
+																		<span>{{ obj.typeOnlineOrFacetoface }}</span>
+																		<div>
+																			<a ng-show="obj.typeOnlineOrFacetoface=='Online'" data-ng-href="{{ obj.url }}" target="_blank">Take now >></a>
+																			<a ng-show="obj.typeOnlineOrFacetoface=='Face to face'" data-ng-href="{{ obj.courseComments }}" target="_blank">View event location and date >></a>
+																		</div>
+																	</td>
+																</tr>
+																<tr data-ng-show="!(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length"><td>Nothing found, sorry.</td></tr>
+															</tbody>
+														</table>
+													</form>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div id="tooltip_templates">
+										<div id="tooltip_content">
+											<p style="text-align:left;">
+												<strong>Competency {{ competencyNumberSelected }}</strong><br>{{ competencyNameSelected }}<br>
+												<a data-ng-href="../competency_profile/" data-ng-click="$parent.seeCompetency(competencyNumberSelected)">See more</a>
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
+							</article>
 						</div>
-						<div class="container" role="main">
-							<div class="row column-content-wrapper">
-								<div id="content" class="span9 article-container tc-gallery-style">
-									<article id="page-1129" class="row-fluid post-1129 page type-page status-publish hentry">
-										<header class="entry-header">
-											<h1 class="entry-title">Knowledge Resource Center</h1>
-											<hr class="featurette-divider __before_content">
-										</header>
-										<div class="entry-content" data-ng-controller="KnowledgeController as KnowledgeCtrl" data-ng-init="loadDataKnowledge();">
-											<div id="main-content-area" class="row">
-												<div class="columns">
-													<section>
-														<div id="interactiveKnwoledge">
-															<p>Loading...</p>
-															<p>This application requires JavaScript.</p>
-														</div>
-														<div>
-															<form>
-																<div>
-																	<div>
-																		<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" />
-																	</div>
-																	<div>
-																		<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectedDomains">
-																		</select>
-																	</div>
-																</div>
-																<div>
-																	<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('Online')" ng-model="selectOnline" />
-																		Show Online courses
-																		| 
-																	<input id="checkboxFaceToFace" type="checkbox" data-ng-click="includeType('Face to face')" ng-model="selectFaceToFace" />
-																	 	Show Face to face
-																</div>
-																<br>
-																<div>
-																	<a id="showAll" class="fasc-button fasc-size-large fasc-type-flat fasc-ico-before dashicons-welcome-learn-more" style="background-color: #ea9b54; color: #ffffff;" ng-model="all" ng-click="reloadPage()">Show all knowledge resources</a>
-																</div>
-															</form>
-															<table id="knowledgeBaseTable">
-																<thead>
-																	<tr>
-																		<th colSpan='2'>Name and description</th>
-																		<th>Competency<span data-tooltip aria-haspopup="true" class="has-tip [tip-top tip-bottom tip-left tip-right] [radius round]" title="Tooltip: definition of Competencies"><i class="icon icon-generic" data-icon="i"></i></span></th>
-																		<th>Domain<span data-tooltip aria-haspopup="true" class="has-tip [tip-top tip-bottom tip-left tip-right] [radius round]" title="Tooltip: definition of Domains"><i class="icon icon-generic" data-icon="i"></i></span></th>
-																		<th>Type</th>
-																	</tr>
-																</thead>
-																
-																<tbody>
-																	<tr data-ng-repeat="obj in filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge" data-ng-show="(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length">
-																		<td colSpan='2'>
-																			<div>
-																				<span> 
-																					{{ obj.name }}
-																				</span>
-																				<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='Online'">
-																					<div></div>
-																					<div style="font-size: x-small;">Related data on Github: <a data-ng-href="{{ obj.courseComments }}">{{ obj.courseComments }}</a></div>
-																				</div>
-																			</div>
-																		</td>
-																		<td>
-																			<span data-ng-repeat="competency in obj.competencyMapping track by $index" ng-click="tooltipClick(competency.number, competency.name)"> <!-- ng-mouseover="tooltipClick(competency)" -->
-																				<!-- <a class="badge small margin-right-small" id="linkToCompetency" data-ng-href="#{{ competency }}" data-ng-click="seeCompetency(competency)">{{ competency }}</a>  -->
-																				<span class="badge small cursorPointer" data-tooltip-content="#tooltip_content" tooltipster >{{ competency.number }}</span>
-																			</span>
-																		</td>
-																		<td>
-																			<span data-ng-repeat="domain in obj.domain track by $index">
-																				<span class="tag small">{{ domain }}</span>
-																			</span>
-																		</td>
-																		<td>
-																			<span ng-show="obj.typeDetail.length > 0">{{ obj.typeDetail }}</span> 
-																			<span>{{ obj.typeOnlineOrFacetoface }}</span>
-																			<div>
-																				<a ng-show="obj.typeOnlineOrFacetoface=='Online'" data-ng-href="{{ obj.url }}" target="_blank">Take now >></a>
-																				<a ng-show="obj.typeOnlineOrFacetoface=='Face to face'" data-ng-href="{{ obj.courseComments }}" target="_blank">View event location and date >></a>
-																			</div>
-																		</td>
-																	</tr>
-																	<tr data-ng-show="!(filteredCourses | filter:selectedDomains[0] | filter:filterOnlineOrFaceToFace | filter:typeFilterKnowledge).length"><td>Nothing found, sorry.</td></tr>
-																</tbody>
-															</table>
-														</div>
-													</section>
-												</div>
-											</div>
-											<div id="tooltip_templates">
-												<div id="tooltip_content">
-													<p style="text-align:left;">
-														<strong>Competency {{ competencyNumberSelected }}</strong><br>{{ competencyNameSelected }}<br>
-														<a data-ng-href="../competency_profile/" data-ng-click="$parent.seeCompetency(competencyNumberSelected)">See more</a>
-													</p>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
-							</div>
-							<!--.row -->
-						</div>
-						<!-- .container role: main -->
-						<div id="tc-push-footer"></div>
 					</div>
-					<!-- //#main-wrapper -->
+					<!--.row -->
 				</div>
-				<!-- //#tc-page-wrapper -->
-			</body>
-		</html>
+				<!-- .container role: main -->
+				<div id="tc-push-footer"></div>
+			</div>
+			<!-- //#main-wrapper -->
+		</div>
+		<!-- //#tc-page-wrapper -->
+	</body>
+</html>
