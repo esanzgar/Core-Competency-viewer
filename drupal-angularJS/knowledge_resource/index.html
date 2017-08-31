@@ -95,7 +95,7 @@
 														<div>
 															<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" />
 															<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectedDomains"></select>
-															<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('Online')" ng-model="selectOnline" />
+															<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('Online')" data-ng-model="selectOnline" />
 																Show Online courses
 																| 
 															<input id="checkboxFaceToFace" type="checkbox" data-ng-click="includeType('Face to face')" ng-model="selectFaceToFace" />
@@ -103,7 +103,7 @@
 														</div>
 														<br>
 														<div>
-															<a id="showAll" class="fasc-button fasc-size-large fasc-type-flat fasc-ico-before dashicons-welcome-learn-more" style="background-color: #ea9b54; color: #ffffff;" ng-model="all" ng-click="reloadPage()">Show all knowledge resources</a>
+															<a id="showAll" class="fasc-button fasc-size-large fasc-type-flat fasc-ico-before dashicons-welcome-learn-more" style="background-color: #ea9b54; color: #ffffff;" dat-ng-model="all" ng-click="reloadPage()">Show all knowledge resources</a>
 														</div>
 														<table id="knowledgeBaseTable">
 															<thead>

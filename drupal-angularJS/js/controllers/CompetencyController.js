@@ -20,7 +20,7 @@ $(document).ready(function() {
 			// $('#interactive').html('JavaScript detected...');
 			dataSource = new Array();
 			$http({
-				url: '//dev-competency-profile.pantheonsite.io/competencies',
+				url: 'https://cors-anywhere.herokuapp.com/http://dev-competency-profile.pantheonsite.io/competencies',
 				method: 'GET',
 				headers: {
 					// "Authorization": "Basic",

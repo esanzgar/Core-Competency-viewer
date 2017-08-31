@@ -41,8 +41,11 @@ $(document).ready(function() {
 		$scope.loadDataKnowledge = function () {
 			// $('#interactive').html('JavaScript detected...');
 			var dataSource = new Array();
+
+			
+			var dataSource = new Array();
 			$http({
-				url: '//dev-competency-profile.pantheonsite.io/knowledge_base',
+				url: 'https://cors-anywhere.herokuapp.com/http://dev-competency-profile.pantheonsite.io/knowledge_base',
 				method: 'GET',
 				headers: {
 					// "Authorization": "Basic",
