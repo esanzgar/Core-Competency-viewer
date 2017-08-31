@@ -41,8 +41,75 @@ $(document).ready(function() {
 		$scope.loadDataKnowledge = function () {
 			// $('#interactive').html('JavaScript detected...');
 			var dataSource = new Array();
+			$http.get("../datasets/ebi-cp-knowledge-base.json")
+			.then(function(res) {
+				// $('#interactive').html('Data fetched...');
+				dataSource = res.data;
+				// console.log(dataSource);
+				$('#interactiveKnwoledge').html(''); 
+				for (var i = 0; i < dataSource.length; i++) {
+					// see if any future rows have same name (that is our unique ID for now)
+					for (var j = i+1; j < dataSource.length; j++) {
+						if (dataSource[i] != undefined && dataSource[j] != undefined) {
+							if (dataSource[i].name === dataSource[j].name) {
+								// note the addition
+								dataSource[i].competencyMapping += ', ' + dataSource[j].competencyMapping;
+								// remove duplicate entry
+								dataSource[j] = undefined;
+							} 
+						}
+					}
+				}
+				
+				for (var i = 0; i < dataSource.length; i++) {
+					if (dataSource[i] != undefined) {
+						var domainsArrayVar = new Array();
+						var competencyMappingArray = new Array();
 
-			
+						var knowledgeObj = new Knowledge();
+
+						domainsArrayVar = dataSource[i].domain.split(', ');
+						competencyMappingArray = dataSource[i].competencyMapping.split(', ')
+
+						knowledgeObj.construct(i, dataSource[i].name, competencyMappingArray, domainsArrayVar, dataSource[i].typeOnlineOrFacetoface, dataSource[i].typeDetail, dataSource[i].url, dataSource[i].courseComments);
+
+						if (!containsObject($scope.knowledgeArray, knowledgeObj)) {
+							$scope.knowledgeArray.push(knowledgeObj);
+						}
+
+						for (var j=0; j < domainsArrayVar.length; j++) {
+							var exist = $scope.domainsArray.some(function(item) {
+								return item.value.includes(domainsArrayVar[j]);
+							})
+							if (exist === false) {
+								$scope.domainsArray.push({value:domainsArrayVar[j]});
+							}
+						}
+					}
+				}
+				
+				$scope.filteredCourses = $scope.knowledgeArray;
+				// console.log($scope.knowledgeArray);
+				// console.log($scope.domainsArray);
+				
+				const multipleCancelButton = new Choices('#choices-multiple-remove-button', {
+					// choices: [{'value':'HPC'}, {'value':'HADDOCK'}, {'value':'Performance analysis'}, {'value':'Life Science'}, {'value':'GROMACS'}, {'value':'Molecular Dynamics'}],
+					choices: $scope.domainsArray,
+					delimiter: ',',
+					editItems: true,
+					// maxItemCount: 1,
+					// placeholder : false,
+					removeItemButton: true,
+				});
+				
+			})
+			.catch(function(response) {
+				console.error('Knowledge base error', response.status);
+			});
+		}
+
+		$scope.loadDataKnowledgeDrupal = function () {
+			// $('#interactive').html('JavaScript detected...');
 			var dataSource = new Array();
 			$http({
 				url: 'https://cors-anywhere.herokuapp.com/http://dev-competency-profile.pantheonsite.io/knowledge_base',

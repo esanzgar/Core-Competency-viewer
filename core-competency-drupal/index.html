@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"  ng-app="compentencyProfile">
+	<!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="profile" href="//gmpg.org/xfn/11" />
+		<link rel="pingback" href="//bioexcel.eu/xmlrpc.php" />
+		<!-- html5shiv for IE8 and less  -->
+		<!--[if lt IE 9]>
+		<script src="//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/js/html5.js"></script>
+		<![endif]-->
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+		<style id="dyn-style-fonts" type="text/css"></style>
+		<title>Training &#8211; BioExcel</title>
+
+		<link rel='stylesheet' id='tc-gfonts-css'  href='//fonts.googleapis.com/css?family=Alegreya:700%7CRoboto' type='text/css' media='all' />
+		<link rel='stylesheet' id='customizr-common-css' href='../css/tc_common.min.css?ver=2.0.5' type='text/css' media='all' />
+		<link rel='stylesheet' href='../css/orange.min.css' type='text/css' media='all' />
+		<style id='customizr-skin-inline-css' type='text/css'>
+			.site-title,.site-description,h1,h2,h3,.tc-dropcap {
+				font-family : 'Alegreya';
+				font-weight : 700;
+			}
+			body,.navbar .nav>li>a {
+				font-family : 'Roboto';
+				font-weight : inherit;
+			}
+			table { border-collapse: separate; }
+			body table { border-collapse: collapse; }
+		</style>
+		<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='../css/button-styles.css' type='text/css' media='all' />
+						
+		<!-- JQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<!-- Angular -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-sanitize.min.js"></script>
+
+		<!--App -->
+		<script type="text/javascript" src="../js/app.js"></script>
+		<script type="text/javascript" src="../js/controllers/CompetencyController.js"></script>
+		<script type="text/javascript" src="../js/models/CompetencyObj.js"></script>
+		<script type="text/javascript" src="../js/models/CompetencyDetailObj.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/app.css">
+		
+		<!-- Tooltipster -->
+		<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/tooltipster.bundle.min.css" />
+		<script type="text/javascript" src="../tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" />
+
+	</head>
+	<body class="page-template-default page page-id-1129 page-child parent-pageid-14 tc-fade-hover-links tc-r-sidebar tc-center-images skin-orange tc-sticky-header sticky-disabled tc-solid-color-on-scroll no-navbar tc-regular-menu tc-sticky-footer" itemscope itemtype="//schema.org/WebPage">
+		<div id="tc-page-wrap" class="">
+			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px"></div>
+			<div id="main-wrapper" class="container">
+				<div class="tc-hot-crumble container" role="navigation">
+					<div class="row">
+						<div class="span12">
+							<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+								<span class="trail-begin"><a href="//bioexcel.eu" title="BioExcel" rel="home" class="trail-begin">Home</a></span> 
+								<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/" title="Services">Services</a> 
+								<span class="sep">&raquo;</span> <a href="//bioexcel.eu/services/training/" title="Training">Training</a> <span class="sep">&raquo;</span> 
+								<span class="trail-end">Competency Profile</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container" role="main">
+					<div class="row column-content-wrapper">
+						<div id="content" class="span9 article-container tc-gallery-style">
+							<article id="page-1129" class="row-fluid post-1129 page type-page status-publish hentry">
+								<header class="entry-header">
+									<h1 class="entry-title ">Competency Profile</h1>
+									<hr class="featurette-divider __before_content">
+								</header>
+								<div class="entry-content" data-ng-controller="CompetencyController as CompetencyCtrl" data-ng-init="loadDataCompetencyDrupal();">
+									<div id="main-content-area" class="row">
+										<div class="columns">
+											<section>
+												<div id="interactiveCompetency">
+													<p>Loading...</p>
+													<p>This application requires JavaScript.</p>
+												</div>
+												<form name="competencyForm" data-ng-submit="competencyForm.$valid" novalidate>
+													<div>
+														<textarea id="typeFilterCompetency" type="text" data-ng-model="typeFilterCompetency" placeholder="Filter by a keyword or two"> </textarea>
+													</div>
+													<table id="competenciesBaseTable">
+														<thead>
+															<tr>
+																<th>
+																	<div>Competency</div>
+																</th>
+																<th>
+																	<div>Name and description</div>
+																</th>
+															</tr>
+														</thead>
+														
+														<tbody>
+															<tr data-ng-repeat="obj in competencyArray | orderBy:'number' | filter:typeFilterCompetency" data-ng-show="competencyArray.length || (competencyArray | filter:typeFilterCompetency).length">
+																<td id="{{ obj.number }}">
+																	{{ obj.number }}
+																</td>
+																<td colspan='2'>
+																	<div>
+																		<span style="color: #f78c40;">
+																			{{ obj.name }}
+																		</span>
+																		<div data-ng-repeat="detail in obj.details track by $index"> 
+																			<p>
+																				{{ detail.type }}
+																				<ul style="list-style-type:circle" data-ng-repeat="detailContent in detail.details.split('\n') track by $index">
+																					<li data-ng-bind-html="detailContent" style="margin-left:30px;"> </li>
+																				</ul>
+																			</p>
+																			
+																		</div>
+																		<!-- <span><a name="{{ obj.number }}" href="../knowledge_resource/?{{ obj.number }}">View related training resources</a></span> -->
+																	</div>
+																</td>
+															</tr>
+															<tr  data-ng-show="!competencyArray.length || !(competencyArray | filter:typeFilterCompetency).length"><td>Nothing found, sorry.</td></tr>
+														</tbody>
+													</table>
+												</form>
+											</section>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!--.row -->
+				</div>
+				<!-- .container role: main -->
+				<div id="tc-push-footer"></div>
+			</div>
+			<!-- //#main-wrapper -->
+		</div>
+			<!-- //#main-wrapper -->
+		</div>
+		<!-- //#tc-page-wrapper -->
+	</body>
+</html>

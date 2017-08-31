@@ -504,7 +504,7 @@
     {
         "competencyMapping": "2.5",
         "name": "Presentations from GROMACS developers/users workshop",
-        "domain": "GROMACS, Molecular Dyncamics",
+        "domain": "GROMACS, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Presentation recordings",
         "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
@@ -515,7 +515,7 @@
     {
         "competencyMapping": "2.6",
         "name": "Presentations from GROMACS developers/users workshop",
-        "domain": "GROMACS, Molecular Dyncamics",
+        "domain": "GROMACS, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Presentation recordings",
         "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
@@ -687,7 +687,7 @@
     {
         "competencyMapping": "4.3",
         "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
-        "domain": "Programming, Workflows ",
+        "domain": "Programming, Workflows",
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
         "provider": "BSC, Barcelona Supercomputing Center",
@@ -697,7 +697,7 @@
     {
         "competencyMapping": "4.4",
         "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
-        "domain": "Programming, Workflows ",
+        "domain": "Programming, Workflows",
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
         "provider": "BSC, Barcelona Supercomputing Center",
@@ -1198,7 +1198,7 @@
     {
         "competencyMapping": "3.1",
         "name": "Agile Development Specialization",
-        "domain": "Computational skills, Programming, Best practice",
+        "domain": "Computational skills, Programming, Best Practice",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "online",
         "url": "https://www.coursera.org/specializations/agile-development",
@@ -1253,7 +1253,7 @@
     {
         "competencyMapping": "2.1",
         "name": "The Hardware/Software Interface",
-        "domain": "Best practice, Programming, Computational skills",
+        "domain": "Best Practice, Programming, Computational skills",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "online",
         "url": "https://www.coursera.org/course/hwswinterface",
@@ -1264,7 +1264,7 @@
     {
         "competencyMapping": "3.3",
         "name": "The Hardware/Software Interface",
-        "domain": "Best practice, Programming, Computational skills",
+        "domain": "Best Practice, Programming, Computational skills",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "online",
         "url": "https://www.coursera.org/course/hwswinterface",

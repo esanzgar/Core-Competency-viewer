@@ -16,7 +16,7 @@ $(document).ready(function() {
 		//scope variables
 		$scope.competencyArray = new Array();
 		
-		$scope.loadDataCompetency = function () {
+		$scope.loadDataCompetencyDrupal = function () {
 			// $('#interactive').html('JavaScript detected...');
 			dataSource = new Array();
 			$http({

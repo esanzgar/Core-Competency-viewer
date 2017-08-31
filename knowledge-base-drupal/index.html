@@ -75,7 +75,7 @@
 									<h1 class="entry-title">Knowledge Resource Center</h1>
 									<hr class="featurette-divider __before_content">
 								</header>
-								<div class="entry-content" data-ng-controller="KnowledgeController as KnowledgeCtrl" data-ng-init="loadDataKnowledge();">
+								<div class="entry-content" data-ng-controller="KnowledgeController as KnowledgeCtrl" data-ng-init="loadDataKnowledgeDrupal();">
 									<div id="main-content-area" class="row">
 										<div class="columns">
 											<section>
@@ -88,11 +88,11 @@
 														<div>
 															<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" />
 															<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectedDomains"></select>
-															<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('online')" data-ng-model="selectOnline" />
-																Show online courses
+															<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('Online')" data-ng-model="selectOnline" />
+																Show Online courses
 																| 
-															<input id="checkboxFaceToFace" type="checkbox" data-ng-click="includeType('face-to-face')" ng-model="selectFaceToFace" />
-																Show Face to face courses
+															<input id="checkboxFaceToFace" type="checkbox" data-ng-click="includeType('Face to face')" ng-model="selectFaceToFace" />
+																Show Face to face
 														</div>
 														<br>
 														<div>
@@ -115,7 +115,7 @@
 																			<span> 
 																				{{ obj.name }}
 																			</span>
-																			<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='online'">
+																			<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='Online'">
 																				<div></div>
 																				<div style="font-size: x-small;">Related data on Github: <a data-ng-href="{{ obj.courseComments }}">{{ obj.courseComments }}</a></div>
 																			</div>
@@ -124,7 +124,7 @@
 																	<td>
 																		<span data-ng-repeat="competency in obj.competencyMapping track by $index" ng-click="tooltipClick(competency.number, competency.name)"> <!-- ng-mouseover="tooltipClick(competency)" -->
 																			<!-- <a class="badge small margin-right-small" id="linkToCompetency" data-ng-href="#{{ competency }}" data-ng-click="seeCompetency(competency)">{{ competency }}</a>  -->
-																			<span class="badge small cursorPointer" data-tooltip-content="#tooltip_content" tooltipster >{{ competency }}</span>
+																			<span class="badge small cursorPointer" data-tooltip-content="#tooltip_content" tooltipster >{{ competency.number }}</span>
 																		</span>
 																	</td>
 																	<td>
@@ -136,8 +136,8 @@
 																		<span ng-show="obj.typeDetail.length > 0">{{ obj.typeDetail }}</span> 
 																		<span>{{ obj.typeOnlineOrFacetoface }}</span>
 																		<div>
-																			<a ng-show="obj.typeOnlineOrFacetoface=='online'" data-ng-href="{{ obj.url }}" target="_blank">Take now >></a>
-																			<a ng-show="obj.typeOnlineOrFacetoface=='face-to-face'" data-ng-href="{{ obj.courseComments }}" target="_blank">View event location and date >></a>
+																			<a ng-show="obj.typeOnlineOrFacetoface=='Online'" data-ng-href="{{ obj.url }}" target="_blank">Take now >></a>
+																			<a ng-show="obj.typeOnlineOrFacetoface=='Face to face'" data-ng-href="{{ obj.courseComments }}" target="_blank">View event location and date >></a>
 																		</div>
 																	</td>
 																</tr>
