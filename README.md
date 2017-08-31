@@ -1,8 +1,8 @@
 # Core-Competency-viewer
 - [View project milestones](https://github.com/ebiwd/Core-Competency-viewer/milestones?direction=asc&sort=due_date&state=open)
 - [View the prototype](https://ebiwd.github.io/Core-Competency-viewer/)
-  - [Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/drupal-angularJS/competency_profile)
-  - [Knowledge Base](https://ebiwd.github.io/Core-Competency-viewer/drupal-angularJS/knowledge_resource)
+  - [Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/competency_profile)
+  - [Knowledge Resources](https://ebiwd.github.io/Core-Competency-viewer/knowledge_resource)
   - To Come ~~[Event List](https://ebiwd.github.io/Core-Competency-viewer/event-list)~~
 
 The Competency Profile is a definition system of competencies based on knowledge, skills and behaviour requirements. These three (KSB) are mapped onto training resources.
