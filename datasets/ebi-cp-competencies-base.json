@@ -6,24 +6,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Understanding of the context of the persons in the team
-							- Aware of cultural differences"
+				"details": "Understanding of the context of the persons in the team;-Aware of cultural differences"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Communication
-							- Conflict management
-							- Time management"
+				"details": "Communication;-Conflict management;-Time management"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Invites two-way communication; actively listens/pays attention; able to excite participation and commitment from others
-							- Delivers on his/her actions and inspires this behaviour in others
-							- Informs others of relevant information appropriately and on time"
+				"details": "Invites two-way communication; actively listens/pays attention; able to excite participation and commitment from others;-Delivers on his/her actions and inspires this behaviour in others;-Informs others of relevant information appropriately and on time"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -32,24 +25,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Broad understanding of the relevant ethical, legal, and social issues
-							- Understanding of internal ethical and legal policies
-							- Understanding of organisational responsibilities"
+				"details": "Broad understanding of the relevant ethical, legal, and social issues;-Understanding of internal ethical and legal policies;-Understanding of organisational responsibilities"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Can interpret the letter and spirit of policies (ethical, legal, etc)
-							- Applies risk management skills"
+				"details": "Can interpret the letter and spirit of policies (ethical, legal, etc);-Applies risk management skills"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Confronts or reports potentially unethical behaviour or behaviour at odds with the organisation's values
-							- Complies with internal policies
-							- Respects confidentiality"
+				"details": "Confronts or reports potentially unethical behaviour or behaviour at odds with the organisation's values;-Complies with internal policies;-Respects confidentiality"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -58,27 +44,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Broad understanding of communication models
-							- Can distinguish between different target audiences and identify the most appropriate means of reaching them"
+				"details": "Broad understanding of communication models;-Can distinguish between different target audiences and identify the most appropriate means of reaching them"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Active listening skills
-							- Appreciates the value of social media and uses it effectively to communicate effectively with different audiences
-							- Able to work effectively with creative professionals (e.g. designers, animators, journalists
-							- Ability to translate complex concepts to different audiences"
+				"details": "Active listening skills;-Appreciates the value of social media and uses it effectively to communicate effectively with different audiences;-Able to work effectively with creative professionals (e.g. designers, animators, journalists;-Ability to translate complex concepts to different audiences"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Communicates clearly and precisely with people at all levels
-							- Delivers points in a structured and logical manner
-							- Seeks out openness from others; gives straightforward, candid opinions to all
-							- Communicates effectively even in difficult situations
-							- Anticipates audience needs and tailors communications to the audience and the context"
+				"details": "Communicates clearly and precisely with people at all levels;-Delivers points in a structured and logical manner;-Seeks out openness from others; gives straightforward, candid opinions to all;-Communicates effectively even in difficult situations;-Anticipates audience needs and tailors communications to the audience and the context"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -87,21 +63,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Aware of organisational changes and external environment"
+				"details": "Aware of organisational changes and external environment"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Face-to-face communication skills
-							- Ability to objectively review own performance"
+				"details": "Face-to-face communication skills;-Ability to objectively review own performance"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Demonstrates curiosity to learn new skills or knowledge outside current expertise
-							- Prioritises and plans for CPD"
+				"details": "Demonstrates curiosity to learn new skills or knowledge outside current expertise;-Prioritises and plans for CPD"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -110,25 +82,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Broad understanding of scientific disciplines and its ecosystem
-							- Recognises different types of user, their interests and motivation
-							- Appreciates the importance of user experience"
+				"details": "Broad understanding of scientific disciplines and its ecosystem;-Recognises different types of user, their interests and motivation;-Appreciates the importance of user experience"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Ability to differentiate wants from needs
-							- User requirements/needs collection
-							- Expectations management"
+				"details": "Ability to differentiate wants from needs;-User requirements/needs collection;-Expectations management"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Proactive in discovering different users and their motivation
-							- Actively facilitates gathering of use cases and user requirements
-							- Seeks out and acts on user feedback"
+				"details": "Proactive in discovering different users and their motivation;-Actively facilitates gathering of use cases and user requirements;-Seeks out and acts on user feedback"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -137,25 +101,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "Knowledge including but not limited to:
-							- Computer architecture
-							- Essential Algorithms
-							- Programming
-							- Databases & data structure
-							- Information security"
+				"details": "Computer architecture;-Essential Algorithms;-Programming;-Databases & data structure;-Information security"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Evaluates software
-							- Understands applicability, optimisation and scope of different tools"
+				"details": "Evaluates software;-Understands applicability, optimisation and scope of different tools"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Keeps up-to-date with knowledge domain"
+				"details": "Keeps up-to-date with knowledge domain"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -164,27 +120,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Has a deep comprehension of biological problems
-							- Comprehends that a biological theory is not necessarily true
-							- Fundamental scientific knowledge (biology, chemistry, physics)
-							- Mathematics and statistics"
+				"details": "Has a deep comprehension of biological problems;-Comprehends that a biological theory is not necessarily true;-Fundamental scientific knowledge (biology, chemistry, physics);-Mathematics and statistics"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Has an interdisciplinary view
-							- Asks relevant, well-defined biological questions"
+				"details": "Has an interdisciplinary view;-Asks relevant, well-defined biological questions"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Takes a comprehensive approach to problems
-							- Consults with colleagues
-							- Looks for prior work
-							- Displays scientific humbleness (own and other results)
-							- Allows for unexpected results"
+				"details": "Takes a comprehensive approach to problems;-Consults with colleagues;-Looks for prior work;-Displays scientific humbleness (own and other results);-Allows for unexpected results"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -193,26 +139,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knows where to find help
-							- Comprehends the need for positive and negative controls
-							- Comprehends the need for replicates (and what type, how many etc.)
-							- Comprehends the principle garbage in, garbage out (GIGO) (for example generic or custom parameters for molecular dynamics)
-							- Has a deep understanding of his/her own data"
+				"details": "Knows where to find help;-Comprehends the need for positive and negative controls;-Comprehends the need for replicates (and what type, how many etc.);-Comprehends the principle garbage in, garbage out (GIGO) (for example generic or custom parameters for molecular dynamics);-Has a deep understanding of his/her own data"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Formulates a hypothesis
-							- Tests a hypothesis
-							- Accurately judges the validity of his/her results"
+				"details": "Formulates a hypothesis;-Tests a hypothesis;-Accurately judges the validity of his/her results"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Asks for help and/or verification 
-							- Prepares before starting a new process"
+				"details": "Asks for help and/or verification;-Prepares before starting a new process"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -221,26 +158,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knows where to find help
-							- Comprehends the need for positive and negative controls
-							- Comprehends the need for replicates (and what type, how many etc.)
-							- Comprehends the principle garbage in, garbage out (GIGO) (for example generic or custom parameters for molecular dynamics)
-							- Has a deep understanding of his/her own data"
+				"details": "Knows where to find help;-Comprehends the need for positive and negative controls;-Comprehends the need for replicates (and what type, how many etc.);-Comprehends the principle garbage in, garbage out (GIGO) (for example generic or custom parameters for molecular dynamics);-Has a deep understanding of his/her own data"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Formulates a hypothesis
-							- Tests a hypothesis
-							- Accurately judges the validity of his/her results"
+				"details": "Formulates a hypothesis;-Tests a hypothesis;-Accurately judges the validity of his/her results"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Asks for help and/or verification
-							- Prepares before starting a new process"
+				"details": "Asks for help and/or verification;-Prepares before starting a new process"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "5fe5960c-67b3-11e7-907b-a6006ad3dba0",
@@ -253,14 +181,13 @@
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Chooses the right tool for the problem at hand"
+				"details": "Chooses the right tool for the problem at hand"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Actively searches for available sources of support (training material, forum, helpdesk etc)"
+				"details": "Actively searches for available sources of support (training material, forum, helpdesk etc)"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+		]
 	},
 	{
 		"id": "52fe3bf2-67b2-11e7-907b-a6006ad3dba0",
@@ -269,20 +196,17 @@
 		"details": [ 
 			{
 				"type": "Knowledge", 
-				"details": "- Has a deep comprehension of biological problems
-							- Comprehend the capabilities and limitations of computer-based system, process, component and programs."
+				"details": "Has a deep comprehension of biological problems;-Comprehend the capabilities and limitations of computer-based system, process, component and programs."
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Creative thinking & problem solving
-							- Has an interdisciplinary view"
+				"details": "Creative thinking & problem solving;-Has an interdisciplinary view"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Keeps up-to-date with emerging techniques and applications"
+				"details": "Keeps up-to-date with emerging techniques and applications"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -291,19 +215,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Understand what areas are impacted by HPC technologies"
+				"details": "Understand what areas are impacted by HPC technologies"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Accurately judges added value of HPC technologies for different scenarios and user groups"
+				"details": "Accurately judges added value of HPC technologies for different scenarios and user groups"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Disseminate the importance of HPC technologies"
+				"details": "Disseminate the importance of HPC technologies"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -312,20 +234,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Understands that science is an iterative process
-							- Comprehends that models require experimental validation"
+				"details": "Understands that science is an iterative process;-Comprehends that models require experimental validation"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Accurately judges the validity of his/her results"
+				"details": "Accurately judges the validity of his/her results"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Comprehends that results might be difficult to interpret"
+				"details": "Comprehends that results might be difficult to interpret"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -334,27 +253,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Has knowledge of different datasets
-							- Is aware of the concept of unique identifiers
-							- Comprehends the need to question / validate data"
+				"details": "Has knowledge of different datasets;-Is aware of the concept of unique identifiers;-Comprehends the need to question / validate data"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Assesses data quality 
-							- Judges fit-for-purpose 
-							- Actively identifies new datasets
-							- Tracks where data came from
-							- Combines data from different sources
-							- Data preparation/cleanup"
+				"details": "Assesses data quality;-Judges fit-for-purpose;-Actively identifies new datasets;-Tracks where data came from;-Combines data from different sources;-Data preparation/cleanup"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Advertises the existence of good quality datasets to others
-							- Contributes to public datasets when appropriate"
+				"details": "Advertises the existence of good quality datasets to others;-Contributes to public datasets when appropriate"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -363,28 +272,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knows and understands the data formats people are using
-							- Is aware of the backup policy of the institution/compute resource
-							- Ability to judge what data needs to be kept for storage"
+				"details": "Knows and understands the data formats people are using;-Is aware of the backup policy of the institution/compute resource;-Ability to judge what data needs to be kept for storage"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Demonstrates knowledge of the file system structure
-							- Tracks ever step in a process (traceability)
-							- Version control
-							- Backup
-							- Documentation
-							- Automates data analyses where appropriate"
+				"details": "Demonstrates knowledge of the file system structure;-Tracks ever step in a process (traceability);-Version control;-Backup;-Documentation;-Automates data analyses where appropriate"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Backs up his/her work in non-redundant ways 
-							- Documents his/her work 
-							- Has a version control system in place"
+				"details": "Backs up his/her work in non-redundant ways;-Documents his/her work;-Has a version control system in place"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -393,29 +291,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Comprehends the need for standards (including ontologies)
-							- Understands the importance of metadata
-							- Comprehends the challenge surrounding legacy data (e.g. inaccessibility, resourcing, IP) 
-							- When to move data, and when to run code elsewhere"
+				"details": "Comprehends the need for standards (including ontologies);-Understands the importance of metadata;-Comprehends the challenge surrounding legacy data (e.g. inaccessibility, resourcing, IP);-When to move data, and when to run code elsewhere"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Annotates metadata (tools)
-							- Uses ontologies
-							- Structure data, where applicable submit to databases
-							- Safely and efficiently moves data"
+				"details": "Annotates metadata (tools);-Uses ontologies;-Structure data, where applicable submit to databases;-Safely and efficiently moves data"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Uses standards and ontologies
-							- Looks for existing ontologies rather than create his/her own ontology
-							- Captures sufficient metadata
-							- Adds his/her data in supplementary information of journal articles (e.g SMILES, InChI for compounds)
-							- Actively promotes the use of standards, metadata annotation"
+				"details": "Uses standards and ontologies;-Looks for existing ontologies rather than create his/her own ontology;-Captures sufficient metadata;-Adds his/her data in supplementary information of journal articles (e.g SMILES, InChI for compounds);-Actively promotes the use of standards, metadata annotation"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -424,22 +310,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Comprehend the need for a literature review (anything similar done? Data available?)
-							- Is able to find relevant literature (different sources of) (e.g. PubMed, Europe PMC)"
+				"details": "Comprehend the need for a literature review (anything similar done? Data available?);-Is able to find relevant literature (different sources of) (e.g. PubMed, Europe PMC)"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Assessing quality (methods, results, etc)
-							- Critically read scientific literature"
+				"details": "Assessing quality (methods, results, etc);-Critically read scientific literature"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Conducts a literature review when appropriate
-							- Will look at sources of literature outside his/her comfort zone / discipline"
+				"details": "Conducts a literature review when appropriate;-Will look at sources of literature outside his/her comfort zone / discipline"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -448,24 +329,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knows which forums exist to present scientific results"
+				"details": "Knows which forums exist to present scientific results"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Write scientific journal paper
-							- Write and present a conference talk
-							- Youtube
-							- Proficient at scientific poster design
-							- Deep understanding of what to present and what not to present
-							- Can target his/her presentation at the right audience / level"
+				"details": "Write scientific journal paper;-Write and present a conference talk;-Youtube;-Proficient at scientific poster design;-Deep understanding of what to present and what not to present;-Can target his/her presentation at the right audience / level"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Judge the appropriate medium to present through"
+				"details": "Judge the appropriate medium to present through"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -474,21 +348,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Comprehends the need for best practice 
-							- Is aware of where (or with whom) to find examples of or written guidelines on best practice in his/her field"
+				"details": "Comprehends the need for best practice;-Is aware of where (or with whom) to find examples of or written guidelines on best practice in his/her field"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Inspires others to adhere to best practice"
+				"details": "Inspires others to adhere to best practice"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Actively promotes best practice by leading by example
-							- Will try and identify best practice in a relevant area"
+				"details": "Actively promotes best practice by leading by example;-Will try and identify best practice in a relevant area"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -497,20 +367,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Know how to describe algorithmic performance and complexity (e.g. Big O notation)"
+				"details": "Know how to describe algorithmic performance and complexity (e.g. Big O notation)"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Is able to benchmark a system to get an estimate of the required computing time
-							- Identify bottleneck in the system (network, CPU, RAM, etc)"
+				"details": "Is able to benchmark a system to get an estimate of the required computing time;-Identify bottleneck in the system (network, CPU, RAM, etc)"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Write documentation"
+				"details": "Write documentation"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -519,29 +386,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Efficiently navigates his/her way around the Operation System (OS)
-							- Is transitioning from Graphical User Interface (GUI) to command line (if not already proficient)
-							- Demonstrates knowledge of the file system structure
-							- Knows where to find the location of important configuration files & applications
-							- Is aware of OS-related file format differences"
+				"details": "Efficiently navigates his/her way around the Operation System (OS);-Is transitioning from Graphical User Interface (GUI) to command line (if not already proficient);-Demonstrates knowledge of the file system structure;-Knows where to find the location of important configuration files & applications;-Is aware of OS-related file format differences"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Creates and manages files and directories in a system using a Graphical User Interface (GUI) and using command line
-							- Connects to remote systems with a GUI and the command line
-							- Be able to use Unix/Linux features like pipes & redirection
-							- Changes access permissions when required
-							- Creates and manages files and directories in a system"
+				"details": "Creates and manages files and directories in a system using a Graphical User Interface (GUI) and using command line;-Connects to remote systems with a GUI and the command line;-Be able to use Unix/Linux features like pipes & redirection;-Changes access permissions when required;-Creates and manages files and directories in a system"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- When you can't do something, search for it on the web
-							- Back-up files
-							- Uses access permissions appropriately"
+				"details": "When you can't do something, search for it on the web;-Back-up files;-Uses access permissions appropriately"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -550,32 +405,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Recognises common programming concepts like loops and function calls 
-							- Comprehends the pros and cons of different programming languages
-							- Knowledge of existing code/libraries to re-use"
+				"details": "Recognises common programming concepts like loops and function calls;-Comprehends the pros and cons of different programming languages;-Knowledge of existing code/libraries to re-use"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Adapt existing programs
-							- Compile code
-							- Run test
-							- Recognises appropriate file types
-							- Knows when quick and dirty is appropriate and when writing for reusability is appropriate
-							- Program in an appropriate language
-							- Writes portable code
-							- Writes efficient code
-							- Writes appropriate tests
-							- Debug code"
+				"details": "Adapt existing programs;-Compile code;-Run test;-Recognises appropriate file types;-Knows when quick and dirty is appropriate and when writing for reusability is appropriate;-Program in an appropriate language;-Writes portable code;-Writes efficient code;-Writes appropriate tests;-Debug code"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Conform to best practices for writing reusable code
-							- Uses revision control
-							- Uses a text editor with support for programming"
+				"details": "Conform to best practices for writing reusable code;-Uses revision control;-Uses a text editor with support for programming"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -584,21 +424,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knowledge of existing command/libraries to reuse
-							- Judges when a task should be automated"
+				"details": "Knowledge of existing command/libraries to reuse;-Judges when a task should be automated"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Is able to automate the process of executing some processes remotely
-							- Write & debug scripts"
+				"details": "Is able to automate the process of executing some processes remotely;-Write & debug scripts"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Uses appropriate scripting language"
+				"details": "Uses appropriate scripting language"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -607,26 +443,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Knows where to download software & dependencies to install
-							- Comprehend the difference between kinds of binaries & source
-							- Awareness of different types of account (e.g. user, admin, etc.) and when they should be used
-							- Deep understanding of his/her platform (hardware, OS version, ...)"
+				"details": "Knows where to download software & dependencies to install;-Comprehend the difference between kinds of binaries & source;-Awareness of different types of account (e.g. user, admin, etc.) and when they should be used;-Deep understanding of his/her platform (hardware, OS version, ...)"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Select appropriately packaged code
-							- Be able to use package managers
-							- Be able to revert a system to a known state"
+				"details": "Select appropriately packaged code;-Be able to use package managers;-Be able to revert a system to a known state"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Reads the README
-							- Checks licencing before installing/running software
-							- Appreciates the impact of installing/running software on other users of the machine"
+				"details": "Reads the README;-Checks licencing before installing/running software;-Appreciates the impact of installing/running software on other users of the machine"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -635,19 +462,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Git (repositories), Github, SVN, mercurial-versioning"
+				"details": "Git (repositories), Github, SVN, mercurial-versioning"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- debugging (Mission Control, VisualVM,..)"
+				"details": "debugging (Mission Control, VisualVM,..)"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- work in collaborative fashion"
+				"details": "work in collaborative fashion"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -656,22 +481,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Remote administration tools"
+				"details": "Remote administration tools"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Linux/UNIX sysadmin commands
-							- LSF commands
-							- Recognise bottlenecks in the system (Network, CPU, RAM, etc)
-							- Forward planning"
+				"details": "Linux/UNIX sysadmin commands;-LSF commands;-Recognise bottlenecks in the system (Network, CPU, RAM, etc);-Forward planning"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Actively consider the impact on the user"
+				"details": "Actively consider the impact on the user"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -680,23 +500,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Is aware that workflow systems exist and what they do
-							- Comprehends the pros and cons of different workflow systems"
+				"details": "Is aware that workflow systems exist and what they do;-Comprehends the pros and cons of different workflow systems"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Evaluates and selects an appropriate workflow system
-							- Install workflow manager
-							- Ability to run a workflow
-							- Write and modify a workflow"
+				"details": "Evaluates and selects an appropriate workflow system;-Install workflow manager;-Ability to run a workflow;-Write and modify a workflow"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Seeks out and makes use of appropriate existing workflows and workflow components"
+				"details": "Seeks out and makes use of appropriate existing workflows and workflow components"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
@@ -705,24 +519,18 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Understands what resources are required per job
-							- Demonstrates knowledge of the concept of queues and the runtime environment
-							- Know about versions of software that are installed
-							- Can estimate who is responsible for observed issues (a hardware issue? a software issue? a user environment issue?)"
+				"details": "Understands what resources are required per job;-Demonstrates knowledge of the concept of queues and the runtime environment;-Know about versions of software that are installed;-Can estimate who is responsible for observed issues (a hardware issue? a software issue? a user environment issue?)"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Writes a good batch script making use of available batch system features"
+				"details": "Writes a good batch script making use of available batch system features"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Reads the documentation
-							- Ask the right person for help"
+				"details": "Reads the documentation;-Ask the right person for help"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
-	}
+		]
+	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "4.3",
@@ -730,22 +538,18 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Git (repositories), Github, SVN, mecurial-versioning"
+				"details": "Git (repositories), Github, SVN, mecurial-versioning"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Programs using an appropriate language/paradigm
-							- Recognises (independent) units of work and potential parallelism (and any dependencies)
-							- Uses appropriate tools to debug, profile, refactor parallel code"
+				"details": "Programs using an appropriate language/paradigm;-Recognises (independent) units of work and potential parallelism (and any dependencies);-Uses appropriate tools to debug, profile, refactor parallel code"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Reads the documentation"
+				"details": "Reads the documentation"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
-	}
+		]
+	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "4.4",
@@ -753,26 +557,18 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Evaluates the pros and cons of running computations in the cloud
-							- Evaluates the pros and cons of using grid technologies
-							- Demonstrates knowledge of container technologies (e.g. Docker)
-							- Demonstrates knowledge of the concepts related to virtualisation"
+				"details": "Evaluates the pros and cons of running computations in the cloud;-Evaluates the pros and cons of using grid technologies;-Demonstrates knowledge of container technologies (e.g. Docker);-Demonstrates knowledge of the concepts related to virtualisation"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Routinely undertakes a cost-benefit analysis to understand whether cloud resources are the best value
-							- Able to package software/data and deploy to the cloud
-							- Selects an appropriate grid/cloud provider
-							- Can build and provision a Virtual Machine (VM)"
+				"details": "Routinely undertakes a cost-benefit analysis to understand whether cloud resources are the best value;-Able to package software/data and deploy to the cloud;-Selects an appropriate grid/cloud provider;-Can build and provision a Virtual Machine (VM)"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Seeks out and makes use of appropriate existing Virtual Machines, etc."
+				"details": "Seeks out and makes use of appropriate existing Virtual Machines, etc."
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
-	}
+		]
+	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "4.5",
@@ -780,22 +576,17 @@
 		"details": [
 			{
 				"type": "Knowledge", 
-				"details": "- Know that there are tools to help measure performance
-							- Know how your machine's architecture and hardware can affect the performance of your code"
+				"details": "Know that there are tools to help measure performance;-Know how your machine's architecture and hardware can affect the performance of your code"
 			}, 
 			{
 				"type": "Skill", 
-				"details": "- Be able to profile a code
-							- Recognise bottlenecks in a code
-							- Be able to refactor code in order to remove bottlenecks"
+				"details": "Be able to profile a code;-Recognise bottlenecks in a code;-Be able to refactor code in order to remove bottlenecks"
 			}, 
 			{
 				"type": "Behaviour", 
-				"details": "- Run codes using appropriate resources (number of processors, etc.)"
+				"details": "Run codes using appropriate resources (number of processors, etc.)"
 			} 
-		],
-		// "coursesSummary": [ {"id": "", "name": "", "url": ""} ]
-
+		]
 	}
 ]
 

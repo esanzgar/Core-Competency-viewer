@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"  ng-app="compentencyProfile">
-	<!--<![endif]-->
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="profile" href="//gmpg.org/xfn/11" />
 		<link rel="pingback" href="//bioexcel.eu/xmlrpc.php" />
-		<!-- html5shiv for IE8 and less  -->
-		<!--[if lt IE 9]>
-		<script src="//bioexcel.eu/wp-content/themes/customizr-pro/inc/assets/js/html5.js"></script>
-		<![endif]-->
 		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 		<style id="dyn-style-fonts" type="text/css"></style>
 		<title>Training &#8211; BioExcel</title>
@@ -57,6 +52,10 @@
 		<div id="tc-page-wrap" class="">
 			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px"></div>
 			<div id="main-wrapper" class="container">
+				<ul id="tab_ul" class="tabs">
+					<li class="selected"><a rel="tab_div1" href="#">Core Competencies</a></li>
+					<li class=""><a rel="tab_div2" href="../knowledge-base">Knowledge Base</a></li>
+				</ul>
 				<div class="tc-hot-crumble container" role="navigation">
 					<div class="row">
 						<div class="span12">
@@ -114,7 +113,7 @@
 																		<div data-ng-repeat="detail in obj.details track by $index"> 
 																			<p>
 																				{{ detail.type }}
-																				<ul style="list-style-type:circle" data-ng-repeat="detailContent in detail.details.split('\n') track by $index">
+																				<ul style="list-style-type:circle" data-ng-repeat="detailContent in detail.details.split(';-') track by $index">
 																					<li data-ng-bind-html="detailContent" style="margin-left:30px;"> </li>
 																				</ul>
 																			</p>

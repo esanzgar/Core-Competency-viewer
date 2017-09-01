@@ -15,6 +15,38 @@ $(document).ready(function() {
 
 		//scope variables
 		$scope.competencyArray = new Array();
+
+		$scope.loadDataCompetency = function () {
+			// $('#interactive').html('JavaScript detected...');
+			dataSource = new Array();
+			$http.get("../datasets/ebi-cp-competencies-base.json")
+			.then(function(res) {
+				// $('#interactive').html('Data fetched...');
+				dataSource = res.data;
+				// console.log(dataSource);
+				$('#interactiveCompetency').html(''); 
+
+				for (var i = 0; i < dataSource.length; i++) {
+					if (dataSource[i] != undefined) {
+						var detailsArray = new Array();
+						var competencyObj = new Competency();
+
+						for (var j = 0; j < dataSource[i].details.length; j++) {
+							var detail = new CompetencyDetail();
+							detail.construct(dataSource[i].details[j].type, dataSource[i].details[j].details);
+							detailsArray.push(detail);
+						}
+						competencyObj.construct(dataSource[i].id, dataSource[i].number, dataSource[i].name, detailsArray);
+
+						$scope.competencyArray.push(competencyObj);
+					}
+				}
+				// console.log($scope.competencyArray);
+			})
+			.catch(function(response) {
+				console.error('Competencies error', response.status);
+			});
+		}
 		
 		$scope.loadDataCompetencyDrupal = function () {
 			// $('#interactive').html('JavaScript detected...');
@@ -78,11 +110,6 @@ $(document).ready(function() {
 			.catch(function(response) {
 				console.error('Competencies error', response.status);
 			});
-		}
-
-		$scope.findCourses = function (number) {
-			// $scope.$parent.competencyNumber = "";
-			$scope.$parent.competencyNumber = number;
 		}
 
 	}]);
