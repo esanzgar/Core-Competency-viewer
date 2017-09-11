@@ -5,11 +5,11 @@
         "domain": "HADDOCK, GROMACS, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Tutorial",
-        "url": "http://www.bonvinlab.org/education/molmod/\nRelated data on Github: https://github.com/haddocking/molmod",
+        "url": "http://www.bonvinlab.org/education/molmod/",
         "provider": "Bonvin Lab",
         "providerUrl": "http://www.bonvinlab.org/",
         "bioexcelPartner": "UU",
-        "courseComments": "Related data on Github: https://github.com/haddocking/molmod"
+        "courseComments": "https://github.com/haddocking/molmod"
     },
     {
         "competencyMapping": "2.6",
@@ -17,11 +17,11 @@
         "domain": "HADDOCK, GROMACS, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Tutorial",
-        "url": "http://www.bonvinlab.org/education/molmod/\nRelated data on Github: https://github.com/haddocking/molmod",
+        "url": "http://www.bonvinlab.org/education/molmod/",
         "provider": "Bonvin Lab",
         "providerUrl": "http://www.bonvinlab.org/",
         "bioexcelPartner": "UU",
-        "courseComments": "Related data on Github: https://github.com/haddocking/molmod"
+        "courseComments": "https://github.com/haddocking/molmod"
     },
     {
         "competencyMapping": "2.5",
@@ -29,11 +29,11 @@
         "domain": "HADDOCK, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Tutorial",
-        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/\nRelated data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial",
+        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/",
         "provider": "Bonvin Lab",
         "providerUrl": "http://www.bonvinlab.org/",
         "bioexcelPartner": "UU",
-        "courseComments": "Related data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
+        "courseComments": "https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
     },
     {
         "competencyMapping": "2.6",
@@ -41,11 +41,11 @@
         "domain": "HADDOCK, Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Tutorial",
-        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/\nRelated data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial",
+        "url": "http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/",
         "provider": "Bonvin Lab",
         "providerUrl": "http://www.bonvinlab.org/",
         "bioexcelPartner": "UU",
-        "courseComments": "Related data on Github: https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
+        "courseComments": "https://github.com/haddocking/CASP-CAPRI-T70-tutorial"
     },
     {
         "competencyMapping": "2.5",
@@ -243,10 +243,11 @@
         "domain": "Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Online Tutorials / PDF",
-        "url": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorial\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialAnalysis\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialRun",
+        "url": "http://mmb.irbbarcelona.org/MDWeb/help.php?id=base",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf"
     },
     {
         "competencyMapping": "2.6",
@@ -254,10 +255,11 @@
         "domain": "Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Online Tutorials / PDF",
-        "url": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorial\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialAnalysis\nhttp://mmb.irbbarcelona.org/MDWeb/help.php?id=tutorialRun",
+        "url": "http://mmb.irbbarcelona.org/MDWeb/help.php?id=base",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": "http://mmb.irbbarcelona.org/MDWeb/htmlib/help/MDWeb_Tutorial.pdf"
     },
     {
         "competencyMapping": "2.5",
@@ -265,10 +267,11 @@
         "domain": "Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Online Tutorials / PDF",
-        "url": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
+        "url": "http://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf"
     },
     {
         "competencyMapping": "2.6",
@@ -276,10 +279,11 @@
         "domain": "Molecular Dynamics",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Online Tutorials / PDF",
-        "url": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf\nhttp://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
+        "url": "http://mmb.irbbarcelona.org/NAFlex/help.php?id=tutorials",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": "http://mmb.irbbarcelona.org/NAFlex/htmlib/help/NAFlex_Tutorial.pdf"
     },
     {
         "competencyMapping": "2.5",
@@ -529,7 +533,7 @@
         "domain": "HPC",
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.vi-hps.org/training",
-        "provider": "VI-HPS, The Virtual Institute – High Productivity Supercomputing\n",
+        "provider": "VI-HPS, The Virtual Institute – High Productivity Supercomputing",
         "providerUrl": "http://www.vi-hps.org"
     },
     {
@@ -582,10 +586,10 @@
         "domain": "HPC",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "online",
-        "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=15\nhttp://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=17",
+        "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=17",
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
-        "courseComments": "training portal material is partially years old and/or previous workshop material. Quality assessment by user would be helpful"
+        "courseComments": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=15"
     },
     {
         "competencyMapping": "4.3",
@@ -662,7 +666,7 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
     },
     {
         "competencyMapping": "4.4",
@@ -672,7 +676,7 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
     },
     {
         "competencyMapping": "4.5",
@@ -682,14 +686,14 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
     },
     {
         "competencyMapping": "4.3",
         "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
         "domain": "Programming, Workflows",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
+        "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
         "bioexcelPartner": "BSC"
@@ -699,7 +703,7 @@
         "name": "PATC@BSC - Programming Distributed Computing Platforms with COMPSs (Feb 2017)",
         "domain": "Programming, Workflows",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/patc-training/2015-23-27-nov-patc-parallel",
+        "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
         "bioexcelPartner": "BSC"
@@ -709,7 +713,7 @@
         "name": "PATC@BSC - HPC simulations for Science and Engineering",
         "domain": "HPC",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\n",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-hpc-based-simulations-engineering-and-environment-2",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -718,7 +722,7 @@
         "name": "PATC@BSC - Introduction to simulation environments for Life sciences (March 2017)",
         "domain": "Life Science",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/lifescience-patc",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-simulation-environments-life-sciences-2",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -727,7 +731,7 @@
         "name": "PATC@BSC - Introduction to simulation environments for Life sciences (March 2017)",
         "domain": "Life Science",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/lifescience-patc",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-simulation-environments-life-sciences-2",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -754,7 +758,7 @@
         "name": "PATC@BSC - PUMPS (July 2017)",
         "domain": "HPC",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school",
+        "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -763,7 +767,7 @@
         "name": "PATC@BSC - PUMPS (July 2017)",
         "domain": "HPC",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school",
+        "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -772,7 +776,7 @@
         "name": "PATC@BSC - PUMPS (July 2017)",
         "domain": "HPC",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/marenostrum-support-services/hpc-education-and-training/pumps-summer-school",
+        "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -781,7 +785,7 @@
         "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
         "domain": "Big Data",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -790,7 +794,7 @@
         "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
         "domain": "Big Data",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -799,7 +803,7 @@
         "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
         "domain": "Big Data",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -808,7 +812,7 @@
         "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
         "domain": "Big Data",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
@@ -817,7 +821,7 @@
         "name": "PATC@BSC - Big Data Analytics (Feb 2017)",
         "domain": "Big Data",
         "typeOnlineOrFacetoface": "face-to-face",
-        "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings\nhttp://www.bsc.es/big-data-analytics",
+        "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/"
     },
