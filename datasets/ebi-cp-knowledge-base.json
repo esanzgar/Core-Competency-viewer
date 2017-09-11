@@ -56,7 +56,8 @@
         "url": "https://www.youtube.com/watch?v=InwxoiVy3QQ",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "UU"
+        "bioexcelPartner": "UU",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -67,7 +68,8 @@
         "url": "https://www.youtube.com/watch?v=InwxoiVy3QQ",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "UU"
+        "bioexcelPartner": "UU",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -78,7 +80,8 @@
         "url": "https://www.youtube.com/watch?v=5eS8BAOJ6es",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "UU"
+        "bioexcelPartner": "UU",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -89,7 +92,8 @@
         "url": "https://www.youtube.com/watch?v=5eS8BAOJ6es",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "UU"
+        "bioexcelPartner": "UU",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -100,7 +104,8 @@
         "url": "http://cpmd.org/cpmd-tutorial",
         "provider": "CPMD",
         "providerUrl": "http://cpmd.org/",
-        "bioexcelPartner": "Juelich"
+        "bioexcelPartner": "Juelich",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -111,7 +116,8 @@
         "url": "http://cpmd.org/cpmd-tutorial",
         "provider": "CPMD",
         "providerUrl": "http://cpmd.org/",
-        "bioexcelPartner": "Juelich"
+        "bioexcelPartner": "Juelich",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.2",
@@ -131,7 +137,8 @@
         "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
         "provider": "Archer",
         "providerUrl": "https://www.archer.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -141,7 +148,8 @@
         "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
         "provider": "Archer",
         "providerUrl": "https://www.archer.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -151,7 +159,8 @@
         "url": "https://www.archer.ac.uk/training/course-material/online/index.php",
         "provider": "Archer",
         "providerUrl": "https://www.archer.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.7",
@@ -162,7 +171,8 @@
         "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
         "provider": "University of Edinburgh",
         "providerUrl": "http://www.ed.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -173,7 +183,8 @@
         "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
         "provider": "University of Edinburgh",
         "providerUrl": "http://www.ed.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -184,7 +195,8 @@
         "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
         "provider": "University of Edinburgh",
         "providerUrl": "http://www.ed.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -195,7 +207,8 @@
         "url": "http://www.drps.ed.ac.uk/15-16/dpt/cxpgph11093.htm",
         "provider": "University of Edinburgh",
         "providerUrl": "http://www.ed.ac.uk/",
-        "bioexcelPartner": "UEDIN"
+        "bioexcelPartner": "UEDIN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -206,7 +219,8 @@
         "url": "http://www.gromacs.org/Documentation/Tutorials",
         "provider": "GROMACS",
         "providerUrl": "http://www.gromacs.org/",
-        "bioexcelPartner": "KTH"
+        "bioexcelPartner": "KTH",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -217,7 +231,8 @@
         "url": "http://www.gromacs.org/Documentation/Tutorials",
         "provider": "GROMACS",
         "providerUrl": "http://www.gromacs.org/",
-        "bioexcelPartner": "KTH"
+        "bioexcelPartner": "KTH",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -226,7 +241,8 @@
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Journal Paper",
         "url": "https://doi.org/10.1002/jcc.24030",
-        "bioexcelPartner": "KTH"
+        "bioexcelPartner": "KTH",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -235,7 +251,8 @@
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Journal Paper",
         "url": "https://doi.org/10.1002/jcc.24030",
-        "bioexcelPartner": "KTH"
+        "bioexcelPartner": "KTH",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -294,7 +311,8 @@
         "url": "http://mmb.irbbarcelona.org/FlexServ/tutorial.php",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -305,7 +323,8 @@
         "url": "http://mmb.irbbarcelona.org/FlexServ/tutorial.php",
         "provider": "IRB, Institute for Research in Biomedicine",
         "providerUrl": "https://www.irbbarcelona.org/en",
-        "bioexcelPartner": "IRB"
+        "bioexcelPartner": "IRB",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -316,7 +335,8 @@
         "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -327,7 +347,8 @@
         "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -338,7 +359,8 @@
         "url": "http://www.bsc.es/computer-sciences/grid-computing/comp-superscalar/downloads-and-documentation",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -349,7 +371,8 @@
         "url": "https://www.youtube.com/channel/UCxx5hojMjCNqKRJclMaJbHQ",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -360,7 +383,8 @@
         "url": "https://www.youtube.com/channel/UCxx5hojMjCNqKRJclMaJbHQ",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -382,7 +406,8 @@
         "url": "https://taverna.incubator.apache.org/documentation/",
         "provider": "Apache Taverna",
         "providerUrl": "https://taverna.incubator.apache.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -393,7 +418,8 @@
         "url": "http://dev.mygrid.org.uk/wiki/display/developer/Developers+Guide",
         "provider": "Apache Taverna",
         "providerUrl": "https://taverna.incubator.apache.org/",
-        "bioexcelPartner": "UNIMAN"
+        "bioexcelPartner": "UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -404,7 +430,8 @@
         "url": "https://github.com/taverna/taverna-tutorials",
         "provider": "Apache Taverna",
         "providerUrl": "https://taverna.incubator.apache.org/",
-        "bioexcelPartner": "UNIMAN"
+        "bioexcelPartner": "UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -415,7 +442,8 @@
         "url": "http://www.commonwl.org/draft-3/UserGuide.html",
         "provider": "CWL, Common Workflow Language",
         "providerUrl": "http://www.commonwl.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -426,7 +454,8 @@
         "url": "https://www.youtube.com/watch?v=8XV0kC7PuSU",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "UNIMAN"
+        "bioexcelPartner": "UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -437,7 +466,8 @@
         "url": "https://www.youtube.com/playlist?list=PLQ_ieWFru1xHMUoWtHypLvbVjZLoQMev3",
         "provider": "YouTube",
         "providerUrl": "https://www.youtube.com",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -448,7 +478,8 @@
         "url": "http://support.openphacts.org/support/home",
         "provider": "Open PHACTS",
         "providerUrl": "https://www.openphacts.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -459,7 +490,8 @@
         "url": "https://dev.openphacts.org/docs",
         "provider": "Open PHACTS",
         "providerUrl": "https://www.openphacts.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -470,7 +502,8 @@
         "url": "https://dev.openphacts.org/resources",
         "provider": "Open PHACTS",
         "providerUrl": "https://www.openphacts.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -481,7 +514,8 @@
         "url": "http://openphacts.github.io/ops.js/Openphacts.html",
         "provider": "Open PHACTS",
         "providerUrl": "https://www.openphacts.org/",
-        "bioexcelPartner": "UNIMAN"
+        "bioexcelPartner": "UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -492,7 +526,8 @@
         "url": "http://www.myexperiment.org/groups/1125",
         "provider": "Open PHACTS",
         "providerUrl": "https://www.openphacts.org/",
-        "bioexcelPartner": "External, UNIMAN"
+        "bioexcelPartner": "External, UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -503,7 +538,8 @@
         "url": "http://www.myexperiment.org/packs/609",
         "provider": "Apache Taverna",
         "providerUrl": "https://taverna.incubator.apache.org/",
-        "bioexcelPartner": "UNIMAN"
+        "bioexcelPartner": "UNIMAN",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -514,7 +550,8 @@
         "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
         "provider": "Das Max-Planck-Institut für biophysikalische Chemie",
         "providerUrl": "http://www.mpibpc.mpg.de/de",
-        "bioexcelPartner": "KTH, MPG, External"
+        "bioexcelPartner": "KTH, MPG, External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -525,7 +562,8 @@
         "url": "http://www.mpibpc.mpg.de/grubmueller/gromacs2016",
         "provider": "Das Max-Planck-Institut für biophysikalische Chemie",
         "providerUrl": "http://www.mpibpc.mpg.de/de",
-        "bioexcelPartner": "KTH, MPG, External"
+        "bioexcelPartner": "KTH, MPG, External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -534,7 +572,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.vi-hps.org/training",
         "provider": "VI-HPS, The Virtual Institute – High Productivity Supercomputing",
-        "providerUrl": "http://www.vi-hps.org"
+        "providerUrl": "http://www.vi-hps.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.7",
@@ -545,7 +584,8 @@
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
         "startDate": "2016-07-10T23:00:00.000Z",
-        "endDate": "2016-07-11T23:00:00.000Z"
+        "endDate": "2016-07-11T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -556,7 +596,8 @@
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
         "startDate": "2016-07-10T23:00:00.000Z",
-        "endDate": "2016-07-11T23:00:00.000Z"
+        "endDate": "2016-07-11T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -567,7 +608,8 @@
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
         "startDate": "2016-07-10T23:00:00.000Z",
-        "endDate": "2016-07-11T23:00:00.000Z"
+        "endDate": "2016-07-11T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -578,7 +620,8 @@
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
         "startDate": "2016-07-10T23:00:00.000Z",
-        "endDate": "2016-07-11T23:00:00.000Z"
+        "endDate": "2016-07-11T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -599,7 +642,8 @@
         "typeDetail": "online",
         "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=33",
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
-        "providerUrl": "http://www.prace-ri.eu/"
+        "providerUrl": "http://www.prace-ri.eu/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -609,7 +653,8 @@
         "typeDetail": "online",
         "url": "http://www.training.prace-ri.eu/training_material/?tx_pracetmo_pi1[category]=1",
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
-        "providerUrl": "http://www.prace-ri.eu/"
+        "providerUrl": "http://www.prace-ri.eu/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5 ",
@@ -620,7 +665,8 @@
         "provider": "PRACE, Partnership for Advanced Computing in Europe",
         "providerUrl": "http://www.prace-ri.eu/",
         "startDate": "2016-07-05T23:00:00.000Z",
-        "endDate": "2016-07-07T23:00:00.000Z"
+        "endDate": "2016-07-07T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -629,7 +675,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -638,7 +685,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -647,7 +695,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -656,7 +705,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -666,7 +716,7 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -676,7 +726,7 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -686,7 +736,7 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        // "courseComments": "Part 1: Performance Analysis and Tools (Paraver)\r\nPart 2: Heterogeneous Programming on GPU with MPI(OMPSs)\r\nPart 3: ARM-based Architectures"
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -696,7 +746,8 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -706,7 +757,8 @@
         "url": "https://www.bsc.es/education/training/patc-courses",
         "provider": "BSC, Barcelona Supercomputing Center",
         "providerUrl": "https://www.bsc.es/",
-        "bioexcelPartner": "BSC"
+        "bioexcelPartner": "BSC",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -715,7 +767,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-hpc-based-simulations-engineering-and-environment-2",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -724,7 +777,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-simulation-environments-life-sciences-2",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -733,7 +787,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-simulation-environments-life-sciences-2",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -742,7 +797,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -751,7 +807,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.bsc.es/marenostrum-support-services/hpc-trainings/prace-trainings",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -760,7 +817,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -769,7 +827,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -778,7 +837,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/research-and-development/projects/summer-school-pumps-summer-school-pumps-2013-2017",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -787,7 +847,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -796,7 +857,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.9",
@@ -805,7 +867,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -814,7 +877,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.11",
@@ -823,7 +887,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "https://www.bsc.es/education/training/patc-courses/patc-course-big-data-analytics",
         "provider": "BSC, Barcelona Supercomputing Center",
-        "providerUrl": "https://www.bsc.es/"
+        "providerUrl": "https://www.bsc.es/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.3",
@@ -834,7 +899,8 @@
         "url": "https://www.on-course.eu/courses/media-and-communications-training-masterclass-for-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -845,7 +911,8 @@
         "url": "https://www.on-course.eu/courses/media-and-communications-training-masterclass-for-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.12",
@@ -856,7 +923,8 @@
         "url": "http://www.government-knowledge.com/seminar/1876/",
         "provider": "Government Knowledge",
         "providerUrl": "http://www.government-knowledge.com",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -867,7 +935,8 @@
         "url": "https://www.coursera.org/course/sciwrite",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -878,7 +947,8 @@
         "url": "https://www.coursera.org/learn/how-to-write-a-scientific-paper",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -889,7 +959,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.7",
@@ -900,7 +971,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -911,7 +983,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -922,7 +995,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -933,7 +1007,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -944,7 +1019,8 @@
         "url": "https://www.coursera.org/specializations/cloud-computing",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -955,7 +1031,8 @@
         "url": "https://www.coursera.org/specializations/machine-learning",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -966,7 +1043,8 @@
         "url": "https://www.coursera.org/specializations/data-mining",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -977,7 +1055,8 @@
         "url": "https://www.coursera.org/specializations/data-mining",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -988,7 +1067,8 @@
         "url": "https://www.coursera.org/specializations/jhu-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -999,7 +1079,8 @@
         "url": "https://www.coursera.org/specializations/jhu-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.5",
@@ -1010,7 +1091,8 @@
         "url": "https://www.coursera.org/specializations/jhu-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -1021,7 +1103,8 @@
         "url": "https://www.coursera.org/specializations/data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.7",
@@ -1032,7 +1115,8 @@
         "url": "https://www.coursera.org/specializations/data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -1043,7 +1127,8 @@
         "url": "https://www.coursera.org/specializations/data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -1054,7 +1139,8 @@
         "url": "https://www.coursera.org/specializations/data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -1065,7 +1151,8 @@
         "url": "https://www.coursera.org/specializations/data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -1076,7 +1163,8 @@
         "url": "https://www.coursera.org/specializations/bigdata",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -1087,7 +1175,8 @@
         "url": "https://www.coursera.org/specializations/bigdata",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -1098,7 +1187,8 @@
         "url": "https://www.coursera.org/specializations/bigdata",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1109,7 +1199,8 @@
         "url": "https://www.coursera.org/specializations/data-structures-algorithms",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -1131,7 +1222,8 @@
         "url": "https://www.coursera.org/specializations/data-structures-algorithms",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.5",
@@ -1142,7 +1234,8 @@
         "url": "https://www.coursera.org/learn/user-research",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1153,7 +1246,8 @@
         "url": "https://www.coursera.org/learn/bioinformatics",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1164,7 +1258,8 @@
         "url": "https://www.coursera.org/learn/bioinformatics",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1175,7 +1270,8 @@
         "url": "https://www.coursera.org/specializations/computer-fundamentals",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1186,7 +1282,8 @@
         "url": "https://www.coursera.org/specializations/computational-biology",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1197,7 +1294,8 @@
         "url": "https://www.coursera.org/specializations/computational-biology",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -1208,7 +1306,8 @@
         "url": "https://www.coursera.org/specializations/agile-development",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1219,7 +1318,8 @@
         "url": "https://www.coursera.org/specializations/genomic-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1230,7 +1330,8 @@
         "url": "https://www.coursera.org/specializations/genomic-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -1241,7 +1342,8 @@
         "url": "https://www.coursera.org/specializations/genomic-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -1252,7 +1354,8 @@
         "url": "https://www.coursera.org/specializations/genomic-data-science",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1263,7 +1366,8 @@
         "url": "https://www.coursera.org/course/hwswinterface",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -1274,7 +1378,8 @@
         "url": "https://www.coursera.org/course/hwswinterface",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -1285,7 +1390,8 @@
         "url": "https://www.coursera.org/learn/build-a-computer",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -1296,7 +1402,8 @@
         "url": "https://www.coursera.org/learn/build-a-computer",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.6",
@@ -1307,7 +1414,8 @@
         "url": "https://www.coursera.org/learn/build-a-computer",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "bioexcelPartner": "External"
+        "bioexcelPartner": "External",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -1317,7 +1425,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/parprog1",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -1327,7 +1436,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/parprog1",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -1337,7 +1447,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/parprog1",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -1347,7 +1458,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/python-genomics",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.5",
@@ -1357,7 +1469,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/python-genomics",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1367,7 +1480,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/genomic-tools",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -1377,7 +1491,8 @@
         "typeDetail": "online",
         "url": "https://www.coursera.org/learn/genomic-tools",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1387,7 +1502,8 @@
         "url": "http://www.embl.de/training/events/2016/HYB16-01/",
         "provider": "EMBL",
         "startDate": "2016-11-20T00:00:00.000Z",
-        "endDate": "2016-11-23T00:00:00.000Z"
+        "endDate": "2016-11-23T00:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.2",
@@ -1518,7 +1634,8 @@
         "typeDetail": "online ",
         "url": "https://www.coursera.org/learn/r-programming",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.5",
@@ -1528,7 +1645,8 @@
         "typeDetail": "online ",
         "url": "https://www.coursera.org/learn/r-programming",
         "provider": "coursera",
-        "providerUrl": "https://www.coursera.org"
+        "providerUrl": "https://www.coursera.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.5",
@@ -1635,7 +1753,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.5",
@@ -1644,7 +1763,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -1653,7 +1773,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -1662,7 +1783,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -1671,7 +1793,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -1680,7 +1803,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.5",
@@ -1689,7 +1813,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.6",
@@ -1698,7 +1823,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://software-carpentry.org/",
         "provider": "Software Carpentry",
-        "providerUrl": "http://software-carpentry.org/"
+        "providerUrl": "http://software-carpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2105,7 +2231,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.datacarpentry.org/",
         "provider": "Data Carpentry",
-        "providerUrl": "http://www.datacarpentry.org/"
+        "providerUrl": "http://www.datacarpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -2114,7 +2241,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.datacarpentry.org/",
         "provider": "Data Carpentry",
-        "providerUrl": "http://www.datacarpentry.org/"
+        "providerUrl": "http://www.datacarpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2123,7 +2251,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.datacarpentry.org/",
         "provider": "Data Carpentry",
-        "providerUrl": "http://www.datacarpentry.org/"
+        "providerUrl": "http://www.datacarpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.5",
@@ -2132,7 +2261,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.datacarpentry.org/",
         "provider": "Data Carpentry",
-        "providerUrl": "http://www.datacarpentry.org/"
+        "providerUrl": "http://www.datacarpentry.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.4",
@@ -2171,7 +2301,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.knime.org/training",
         "provider": "KNIME",
-        "providerUrl": "http://www.knime.org"
+        "providerUrl": "http://www.knime.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2180,7 +2311,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.knime.org/training",
         "provider": "KNIME",
-        "providerUrl": "http://www.knime.org"
+        "providerUrl": "http://www.knime.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2189,7 +2321,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.knime.org/training",
         "provider": "KNIME",
-        "providerUrl": "http://www.knime.org"
+        "providerUrl": "http://www.knime.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2198,7 +2331,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.knime.org/training",
         "provider": "KNIME",
-        "providerUrl": "http://www.knime.org"
+        "providerUrl": "http://www.knime.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.1",
@@ -2207,7 +2341,8 @@
         "typeOnlineOrFacetoface": "face-to-face",
         "url": "http://www.knime.org/training",
         "provider": "KNIME",
-        "providerUrl": "http://www.knime.org"
+        "providerUrl": "http://www.knime.org",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2261,7 +2396,8 @@
         "typeDetail": "online",
         "url": "http://www.ebi.ac.uk/training/online/course/biomedical-data-ethical-legal-and-social-implicati",
         "provider": "EMBL-EBI",
-        "providerUrl": "http://www.ebi.ac.uk"
+        "providerUrl": "http://www.ebi.ac.uk",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.5",
@@ -2271,7 +2407,8 @@
         "typeDetail": "online",
         "url": "http://www.ebi.ac.uk/training/online/course/user-experience-design",
         "provider": "EMBL-EBI",
-        "providerUrl": "http://www.ebi.ac.uk"
+        "providerUrl": "http://www.ebi.ac.uk",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.12",
@@ -2281,7 +2418,8 @@
         "typeDetail": "online",
         "url": "http://www.ebi.ac.uk/training/online/course/europe-pmc-quick-tour-0",
         "provider": "EMBL-EBI",
-        "providerUrl": "http://www.ebi.ac.uk"
+        "providerUrl": "http://www.ebi.ac.uk",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2291,7 +2429,8 @@
         "typeDetail": "online",
         "url": "http://www.ebi.ac.uk/training/online/course/text-mining-key-concepts-and-applications",
         "provider": "EMBL-EBI",
-        "providerUrl": "http://www.ebi.ac.uk"
+        "providerUrl": "http://www.ebi.ac.uk",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.4",
@@ -2299,7 +2438,8 @@
         "domain": "Licensing, Programming, Best Practice",
         "typeOnlineOrFacetoface": "online",
         "typeDetail": "Journal paper",
-        "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406002/"
+        "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406002/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.4",
@@ -2308,7 +2448,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "http://www.software.ac.uk/resources/guides/adopting-open-source-licence",
         "provider": "Software Sustainability Institute",
-        "providerUrl": "http://www.software.ac.uk"
+        "providerUrl": "http://www.software.ac.uk",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.2",
@@ -2317,7 +2458,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "http://www.cgl.ucsf.edu/Resources/pbs/user_guide.html",
         "provider": "University of California San Francisco",
-        "providerUrl": "http://www.ucsf.edu/"
+        "providerUrl": "http://www.ucsf.edu/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.2",
@@ -2326,7 +2468,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "http://cbi.utsa.edu/book/export/html/29",
         "provider": "The University of Texas at San Antonio",
-        "providerUrl": "http://www.utsa.edu/"
+        "providerUrl": "http://www.utsa.edu/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.2",
@@ -2335,7 +2478,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.uibk.ac.at/zid/systeme/hpc-systeme/common/tutorials/sge-howto.html",
         "provider": "Universität Innsbruck",
-        "providerUrl": "https://www.uibk.ac.at/"
+        "providerUrl": "https://www.uibk.ac.at/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2347,7 +2491,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-01T23:00:00.000Z",
         "endDate": "2017-07-10T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2359,7 +2504,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-01T23:00:00.000Z",
         "endDate": "2017-07-10T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2371,7 +2517,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-01T23:00:00.000Z",
         "endDate": "2017-07-10T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2383,7 +2530,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-07T23:00:00.000Z",
         "endDate": "2017-05-16T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2395,7 +2543,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-07T23:00:00.000Z",
         "endDate": "2017-05-16T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2407,7 +2556,8 @@
         "providerUrl": "http://www.city.ac.uk",
         "startDate": "2017-05-07T23:00:00.000Z",
         "endDate": "2017-05-16T23:00:00.000Z",
-        "bioexcelPartner": "(10w in London)"
+        "bioexcelPartner": "(10w in London)",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2416,7 +2566,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://training.linuxfoundation.org/linux-courses",
         "provider": "The Linux Foundation",
-        "providerUrl": "https://www.linuxfoundation.org/"
+        "providerUrl": "https://www.linuxfoundation.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2425,7 +2576,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://training.linuxfoundation.org/linux-courses",
         "provider": "The Linux Foundation",
-        "providerUrl": "https://www.linuxfoundation.org/"
+        "providerUrl": "https://www.linuxfoundation.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2434,7 +2586,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://training.linuxfoundation.org/linux-courses",
         "provider": "The Linux Foundation",
-        "providerUrl": "https://www.linuxfoundation.org/"
+        "providerUrl": "https://www.linuxfoundation.org/",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2443,7 +2596,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -2452,7 +2606,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/writing-readmes--ud777",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2461,7 +2616,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/writing-readmes--ud777",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.5",
@@ -2470,7 +2626,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/ux-design-for-mobile-developers--ud849",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2479,7 +2636,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/introduction-to-operating-systems--ud923",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -2488,7 +2646,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/advanced-operating-systems--ud189",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2497,7 +2656,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/advanced-operating-systems--ud189",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -2506,7 +2666,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/advanced-operating-systems--ud189",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2515,7 +2676,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-development-process--ud805",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -2533,7 +2695,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/high-performance-computer-architecture--ud007",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -2542,7 +2705,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/high-performance-computing--ud281",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.4",
@@ -2551,7 +2715,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/high-performance-computing--ud281",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.5",
@@ -2560,7 +2725,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/high-performance-computing--ud281",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2569,7 +2735,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -2578,7 +2745,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2587,7 +2755,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/computability-complexity-algorithms--ud061",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2596,7 +2765,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/gt-refresher-advanced-os--ud098",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -2605,7 +2775,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/computer-networking--ud436",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2614,7 +2785,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/computer-networking--ud436",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2623,7 +2795,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/linux-command-line-basics--ud595",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "1.5",
@@ -2632,7 +2805,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/product-design--ud509",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -2641,7 +2815,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/data-visualization-and-d3js--ud507",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -2650,7 +2825,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.10",
@@ -2659,7 +2835,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -2668,7 +2845,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-data-analysis--ud170",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.3",
@@ -2677,7 +2855,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/data-analysis-with-r--ud651",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2686,7 +2865,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-machine-learning--ud120",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2695,7 +2875,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/deep-learning--ud730",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2704,7 +2885,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-devops--ud611",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2713,7 +2895,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-devops--ud611",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2722,7 +2905,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-computer-science--cs101",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2731,7 +2915,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-computer-science--cs101",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2740,7 +2925,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2749,7 +2935,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.3",
@@ -2758,7 +2945,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/configuring-linux-web-servers--ud299",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2767,7 +2955,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/configuring-linux-web-servers--ud299",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2776,7 +2965,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/xcode-debugging--ud774",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2785,7 +2975,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/xcode-debugging--ud774",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "4.3",
@@ -2794,7 +2985,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-parallel-programming--cs344",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.1",
@@ -2803,7 +2995,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-testing--cs258",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2812,7 +3005,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-testing--cs258",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2821,7 +3015,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-testing--cs258",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2830,7 +3025,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-algorithms--cs215",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2839,7 +3035,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/design-of-computer-programs--cs212",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2848,7 +3045,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-debugging--cs259",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.7",
@@ -2857,7 +3055,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/software-debugging--cs259",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.1",
@@ -2866,7 +3065,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.2",
@@ -2875,7 +3075,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.4",
@@ -2884,7 +3085,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/java-programming-basics--ud282",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2893,7 +3095,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/machine-learning-supervised-learning--ud675",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2902,7 +3105,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/machine-learning-unsupervised-learning--ud741",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.8",
@@ -2911,7 +3115,8 @@
         "typeOnlineOrFacetoface": "online",
         "url": "https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820",
         "provider": "Udacity",
-        "providerUrl": "https://www.udacity.com"
+        "providerUrl": "https://www.udacity.com",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2922,7 +3127,8 @@
         "provider": "EGI",
         "providerUrl": "https://www.egi.eu",
         "startDate": "2017-06-06T23:00:00.000Z",
-        "endDate": "2017-06-08T23:00:00.000Z"
+        "endDate": "2017-06-08T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2933,7 +3139,8 @@
         "provider": "EGI",
         "providerUrl": "https://www.egi.eu",
         "startDate": "2017-06-05T23:00:00.000Z",
-        "endDate": "2017-06-06T23:00:00.000Z"
+        "endDate": "2017-06-06T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "3.8",
@@ -2944,7 +3151,8 @@
         "provider": "EGI",
         "providerUrl": "https://www.egi.eu",
         "startDate": "2017-06-18T23:00:00.000Z",
-        "endDate": "2017-06-20T23:00:00.000Z"
+        "endDate": "2017-06-20T23:00:00.000Z",
+        "courseComments": ""
     },
     {
         "competencyMapping": "2.13",
@@ -2953,6 +3161,7 @@
         "typeOnlineOrFacetoface": "online",
         "url": "http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are",
         "provider": "TED",
-        "providerUrl": "http://www.ted.com"
+        "providerUrl": "http://www.ted.com",
+        "courseComments": ""
     }
 ]
