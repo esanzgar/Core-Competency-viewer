@@ -1514,7 +1514,7 @@
         "url": "https://www.on-course.eu/courses/chembl-exploring-bioactive-drug-like-molecules/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1525,7 +1525,7 @@
         "url": "https://www.on-course.eu/courses/pdbechem-searching-for-small-molecules-and-small-m/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1535,7 +1535,7 @@
         "url": "https://www.on-course.eu/courses/embo-practical-course-on-computational-structural-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1547,7 +1547,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "2017-07-08T23:00:00.000Z",
         "endDate": "2017-07-14T23:00:00.000Z",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1558,7 +1558,7 @@
         "url": "https://www.on-course.eu/courses/cheminformatics/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Synergix"
+        "courseComments": "https://www.synergix.com/"
     },
     {
         "competencyMapping": "2.2",
@@ -1569,7 +1569,7 @@
         "url": "https://www.on-course.eu/courses/structural-bioinformatics/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Synergix"
+        "courseComments": "https://www.synergix.com/"
     },
     {
         "competencyMapping": "2.2",
@@ -1580,7 +1580,7 @@
         "url": "https://www.on-course.eu/courses/drug-design/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Synergix"
+        "courseComments": "https://www.synergix.com/"
     },
     {
         "competencyMapping": "2.2",
@@ -1591,7 +1591,7 @@
         "url": "https://www.on-course.eu/courses/practical-drug-discovery-case-studies/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Synergix"
+        "courseComments": "https://www.synergix.com/"
     },
     {
         "competencyMapping": "2.2",
@@ -1602,7 +1602,7 @@
         "url": "https://www.on-course.eu/courses/medicinal-chemistry-n2/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Synergix"
+        "courseComments": "https://www.synergix.com/"
     },
     {
         "competencyMapping": "2.1",
@@ -1613,7 +1613,7 @@
         "url": "https://www.coursera.org/specializations/python",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "courseComments": "Coursera"
+        "courseComments": "https://www.coursera.org/"
     },
     {
         "competencyMapping": "2.3",
@@ -1624,7 +1624,7 @@
         "url": "https://www.coursera.org/specializations/python",
         "provider": "coursera",
         "providerUrl": "https://www.coursera.org",
-        "courseComments": "Coursera"
+        "courseComments": "https://www.coursera.org/"
     },
     {
         "competencyMapping": "2.3",
@@ -1657,7 +1657,7 @@
         "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "3.1",
@@ -1668,7 +1668,7 @@
         "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "3.4",
@@ -1679,7 +1679,7 @@
         "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "3.5",
@@ -1690,7 +1690,7 @@
         "url": "https://www.on-course.eu/courses/computing-skills-for-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1701,7 +1701,7 @@
         "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.9",
@@ -1712,7 +1712,7 @@
         "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.12",
@@ -1723,7 +1723,7 @@
         "url": "https://www.on-course.eu/courses/introduction-to-modelling-biological-systems/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1744,7 +1744,7 @@
         "url": "https://www.on-course.eu/courses/structure-determination-of-drug-targets/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "1.3",
@@ -1835,7 +1835,7 @@
         "url": "https://www.on-course.eu/courses/databases-data-modelling/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.10",
@@ -1846,7 +1846,7 @@
         "url": "https://www.on-course.eu/courses/databases-data-modelling/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1858,7 +1858,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -1870,7 +1870,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.10",
@@ -1882,7 +1882,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1893,7 +1893,7 @@
         "url": "https://www.on-course.eu/courses/pdbe-searching-the-protein-data-bank/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.9",
@@ -1904,7 +1904,7 @@
         "url": "https://www.on-course.eu/courses/pdbe-searching-the-protein-data-bank/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1915,7 +1915,7 @@
         "url": "https://www.on-course.eu/courses/chebi-the-online-chemical-dictionary-for-small-mol/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1926,7 +1926,7 @@
         "url": "https://www.on-course.eu/courses/chebi-the-online-chemical-dictionary-for-small-mol/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "1.1",
@@ -1937,7 +1937,7 @@
         "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "1.4",
@@ -1948,7 +1948,7 @@
         "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.12",
@@ -1959,7 +1959,7 @@
         "url": "https://www.on-course.eu/courses/professional-skills-in-drug-discovery/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "3.1",
@@ -1970,7 +1970,7 @@
         "url": "https://www.on-course.eu/courses/system-design-analysis-using-uml/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -1981,7 +1981,7 @@
         "url": "https://www.on-course.eu/courses/measuring-drug-binding/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -1993,7 +1993,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.10",
@@ -2005,7 +2005,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2017,7 +2017,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "Lancaster University"
+        "courseComments": "http://www.lancaster.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -2029,7 +2029,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "Lancaster University"
+        "courseComments": "http://www.lancaster.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2041,7 +2041,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "Lancaster University"
+        "courseComments": "http://www.lancaster.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -2053,7 +2053,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "Lancaster University"
+        "courseComments": "http://www.lancaster.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2064,7 +2064,7 @@
         "url": "https://www.on-course.eu/courses/uniprot-exploring-protein-sequence-and-functional-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.9",
@@ -2075,7 +2075,7 @@
         "url": "https://www.on-course.eu/courses/uniprot-exploring-protein-sequence-and-functional-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -2087,7 +2087,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.12",
@@ -2099,7 +2099,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2134,7 +2134,7 @@
         "url": "https://www.on-course.eu/courses/pdbe-exploring-a-protein-data-bank-pdb-entry/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.9",
@@ -2145,7 +2145,7 @@
         "url": "https://www.on-course.eu/courses/pdbe-exploring-a-protein-data-bank-pdb-entry/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2156,7 +2156,7 @@
         "url": "https://www.on-course.eu/courses/bioinformatics-for-systems-biology/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.9",
@@ -2167,7 +2167,7 @@
         "url": "https://www.on-course.eu/courses/bioinformatics-for-systems-biology/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2178,7 +2178,7 @@
         "url": "https://www.on-course.eu/courses/principles-of-protein-structure/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Birkbeck, University of London"
+        "courseComments": "http://www.bbk.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2189,7 +2189,7 @@
         "url": "https://www.on-course.eu/courses/pdbepisa-identifying-and-interpreting-the-likely-b/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2200,7 +2200,7 @@
         "url": "https://www.on-course.eu/courses/pdbefold-searching-for-structural-homologues-of-a-/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "EMBL-European Bioinformatics Institute"
+        "courseComments": "http://www.ebi.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2211,7 +2211,7 @@
         "url": "https://www.on-course.eu/courses/druggable-systems/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "University of Edinburgh"
+        "courseComments": "http://www.ed.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2222,7 +2222,7 @@
         "url": "https://www.on-course.eu/courses/techniques-in-structural-molecular-biology/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "Birkbeck, University of London"
+        "courseComments": "http://www.bbk.ac.uk/"
     },
     {
         "competencyMapping": "2.3",
@@ -2352,7 +2352,7 @@
         "url": "https://www.on-course.eu/courses/mathematics-for-metabolic-modelling/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.2",
@@ -2362,7 +2362,7 @@
         "url": "https://www.on-course.eu/courses/mathematics-for-metabolic-modelling/",
         "provider": "on-course",
         "providerUrl": "https://www.on-course.eu/",
-        "courseComments": "The University of Manchester"
+        "courseComments": "http://www.manchester.ac.uk/"
     },
     {
         "competencyMapping": "2.8",
@@ -2374,7 +2374,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "Lancaster University"
+        "courseComments": "http://www.lancaster.ac.uk/"
     },
     {
         "competencyMapping": "1.3",
@@ -2386,7 +2386,7 @@
         "providerUrl": "https://www.on-course.eu/",
         "startDate": "tba",
         "endDate": "tba",
-        "courseComments": "ICR -The Institute of Clinical Research"
+        "courseComments": "http://www.icr-global.org/"
     },
     {
         "competencyMapping": "1.2",
@@ -3006,6 +3006,7 @@
         "url": "https://www.udacity.com/course/software-testing--cs258",
         "provider": "Udacity",
         "providerUrl": "https://www.udacity.com",
+        
         "courseComments": ""
     },
     {
