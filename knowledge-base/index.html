@@ -127,8 +127,11 @@
 																			<span> 
 																				{{ obj.name }}
 																			</span>
+																			<div ng-show="obj.startDate.length > 0 && obj.typeOnlineOrFacetoface=='face-to-face'">
+																				<div style="font-size: x-small;">Start date: {{ obj.startDate | date}}</div>
+																				<div style="font-size: x-small;">End date: {{ obj.endDate | date }}</div>
+																			</div>
 																			<div ng-show="obj.courseComments.length > 0 && obj.typeOnlineOrFacetoface=='online'">
-																				<div></div>
 																				<div style="font-size: x-small;">Related data: <a data-ng-href="{{ obj.courseComments }}" target="_blank">{{ obj.courseComments }}</a></div>
 																			</div>
 																		</div>
@@ -165,7 +168,7 @@
 										<div id="tooltip_content">
 											<p style="text-align:left;">
 												<strong>Competency {{ competencyNumberSelected }}</strong><br>{{ competencyNameSelected }}<br>
-												<a data-ng-href="../competency_profile/" data-ng-click="$parent.seeCompetency(competencyNumberSelected)">See more</a>
+												<a data-ng-href="../core-competency/#{{ competencyNumberSelected }}" data-ng-click="$parent.seeCompetency(competencyNumberSelected)">See more</a>
 											</p>
 										</div>
 									</div>

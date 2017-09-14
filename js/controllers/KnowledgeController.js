@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$scope.selectFaceToFace = true;
 		$scope.competencyNumberSelected = "";
 		$scope.competencyNameSelected = "";
-		$scope.competencyNumber ="";
+		$scope.competencyNumber = "";
 		
 		$scope.$watch("competencyNumber", function () {
 			$scope.filteredCourses = $filter('filter')($scope.knowledgeArray, {competencyMapping: {number:$scope.competencyNumber}});
@@ -56,7 +56,7 @@ $(document).ready(function() {
 								dataSource[i].competencyMapping += ', ' + dataSource[j].competencyMapping;
 								// remove duplicate entry
 								dataSource[j] = undefined;
-							} 
+							}
 						}
 					}
 				}
@@ -69,9 +69,17 @@ $(document).ready(function() {
 						var knowledgeObj = new Knowledge();
 
 						domainsArrayVar = dataSource[i].domain.split(', ');
-						competencyMappingArray = dataSource[i].competencyMapping.split(', ')
+						competencyMappingArray = dataSource[i].competencyMapping.split(', ');
 
 						knowledgeObj.construct(i, dataSource[i].name, competencyMappingArray, domainsArrayVar, dataSource[i].typeOnlineOrFacetoface, dataSource[i].typeDetail, dataSource[i].url, dataSource[i].courseComments);
+
+						if (dataSource[i].startDate != "") {
+							knowledgeObj.setStartDate(dataSource[i].startDate);
+						}
+
+						if (dataSource[i].endDate != "") {
+							knowledgeObj.setEndDate(dataSource[i].endDate);
+						}
 
 						if (!containsObject($scope.knowledgeArray, knowledgeObj)) {
 							$scope.knowledgeArray.push(knowledgeObj);
@@ -82,7 +90,7 @@ $(document).ready(function() {
 								return item.value.includes(domainsArrayVar[j]);
 							})
 							if (exist === false) {
-								$scope.domainsArray.push({value:domainsArrayVar[j]});
+								$scope.domainsArray.push({value: domainsArrayVar[j]});
 							}
 						}
 					}
@@ -155,7 +163,7 @@ $(document).ready(function() {
 						numbers = dataSource[i].competencyNumber.split('; ');
 						names = dataSource[i].competencyName.split('; ');
 						for (k = 0; k < numbers.length; k++) {
-							competencyMappingArray.push({'name':names[k], 'number':numbers[k]});
+							competencyMappingArray.push({'name': names[k], 'number': numbers[k]});
 						}
 
 						knowledgeObj.construct(dataSource[i].id, dataSource[i].name, competencyMappingArray, domainsArray, dataSource[i].typeOnlineOrFacetoface, dataSource[i].eventType, dataSource[i].url, dataSource[i].courseComments);
@@ -165,7 +173,7 @@ $(document).ready(function() {
 						}
 						for (var j=0; j < domainsArray.length; j++) {
 							if($scope.domainsArray.indexOf(domainsArray[j]) == -1) {
-								$scope.domainsArray.push({'value':domainsArray[j]});
+								$scope.domainsArray.push({'value': domainsArray[j]});
 							}
 						}
 					}
@@ -178,7 +186,7 @@ $(document).ready(function() {
 				const multipleCancelButton = new Choices('#choices-multiple-remove-button', {
 					// choices: [{'value':'HPC'}, {'value':'HADDOCK'}, {'value':'Performance analysis'}, {'value':'Life Science'}, {'value':'GROMACS'}, {'value':'Molecular Dynamics'}],
 					choices: $scope.domainsArray,
-					delimiter: ',',
+					delimiter: ', ',
 					editItems: true,
 					// maxItemCount: 1,
 					// placeholder : false,

@@ -11,6 +11,8 @@
 *		typeDetail;
 *		url;
 *		courseComments;
+*		startDate;
+*		endDate;
 * @methods:
 *       construct
 *       set's and get's for each attribute
@@ -30,6 +32,8 @@ function Knowledge() {
 	this.typeDetail;
 	this.url;
 	this.courseComments;
+	this.startDate;
+	this.endDate;
 
 	//methods declaration
 	this.construct = function (id, name, competencyMapping, domain, typeOnlineOrFacetoface, typeDetail, url, courseComments) { // provider, providerUrl, bioexcelPartner,
@@ -58,6 +62,8 @@ function Knowledge() {
 	// this.setBioexcelPartner = function (bioexcelPartner) {this.bioexcelPartner=bioexcelPartner;}
 	this.setUrl = function (url){this.url=url;}
 	this.setCourseComments = function (courseComments) {this.courseComments=courseComments;}
+	this.setStartDate = function (startDate) {this.startDate=startDate;}
+	this.setEndDate = function (endDate) {this.endDate=endDate;}
 
 	//getters
 	this.getId = function () {return this.id;}
@@ -71,6 +77,8 @@ function Knowledge() {
 	// this.getBioexcelPartner = function () {return this.bioexcelPartner;}
 	this.getUrl = function () {return this.url;}
 	this.getCourseComments = function () {return this.courseComments;}
+	this.getStartDate = function () {return this.startDate;}
+	this.getEndDate = function () {return this.endDate;}
 
 	this.addCompetencyMapping = function (h) {
 		this.competencyMapping.push(h);
