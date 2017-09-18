@@ -12,13 +12,12 @@ $(document).ready(function() {
 (function (){
 	//Application module
 	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$filter', '$window', '$timeout', '$routeParams', function ($http, $scope, $filter, $window, $timeout, $routeParams) {
-
 		//scope variables
 		$scope.knowledgeArray = new Array();
 		$scope.filteredCourses = new Array();
 		$scope.domainsArray = new Array();
 		$scope.selectedDomains = new Array();
-		$scope.types =  new Array();
+		$scope.types = new Array();
 		$scope.selectOnline = true;
 		$scope.selectFaceToFace = true;
 		$scope.competencyNumberSelected = "";
@@ -126,7 +125,7 @@ $(document).ready(function() {
 					// "Authorization": "Basic",
 					"X-CSRF-Token": "FC3YiHYNUrmxB7KXCViHKfqqGyAJ5bx1MK93uuxYC5s", // http://dev-competency-profile.pantheonsite.io/session/token
 					"Content-Type": "application/hal+json",
-					'Access-Control-Allow-Origin': '*',
+					"Access-Control-Allow-Origin": "*",
 					"Access-Control-Allow-Headers": "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, X-PINGOTHER",
 					"Access-Control-Allow-Methods": "GET, PUT, POST",
 				}
@@ -233,7 +232,7 @@ $(document).ready(function() {
 		}
 
 		$scope.reloadPage = function () {
-			$scope.$parent.competencyNumber = "";
+			// $scope.$parent.competencyNumber = "";
 
 			if ($scope.selectedDomains != [] && $scope.selectedDomains != undefined) {
 				$scope.selectedDomains = "";
