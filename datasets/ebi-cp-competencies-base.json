@@ -1,11 +1,6 @@
 [	
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
-		"number": "1",
-		"name": "Generic Competencies"
-	},
-	{
-		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "1.1",
 		"name": "Function effectively in teams to accomplish a common goal.",
 		"details": [
@@ -101,11 +96,6 @@
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
-		"number": "2",
-		"name": "Scientific Competencies"
-	},
-	{
-		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "2.1",
 		"name": "Apply computing expertise appropriate to the discipline and level of expertise (software as well as hardware).",
 		"details": [
@@ -164,7 +154,7 @@
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "2.4",
-		"name": "Comprehension of, and compliance with, licensing policy.",
+		"name": "",
 		"details": [
 			{
 				"type": "Knowledge", 
@@ -353,11 +343,6 @@
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
-		"number": "3",
-		"name": "Generic Computing Competencies"
-	},
-	{
-		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
 		"number": "3.1",
 		"name": "Comprehension of, and compliance with, good programming practice (as promoted, for example, by www.software-carpentry.org.",
 		"details": [
@@ -507,11 +492,6 @@
 				"details": "Actively consider the impact on the user"
 			} 
 		]
-	},
-	{
-		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
-		"number": "4",
-		"name": "Parallel Computing Competencies"
 	},
 	{
 		"id": "c9d97dcc-67b7-11e7-907b-a6006ad3dba0",
