@@ -24,8 +24,8 @@
 			}
 		})
 
-		$scope.$watch("selectedDomains", function () {
-			if (_.isEmpty($scope.selectedDomains)) {
+		$scope.$watch("selectedDomains+types+typeFilterKnowledge", function () {
+			if (_.isEmpty($scope.selectedDomains) && _.isEmpty($scope.types) && $scope.typeFilterKnowledge == "") {
 				$scope.filters = 0;
 			} else {
 				$scope.filters = 1;
@@ -171,7 +171,7 @@
 					scope.show = false;
 				};
 			},
-			template: "<div class='ng-modal' ng-show='show'><div class='ng-modal-overlay' ng-click='hideModal()'></div><div class='ng-modal-dialog' ng-style='dialogStyle'><div class='ng-modal-close' ng-click='hideModal()'>X</div><div class='ng-modal-dialog-content' ng-transclude></div></div></div>" // See below
+			template: "<div class='ng-modal' ng-show='show'><div class='ng-modal-overlay' ng-click='hideModal()'></div><div class='ng-modal-dialog' ng-style='dialogStyle'><div class='ng-modal-close' ng-click='hideModal()'>X</div><div class='ng-modal-dialog-content' ng-transclude></div></div></div>" 
 		};
 	});
 

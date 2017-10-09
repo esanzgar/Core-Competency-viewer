@@ -4,7 +4,7 @@
 			<section>
 				<form name="KnowledgeBaseForm" ng-submit="KnowledgeBaseForm.$valid" novalidate>
 					<div>
-						<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" data-ng-change="filters=1;" placeholder="Filter by any keyword" style="width:100%;" ng-disabled="KnowledgeBaseForm.$invalid" />
+						<input id="typeFilterKnowledge" type="text" data-ng-model="typeFilterKnowledge" placeholder="Filter by any keyword" style="width:100%;" ng-disabled="KnowledgeBaseForm.$invalid" />
 						<select name="choices-multiple-remove-button" id="choices-multiple-remove-button" placeholder="Filter by one domain" multiple="" data-ng-model="selectedDomains" ng-disabled="KnowledgeBaseForm.$invalid"></select>
 						<input id="checkboxOnline" type="checkbox" data-ng-click="includeType('online')" data-ng-model="selectOnline" ng-disabled="KnowledgeBaseForm.$invalid" />
 							Show online courses 
