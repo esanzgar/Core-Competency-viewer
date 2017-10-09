@@ -3,7 +3,7 @@
 - [View the prototype](https://ebiwd.github.io/Core-Competency-viewer/)
   - [Core Competencies](https://ebiwd.github.io/Core-Competency-viewer/core-competency)
   - [Knowledge Resources](https://ebiwd.github.io/Core-Competency-viewer/knowledge-base)
-  - To Come ~~[Event List](https://ebiwd.github.io/Core-Competency-viewer/event-list)~~
+  - [Last version](https://ebiwd.github.io/Core-Competency-viewer/last_version)
 
 The Competency Profile is a definition system of competencies based on knowledge, skills and behaviour requirements. These three (KSB) are mapped onto training resources.
 
