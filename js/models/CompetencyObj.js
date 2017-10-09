@@ -22,11 +22,10 @@ function Competency() {
 	this.details = new Array();
 
 	//methods declaration
-	this.construct = function (id, number, name, details) { 
+	this.construct = function (id, number, name) { 
 		this.setId(id);
 		this.setNumber(number);
 		this.setName(name);
-		this.setDetails(details);
 	}
 
 	//setters
