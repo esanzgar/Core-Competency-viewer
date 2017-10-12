@@ -9,7 +9,7 @@
 #typeFilterKnowledge, #typeFilterCompetency {
 	height: 57px;
 	font-weight: normal;
-	font-size: 0.8rem;
+	font-size: 14px;
 }
 
 #tooltip_templates { 
@@ -106,7 +106,7 @@ ul.tabs li.selected a
 }
 
 #checkboxOnline, #checkboxFaceToFace {
-	margin: 0;
+	margin: 0 0 0 15px;
 }
 
 .tooltipHelp {

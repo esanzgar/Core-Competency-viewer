@@ -1,7 +1,7 @@
 // Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$filter', '$window', '$timeout', '$routeParams', function ($http, $scope, $filter, $window, $timeout, $routeParams) {
+	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$rootScope', '$filter', '$window', '$timeout', '$routeParams', function ($http, $scope, $rootScope, $filter, $window, $timeout, $routeParams) {
 		
 		//scope variables
 		$scope.filters = 0;
@@ -14,15 +14,11 @@
 		$scope.competencyName = "";
 		$scope.competencyDetails = "";
 		$scope.modalShown = false;
-		
-		$scope.$watch("$parent.competencyNumber", function () {
-			$scope.$parent.filteredCourses = $filter('filter')($scope.$parent.knowledgeArray, {competencyMapping: {number:$scope.$parent.competencyNumber}});
-			if ($scope.$parent.competencyNumber == "") {
-				$scope.filters = 0;
-			} else {
-				$scope.filters = 1;
-			}
-		})
+
+		// $scope.number = 1;
+	    $rootScope.$on('knowledgeByCompetencyClicked', function (context, data) {
+	        $scope.typeFilterKnowledge = data;
+	    });
 
 		$scope.$watch("selectedDomains+types+typeFilterKnowledge", function () {
 			if (_.isEmpty($scope.selectedDomains) && _.isEmpty($scope.types) && $scope.typeFilterKnowledge == "") {
@@ -67,36 +63,16 @@
 		}
 
 		$scope.reloadPage = function () {
-			$scope.$parent.competencyNumber = "";
-
-			if ($scope.typeFilterKnowledge != "" && $scope.typeFilterKnowledge != undefined) {
-				$scope.typeFilterKnowledge = "";
-			}
-
-			if (!_.isEmpty($scope.selectedDomains) && $scope.selectedDomains != undefined) {
-				// var len = $scope.selectedDomains.length;
-				// $scope.selectedDomains = _.drop($scope.selectedDomains, len);
-				for (var i = 0; i < $scope.selectedDomains.length; i++) {
-					$timeout(function () {
-						$(".choices__button").click();
-						document.getElementById("typeFilterKnowledge").focus();
-					}, 10);
-				}
-				
-				$scope.selectedDomains.length = 0;
-				$("select").focus(function (){
-					$(".choices__list").css("display", "none");
+			for (var i = 0; i < $scope.selectedDomains.length; i++) {
+				$timeout(function () {
+					$(".choices__button").click();
+					document.getElementById("typeFilterKnowledge").focus();
 				});
 			}
-
+			$scope.typeFilterKnowledge = "";
+			$scope.selectFaceToFace = false;
+			$scope.selectOnline = false;
 			$scope.types = Array();
-			if ($scope.selectFaceToFace) {
-				$scope.selectFaceToFace = false;
-			}
-			if ($scope.selectOnline){
-				$scope.selectOnline = false;
-			}
-
 			$scope.filters = 0;
 		}
 

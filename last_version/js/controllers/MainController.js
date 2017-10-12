@@ -9,7 +9,6 @@
 		$scope.knowledgeArray = new Array();
 		$scope.filteredCourses = new Array();
 		$scope.domainsArray = new Array();
-		$scope.competencyNumber = "";
 
 		$scope.$watch("userOption", function () {
 		 	if ($scope.userOption == 0) { // Knowledge view
@@ -24,7 +23,7 @@
 
 		$scope.loadDataKnowledgeBase = function () {
 			var dataSource = new Array();
-			$http.get("../datasets/ebi-cp-knowledge-base.json")
+			$http.get("datasets/ebi-cp-knowledge-base.json")
 			.then(function(res) {
 				dataSource = res.data;
 				// console.log(dataSource);
@@ -111,14 +110,14 @@
 
 		$scope.loadDataCompetencyProfile= function () {
 			dataSource = new Array();
-			$http.get("../datasets/ebi-cp-competencies-base.json")
+			$http.get("datasets/ebi-cp-competencies-base.json")
 			.then(function(res) {
 				dataSource = res.data;
 				// console.log(dataSource);
 				for (var i = 0; i < dataSource.length; i++) {
 					if (dataSource[i] != undefined) {
 						var competencyObj = new Competency();
-						if(_.isEmpty(dataSource[i].details)) {
+						if(dataSource[i].details == undefined) {
 							competencyObj.construct(dataSource[i].id, dataSource[i].number, dataSource[i].name);
 						} else {
 							var detailsArray = new Array();

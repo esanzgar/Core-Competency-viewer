@@ -1,13 +1,13 @@
 //Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("CompetencyController", ['$http', '$scope', '$filter', '$window', function ($http, $scope, $filter, $window) {
+	angular.module('compentencyProfile').controller("CompetencyController", ['$http', '$scope', '$rootScope', '$filter', '$window', function ($http, $scope, $rootScope, $filter, $window) {
 
 		//scope variables
 		
 		$scope.knowledgeByCompetency = function (number) {
-			$scope.$parent.competencyNumber = number;
 			$scope.$parent.userOption = 0;
+			$rootScope.$broadcast('knowledgeByCompetencyClicked', number);
 		}
 
 	}]);
