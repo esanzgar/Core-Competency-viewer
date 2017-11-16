@@ -99,7 +99,7 @@ ul.tabs li.selected a
 	margin-right: 30px;
 }
 
-#knowledgeDescription {
+#knowledgeDescription, #competencyDescription {
 	text-align: justify; 
 	margin-left: 10px; 
 	margin-right: 30px;

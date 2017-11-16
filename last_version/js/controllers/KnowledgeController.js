@@ -97,14 +97,14 @@
 
 	}]);
 
-	angular.module('compentencyProfile').directive("knowledgeBase", function () {
+	angular.module('compentencyProfile').directive("trainingResources", function () {
 		return {
 			restrict: 'E',
-			templateUrl:"templates/knowledge-base.html",
+			templateUrl:"templates/training-resources.html",
 			controller:function(){
 
 			},
-			controllerAs: 'knowledgeBase'
+			controllerAs: 'trainingResources'
 		};
 	});
 	
