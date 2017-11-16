@@ -437,11 +437,13 @@ font-size : 1.56rem;
 						<hr class="featurette-divider __before_content">
 					</header>
 
-					<p id="knowledgeDescription">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						<br><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+					<p id="knowledgeDescription" data-ng-show="userOption==0;">
+            The BioExcel knowledge resource center is a repository for computational biomolecular training resources aggregated from BioExcel partners and third party providers. The resources are primarily online based, such as tutorials, online courses and videos but also include face-to-face event. If you know of any useful resources that you would like to share with the community let us know through this online <a href="https://docs.google.com/forms/d/e/1FAIpQLSfY-GI9sGuhRtMlIJJ1zVZtvD8peM3UnzemjSokUK3yAk0Xtw/viewform?c=0&w=1" target="_blank">form</a>. The training resources in the Knowledge Resource Center have been tagged with the BioExcel competencies.
+          </p>
+
+          <p id="competencyDescription" data-ng-show="userOption==1;">
+            The BioExcel training programme is based on a competency profile. A competency is an observable ability of any professional, integrating multiple components such as knowledge, skills and behaviours. A competency profile lists and defines all the competencies that an individual might need to fulfil a particular role, or that define specific user groups. Together with our user community we have defined the knowledge and skills that we think are relevant for people working in computational biomolecular research. In total we have defined 31 competencies and they are grouped together in four large categories. You can browse them in the table below, under each competency there is a link to all the training resources that we have identified as relevant.
+          </p>
 					<br>
 
 					<ul id="tab_ul" class="tabs optionClicked">
