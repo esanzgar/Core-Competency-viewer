@@ -1,202 +1,32 @@
-// JQuery code
-$(document).ready(function() {
-	$('.optionClicked li').click(function(e) {
-		e.preventDefault();
-		$('li').removeClass('active');
-		$(this).addClass('active');
-		$('#training').addClass('active');
-	});
-});
-
-//Angular code
+// Angular code
 (function (){
 	//Application module
-	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$filter', '$window', '$timeout', '$routeParams', function ($http, $scope, $filter, $window, $timeout, $routeParams) {
-		//scope variables
-		$scope.knowledgeArray = new Array();
-		$scope.filteredCourses = new Array();
-		$scope.domainsArray = new Array();
-		$scope.selectedDomains = new Array();
-		$scope.types = new Array();
-		$scope.selectOnline = true;
-		$scope.selectFaceToFace = true;
-		$scope.competencyNumberSelected = "";
-		$scope.competencyNameSelected = "";
-		$scope.competencyNumber = "";
+	angular.module('compentencyProfile').controller("KnowledgeController", ['$http', '$scope', '$rootScope', '$filter', '$window', '$timeout', '$routeParams', function ($http, $scope, $rootScope, $filter, $window, $timeout, $routeParams) {
 		
-		$scope.$watch("competencyNumber", function () {
-			$scope.filteredCourses = $filter('filter')($scope.knowledgeArray, {competencyMapping: {number:$scope.competencyNumber}});
-		})
+		//scope variables
+		$scope.filters = 0;
+		$scope.typeFilterKnowledge = "";
+		$scope.selectedDomains = new Array();
+		$scope.types = new Array();	
+		$scope.selectOnline = false;
+		$scope.selectFaceToFace = false;
+		$scope.competencyNum = "";
+		$scope.competencyName = "";
+		$scope.competencyDetails = "";
+		$scope.modalShown = false;
 
-		function containsObject(list, obj) {
-			for (var i = 0; i < list.length; i++) {
-				if (list[i].name === obj.name) {
-					return true;
-				}
+		// $scope.number = 1;
+	    $rootScope.$on('knowledgeByCompetencyClicked', function (context, data) {
+	        $scope.typeFilterKnowledge = data;
+	    });
+
+		$scope.$watch("selectedDomains+types+typeFilterKnowledge", function () {
+			if (_.isEmpty($scope.selectedDomains) && _.isEmpty($scope.types) && $scope.typeFilterKnowledge == "") {
+				$scope.filters = 0;
+			} else {
+				$scope.filters = 1;
 			}
-			return false;
-		}
-
-		$scope.loadDataKnowledge = function () {
-			// $('#interactive').html('JavaScript detected...');
-			var dataSource = new Array();
-			$http.get("../datasets/ebi-cp-knowledge-base.json")
-			.then(function(res) {
-				// $('#interactive').html('Data fetched...');
-				dataSource = res.data;
-				// console.log(dataSource);
-				$('#interactiveKnwoledge').html(''); 
-				for (var i = 0; i < dataSource.length; i++) {
-					// see if any future rows have same name (that is our unique ID for now)
-					for (var j = i+1; j < dataSource.length; j++) {
-						if (dataSource[i] != undefined && dataSource[j] != undefined) {
-							if (dataSource[i].name === dataSource[j].name) {
-								// note the addition
-								dataSource[i].competencyMapping += ', ' + dataSource[j].competencyMapping;
-								// remove duplicate entry
-								dataSource[j] = undefined;
-							}
-						}
-					}
-				}
-				
-				for (var i = 0; i < dataSource.length; i++) {
-					if (dataSource[i] != undefined) {
-						var domainsArrayVar = new Array();
-						var competencyMappingArray = new Array();
-
-						var knowledgeObj = new Knowledge();
-
-						domainsArrayVar = dataSource[i].domain.split(', ');
-						competencyMappingArray = dataSource[i].competencyMapping.split(', ');
-
-						knowledgeObj.construct(i, dataSource[i].name, competencyMappingArray, domainsArrayVar, dataSource[i].typeOnlineOrFacetoface, dataSource[i].typeDetail, dataSource[i].url, dataSource[i].courseComments);
-
-						if (dataSource[i].startDate != "") {
-							knowledgeObj.setStartDate(dataSource[i].startDate);
-						}
-
-						if (dataSource[i].endDate != "") {
-							knowledgeObj.setEndDate(dataSource[i].endDate);
-						}
-
-						if (!containsObject($scope.knowledgeArray, knowledgeObj)) {
-							$scope.knowledgeArray.push(knowledgeObj);
-						}
-
-						for (var j=0; j < domainsArrayVar.length; j++) {
-							var exist = $scope.domainsArray.some(function(item) {
-								return item.value.includes(domainsArrayVar[j]);
-							})
-							if (exist === false) {
-								$scope.domainsArray.push({value: domainsArrayVar[j]});
-							}
-						}
-					}
-				}
-				
-				$scope.filteredCourses = $scope.knowledgeArray;
-				// console.log($scope.knowledgeArray);
-				// console.log($scope.domainsArray);
-				
-				const multipleCancelButton = new Choices('#choices-multiple-remove-button', {
-					// choices: [{'value':'HPC'}, {'value':'HADDOCK'}, {'value':'Performance analysis'}, {'value':'Life Science'}, {'value':'GROMACS'}, {'value':'Molecular Dynamics'}],
-					choices: $scope.domainsArray,
-					delimiter: ',',
-					editItems: true,
-					// maxItemCount: 1,
-					// placeholder : false,
-					removeItemButton: true,
-				});
-				
-			})
-			.catch(function(response) {
-				console.error('Knowledge base error', response.status);
-			});
-		}
-
-		$scope.loadDataKnowledgeDrupal = function () {
-			// $('#interactive').html('JavaScript detected...');
-			var dataSource = new Array();
-			$http({
-				url: 'https://cors-anywhere.herokuapp.com/http://dev-competency-profile.pantheonsite.io/knowledge_base',
-				method: 'GET',
-				headers: {
-					// "Authorization": "Basic",
-					"X-CSRF-Token": "FC3YiHYNUrmxB7KXCViHKfqqGyAJ5bx1MK93uuxYC5s", // http://dev-competency-profile.pantheonsite.io/session/token
-					"Content-Type": "application/hal+json",
-					"Access-Control-Allow-Origin": "*",
-					"Access-Control-Allow-Headers": "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, X-PINGOTHER",
-					"Access-Control-Allow-Methods": "GET, PUT, POST",
-				}
-			})
-			.then(function(res) {
-				// $('#interactive').html('Data fetched...');
-				dataSource = res.data;
-				// console.log(dataSource);
-				$('#interactiveKnwoledge').html(''); 
-				
-				for (var i = 0; i < dataSource.length; i++) {
-					// see if any future rows have same name (that is our unique ID for now)
-					for (var j = i+1; j < dataSource.length; j++) {
-						if (dataSource[i] != undefined && dataSource[j] != undefined) {
-							if (dataSource[i].name === dataSource[j].name) {
-								// note the addition
-								dataSource[i].competencyNumber += '; ' + dataSource[j].competencyNumber;
-								dataSource[i].competencyName += '; ' + dataSource[j].competencyName;
-								// remove duplicate entry
-								dataSource[j] = undefined;
-							} 
-						}
-					}
-				}
-				
-				for (var i = 0; i < dataSource.length; i++) {
-					if (dataSource[i] != undefined) {
-						var domainsArray = new Array();
-						var competencyMappingArray = new Array();
-
-						var knowledgeObj = new Knowledge();
-
-						domainsArray = dataSource[i].domains.split(', ');
-						numbers = dataSource[i].competencyNumber.split('; ');
-						names = dataSource[i].competencyName.split('; ');
-						for (k = 0; k < numbers.length; k++) {
-							competencyMappingArray.push({'name': names[k], 'number': numbers[k]});
-						}
-
-						knowledgeObj.construct(dataSource[i].id, dataSource[i].name, competencyMappingArray, domainsArray, dataSource[i].typeOnlineOrFacetoface, dataSource[i].eventType, dataSource[i].url, dataSource[i].courseComments);
-
-						if (!containsObject($scope.knowledgeArray, knowledgeObj)) {
-							$scope.knowledgeArray.push(knowledgeObj);
-						}
-						for (var j=0; j < domainsArray.length; j++) {
-							if($scope.domainsArray.indexOf(domainsArray[j]) == -1) {
-								$scope.domainsArray.push({'value': domainsArray[j]});
-							}
-						}
-					}
-				}
-				
-				$scope.filteredCourses = $scope.knowledgeArray;
-				// console.log($scope.knowledgeArray);
-				// console.log($scope.domainsArray);
-				
-				const multipleCancelButton = new Choices('#choices-multiple-remove-button', {
-					// choices: [{'value':'HPC'}, {'value':'HADDOCK'}, {'value':'Performance analysis'}, {'value':'Life Science'}, {'value':'GROMACS'}, {'value':'Molecular Dynamics'}],
-					choices: $scope.domainsArray,
-					delimiter: ', ',
-					editItems: true,
-					// maxItemCount: 1,
-					// placeholder : false,
-					removeItemButton: true,
-				});
-				
-			})
-			.catch(function(response) {
-				console.error('Knowledge base error', response.status);
-			});
-		}
+		})
 		
 		$scope.includeType = function (type) {
 			var i = $.inArray(type, $scope.types);
@@ -205,11 +35,12 @@ $(document).ready(function() {
 			} else {
 				$scope.types.push(type);
 			}
+			$scope.filters = 1;
 		}
 
 		$scope.filterOnlineOrFaceToFace = function (knowledge) {
 			if ($scope.types.length > 0) {
-				if ($.inArray(knowledge.typeOnlineOrFacetoface, $scope.types) > -1) {
+				if ($.inArray(knowledge.typeOnlineOrFacetoface, $scope.types) < 0) {
 					return;
 				}
 			} 
@@ -225,72 +56,100 @@ $(document).ready(function() {
 					}
 				}
 				if (matches != $scope.selectedDomains.length) {
-					return
+					return;
 				}
 			}
 			return knowledge;
 		}
 
 		$scope.reloadPage = function () {
-			// $scope.$parent.competencyNumber = "";
-
-			if ($scope.selectedDomains != [] && $scope.selectedDomains != undefined) {
-				$scope.selectedDomains = "";
+			for (var i = 0; i < $scope.selectedDomains.length; i++) {
 				$timeout(function () {
 					$(".choices__button").click();
 					document.getElementById("typeFilterKnowledge").focus();
 				});
-				$("select").focus(function (){
-					$(".choices__list").css("display", "none");
-				});
 			}
-
+			$scope.typeFilterKnowledge = "";
+			$scope.selectFaceToFace = false;
+			$scope.selectOnline = false;
 			$scope.types = Array();
-			if (!$scope.selectFaceToFace) {
-				$scope.selectFaceToFace = true;
-			}
-			if (!$scope.selectOnline){
-				$scope.selectOnline = true;
-			}
-
-			if ($scope.typeFilterKnowledge != "" && $scope.typeFilterKnowledge != undefined) {
-				$scope.typeFilterKnowledge = "";
-			}
+			$scope.filters = 0;
 		}
 
-		$scope.tooltipClick = function (number, name) {
-			$scope.competencyNumberSelected = number;
-			$scope.competencyNameSelected = name;
-		}		
+		$scope.toggleModal = function() {
+			$scope.modalShown = !$scope.modalShown;
+		}
+
+		$scope.modalContent = function (number, name) {
+			$scope.competencyNum = number;
+			$scope.competencyName = name;
+			angular.forEach($scope.$parent.competencyArray, function(value, key) {
+				if (value.number == number) {
+					$scope.competencyDetails = value.details;
+				}
+			})
+		}
+
+		$scope.redirectModal = function () {
+			$scope.modalShown = !$scope.modalShown;
+			$scope.$parent.userOption = 1;
+		}
 
 	}]);
-	
-	angular.module('compentencyProfile').directive("knowledgeTable", function () {
+
+	angular.module('compentencyProfile').directive("trainingResources", function () {
 		return {
 			restrict: 'E',
-			templateUrl:"templates/knowledge-table.html",
+			templateUrl:"templates/training-resources.html",
 			controller:function(){
 
 			},
-			controllerAs: 'knowledgeTable'
+			controllerAs: 'trainingResources'
 		};
 	});
-
-	angular.module('compentencyProfile').directive('tooltipster', [ function () {
+	
+	angular.module('compentencyProfile').directive('tooltipster', function () {
 		return {
 			restrict: 'A',
 			link: function ($scope, $element, $attrs) {
 				$element.tooltipster(jQuery.extend({
 					theme: 'tooltipster-shadow',
 					maxWidth: 500,
+					delay: 100,
+					interactive: false,
+					animation: 'grow',
 					side: 'right',
-					trigger: 'click',
+					trigger: 'hover',
 					contentAsHTML: true,
-					interactive: true,
+					// timer: 10000,
+					onlyOne: true,
+					contentAsHTML: true,
 				}));
-			}
+			},
 		};
-	}]);
+	});
+
+	angular.module('compentencyProfile').directive('modalDialog', function() {
+		return {
+			restrict: 'E',
+			scope: {
+				show: '='
+			},
+			replace: true, // Replace with the template below
+			transclude: true, // we want to insert custom content inside the directive
+			link: function(scope, element, attrs) {
+				scope.dialogStyle = {};
+				if (attrs.width)
+					scope.dialogStyle.width = attrs.width;
+				if (attrs.height)
+					scope.dialogStyle.height = attrs.height;
+				scope.hideModal = function() {
+					scope.show = false;
+				};
+			},
+			template: "<div class='ng-modal' ng-show='show'><div class='ng-modal-overlay' ng-click='hideModal()'></div><div class='ng-modal-dialog' ng-style='dialogStyle'><div class='ng-modal-close' ng-click='hideModal()'>X</div><div class='ng-modal-dialog-content' ng-transclude></div></div></div>" 
+		};
+	});
 
 })();
 
