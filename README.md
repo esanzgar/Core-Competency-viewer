@@ -9,6 +9,9 @@ The Competency Profile is a definition system of competencies based on knowledge
 
 What you find here is a prototype to help demonstrate and understand the IA and APIs for the BioExcel Core Competency Profile project.
 
+## Url
+Currently available at http://krc.bioexcel.eu/
+
 ## The structure
 See: https://swaggerhub.com/apis/alba/obi_training_knowledge_framework/1.0.0
 
