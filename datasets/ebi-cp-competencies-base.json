@@ -18,7 +18,7 @@
 				"details": "Communication;-Conflict management;-Time management"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Invites two-way communication; actively listens/pays attention; able to excite participation and commitment from others;-Delivers on his/her actions and inspires this behaviour in others;-Informs others of relevant information appropriately and on time"
 			} 
 		]
@@ -37,7 +37,7 @@
 				"details": "Can interpret the letter and spirit of policies (ethical, legal, etc);-Applies risk management skills"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Confronts or reports potentially unethical behaviour or behaviour at odds with the organisation's values;-Complies with internal policies;-Respects confidentiality"
 			} 
 		]
@@ -56,7 +56,7 @@
 				"details": "Active listening skills;-Appreciates the value of social media and uses it effectively to communicate effectively with different audiences;-Able to work effectively with creative professionals (e.g. designers, animators, journalists;-Ability to translate complex concepts to different audiences"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Communicates clearly and precisely with people at all levels;-Delivers points in a structured and logical manner;-Seeks out openness from others; gives straightforward, candid opinions to all;-Communicates effectively even in difficult situations;-Anticipates audience needs and tailors communications to the audience and the context"
 			} 
 		]
@@ -75,7 +75,7 @@
 				"details": "Face-to-face communication skills;-Ability to objectively review own performance"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Demonstrates curiosity to learn new skills or knowledge outside current expertise;-Prioritises and plans for CPD"
 			} 
 		]
@@ -94,7 +94,7 @@
 				"details": "Ability to differentiate wants from needs;-User requirements/needs collection;-Expectations management"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Proactive in discovering different users and their motivation;-Actively facilitates gathering of use cases and user requirements;-Seeks out and acts on user feedback"
 			} 
 		]
@@ -118,7 +118,7 @@
 				"details": "Evaluates software;-Understands applicability, optimisation and scope of different tools"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Keeps up-to-date with knowledge domain"
 			} 
 		]
@@ -137,7 +137,7 @@
 				"details": "Has an interdisciplinary view;-Asks relevant, well-defined biological questions"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Takes a comprehensive approach to problems;-Consults with colleagues;-Looks for prior work;-Displays scientific humbleness (own and other results);-Allows for unexpected results"
 			} 
 		]
@@ -156,7 +156,7 @@
 				"details": "Formulates a hypothesis;-Tests a hypothesis;-Accurately judges the validity of his/her results"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Asks for help and/or verification;-Prepares before starting a new process"
 			} 
 		]
@@ -175,7 +175,7 @@
 				"details": "Formulates a hypothesis;-Tests a hypothesis;-Accurately judges the validity of his/her results"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Asks for help and/or verification;-Prepares before starting a new process"
 			} 
 		]
@@ -194,7 +194,7 @@
 				"details": "Chooses the right tool for the problem at hand"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Actively searches for available sources of support (training material, forum, helpdesk etc)"
 			} 
 		]
@@ -213,7 +213,7 @@
 				"details": "Creative thinking & problem solving;-Has an interdisciplinary view"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Keeps up-to-date with emerging techniques and applications"
 			} 
 		]
@@ -232,7 +232,7 @@
 				"details": "Accurately judges added value of HPC technologies for different scenarios and user groups"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Disseminate the importance of HPC technologies"
 			} 
 		]
@@ -251,7 +251,7 @@
 				"details": "Accurately judges the validity of his/her results"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Comprehends that results might be difficult to interpret"
 			} 
 		]
@@ -270,7 +270,7 @@
 				"details": "Assesses data quality;-Judges fit-for-purpose;-Actively identifies new datasets;-Tracks where data came from;-Combines data from different sources;-Data preparation/cleanup"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Advertises the existence of good quality datasets to others;-Contributes to public datasets when appropriate"
 			} 
 		]
@@ -289,7 +289,7 @@
 				"details": "Demonstrates knowledge of the file system structure;-Tracks ever step in a process (traceability);-Version control;-Backup;-Documentation;-Automates data analyses where appropriate"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Backs up his/her work in non-redundant ways;-Documents his/her work;-Has a version control system in place"
 			} 
 		]
@@ -308,7 +308,7 @@
 				"details": "Annotates metadata (tools);-Uses ontologies;-Structure data, where applicable submit to databases;-Safely and efficiently moves data"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Uses standards and ontologies;-Looks for existing ontologies rather than create his/her own ontology;-Captures sufficient metadata;-Adds his/her data in supplementary information of journal articles (e.g SMILES, InChI for compounds);-Actively promotes the use of standards, metadata annotation"
 			} 
 		]
@@ -327,7 +327,7 @@
 				"details": "Assessing quality (methods, results, etc);-Critically read scientific literature"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Conducts a literature review when appropriate;-Will look at sources of literature outside his/her comfort zone / discipline"
 			} 
 		]
@@ -346,7 +346,7 @@
 				"details": "Write scientific journal paper;-Write and present a conference talk;-Youtube;-Proficient at scientific poster design;-Deep understanding of what to present and what not to present;-Can target his/her presentation at the right audience / level"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Judge the appropriate medium to present through"
 			} 
 		]
@@ -370,7 +370,7 @@
 				"details": "Inspires others to adhere to best practice"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Actively promotes best practice by leading by example;-Will try and identify best practice in a relevant area"
 			} 
 		]
@@ -389,7 +389,7 @@
 				"details": "Is able to benchmark a system to get an estimate of the required computing time;-Identify bottleneck in the system (network, CPU, RAM, etc)"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Write documentation"
 			} 
 		]
@@ -408,7 +408,7 @@
 				"details": "Creates and manages files and directories in a system using a Graphical User Interface (GUI) and using command line;-Connects to remote systems with a GUI and the command line;-Be able to use Unix/Linux features like pipes & redirection;-Changes access permissions when required;-Creates and manages files and directories in a system"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "When you can't do something, search for it on the web;-Back-up files;-Uses access permissions appropriately"
 			} 
 		]
@@ -427,7 +427,7 @@
 				"details": "Adapt existing programs;-Compile code;-Run test;-Recognises appropriate file types;-Knows when quick and dirty is appropriate and when writing for reusability is appropriate;-Program in an appropriate language;-Writes portable code;-Writes efficient code;-Writes appropriate tests;-Debug code"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Conform to best practices for writing reusable code;-Uses revision control;-Uses a text editor with support for programming"
 			} 
 		]
@@ -446,7 +446,7 @@
 				"details": "Is able to automate the process of executing some processes remotely;-Write & debug scripts"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Uses appropriate scripting language"
 			} 
 		]
@@ -465,7 +465,7 @@
 				"details": "Select appropriately packaged code;-Be able to use package managers;-Be able to revert a system to a known state"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Reads the README;-Checks licencing before installing/running software;-Appreciates the impact of installing/running software on other users of the machine"
 			} 
 		]
@@ -484,7 +484,7 @@
 				"details": "debugging (Mission Control, VisualVM,..)"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "work in collaborative fashion"
 			} 
 		]
@@ -503,7 +503,7 @@
 				"details": "Linux/UNIX sysadmin commands;-LSF commands;-Recognise bottlenecks in the system (Network, CPU, RAM, etc);-Forward planning"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Actively consider the impact on the user"
 			} 
 		]
@@ -527,7 +527,7 @@
 				"details": "Evaluates and selects an appropriate workflow system;-Install workflow manager;-Ability to run a workflow;-Write and modify a workflow"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Seeks out and makes use of appropriate existing workflows and workflow components"
 			} 
 		]
@@ -546,7 +546,7 @@
 				"details": "Writes a good batch script making use of available batch system features"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Reads the documentation;-Ask the right person for help"
 			} 
 		]
@@ -565,7 +565,7 @@
 				"details": "Programs using an appropriate language/paradigm;-Recognises (independent) units of work and potential parallelism (and any dependencies);-Uses appropriate tools to debug, profile, refactor parallel code"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Reads the documentation"
 			} 
 		]
@@ -584,7 +584,7 @@
 				"details": "Routinely undertakes a cost-benefit analysis to understand whether cloud resources are the best value;-Able to package software/data and deploy to the cloud;-Selects an appropriate grid/cloud provider;-Can build and provision a Virtual Machine (VM)"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Seeks out and makes use of appropriate existing Virtual Machines, etc."
 			} 
 		]
@@ -603,7 +603,7 @@
 				"details": "Be able to profile a code;-Recognise bottlenecks in a code;-Be able to refactor code in order to remove bottlenecks"
 			}, 
 			{
-				"type": "Behaviour", 
+				"type": "Attitude", 
 				"details": "Run codes using appropriate resources (number of processors, etc.)"
 			} 
 		]
