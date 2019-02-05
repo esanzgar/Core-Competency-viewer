@@ -1,0 +1,371 @@
+<script>
+    jQuery(document).ready(function(){
+        var picture_number = Math.floor(Math.random() * 7) + 1;
+        var picture_url = 'url("https://wwwdev.ebi.ac.uk/sites/ebi.ac.uk/files/training/landing-page/'+picture_number+'.JPG")';
+        jQuery("#banner_img").css("background", picture_url);
+        jQuery("#banner_img").css("background-size","100%");
+        jQuery("#banner_img").css("background-position","0% 40%");
+        jQuery("#banner_img").css("background-repeat","no-repeat");
+    });
+</script>
+
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-1.10.0.min.js" integrity="sha256-2+LznWeWgL7AJ1ciaIG5rFP7GKemzzl+K75tRyTByOE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-once/2.2.1/jquery.once.js"></script>
+</head>
+<body>
+<script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/libraries/LiveFilter/js/jquery.liveFilter.js"></script>
+<div class="position-relative white-color">
+    <div id="banner_img" href="#" class="block no-underline" style="height: 350px;"></div>
+    <div class="highlight-caption highlight-caption-big">
+        <div class="columns white-color">
+            <h3 class="">EMBL-EBI Training</h3>
+            <div class="row">
+                <div id="filter-inputs" class="input-group row collapse">
+                    <span class="input-group-label">Filter</span>
+                    <div id="type-wrapper" class="input-group-field columns small-6 medium-2">
+                        <select id="topic" name="text_1" class="mirror">
+                            <option selected="true" value="">By topic</option>
+                            <option value="">All</option>
+                            <option value="DNA &amp; RNA">DNA &amp; RNA</option>
+                            <option value="Gene expression">Gene expression</option>
+                            <option value="Proteins">Proteins</option>
+                            <option value="Structures">Structures</option>
+                            <option value="Systems">Systems</option>
+                            <option value="Chemical biology">Chemical biology</option>
+                            <option value="Ontologies">Ontologies</option>
+                            <option value="Literature">Literature</option>
+                            <option value="Cross domain">Cross domain</option>
+                        </select>
+                    </div>
+                    <div id="type-wrapper" class="input-group-field columns medium-2 small-6 medium-push-5">
+                        <select id="type" name="text_2" class="mirror">
+                            <option selected="true" value="">By type</option>
+                            <option value="">All</option>
+                            <option value="in person">Onsite: In person at EMBL-EBI</option>
+                            <option value="offsite">Offsite: At your institute</option>
+                            <option value="instant online">Online: Instant and freely available</option>
+                            <option value="webinars">Webinars: Live or recorded</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group-field columns medium-5 small-12 medium-pull-2">
+                        <input class="clearable mirror" placeholder="Keyword search" type="text" value="" />
+                    </div>
+                    <div id="type-wrapper" class="input-group-field columns small-6 medium-2">
+                        <select id="year" name="text_3" class="mirror">
+                            <option selected="true" value="">By year</option>
+                            <option value="">All</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </div>
+                    <div class="input-group-field columns medium-1 show-for-medium">
+                        <input id="search_submit" class="button icon icon-functional margin-bottom-none secondary-background" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="row"><div class="column">
+        <div id="training-feed-wrapper">
+            <div id="filter-wrapper" class="">
+                <input id="filter-wrapper-element" class="filter hidden" placeholder="Autopopulated and hidden" type="text" value="" />
+            </div>
+            <div id="training-feed"><span>Loading...</span></div>
+            <p class="button-show-all"><a class="button">Show all training at EMBL-EBI</a></p>
+        </div>
+    </div>
+
+<script>
+    window.addEventListener('load',function() {
+        jQuery(document).ready(function() {
+
+            // Show all manually
+            jQuery('.button-show-all').on('click', function() {
+                jQuery('#training-feed-wrapper').addClass('live-filter-processed');
+            });
+
+
+            // we want to show a start and end, a la: Oct 16th; Oct 12th-15th, Oct 21st - Nov 1st
+            Handlebars.registerHelper("smartDates", function(date1, date2){
+                // if start = end, just return the first
+                if (date1 == date2) { return formatDate(date1).split(' ')[0] + ' ' + formatDate(date1).split(' ')[1] + ' ' + formatDate(date1).split(' ')[2]; }
+                // Ok, so we have a proper start and end...
+                var jointDate = '';
+                // are the two dates in the same month?
+                if (new Date(date1).getMonth() == new Date(date2).getMonth()) {
+                    // if it's the same day, don't list the date twice ...
+                    if (new Date(date1).getDay() == new Date(date2).getDay()) {
+                        return formatDate(date1);
+                    }
+                    //don't return the month on the second date..
+                    jointDate = formatDate(date1).split(' ')[0] + ' - ' + formatDate(date2).split(' ')[0] + ' ' + formatDate(date2).split(' ')[1] + ' ' + formatDate(date2).split(' ')[2];
+                    return jointDate;
+                }
+                // ok, so just tell us it all
+                jointDate = formatDate(date1) + ' - ' + formatDate(date2);
+                return jointDate;
+            });
+
+            function formatDate(date){
+                if (typeof(date) == "undefined") { return "Unknown"; }
+                date = date.replace(" ","T"); // drupal date format needs a "T"
+                // "2015-10-19 08:15:00" >> "2015-10-19T08:15:00"
+                var dateAway = new Date(date),
+                    date = dateAway.getDate(),
+                    month = "January,February,March,April,May,June,July,August,September,October,November,December"
+                        .split(",")[dateAway.getMonth()];
+                function nth(d) {
+                    if(d>3 && d<21) return 'th';
+                    switch (d % 10) {
+                        case 1:  return "st";
+                        case 2:  return "nd";
+                        case 3:  return "rd";
+                        default: return "th";
+                    }
+                }
+                var weekday = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+                return  date+nth(date) + " " + month.substring(0,3) + " " +dateAway.getFullYear();
+            }
+
+
+            var feedTemplate = '{{#each this}}<div class="live-filter-target-granularity">'+
+                '{{log json}}' +
+                '<div class="padding-top-medium" style="border-bottom: dashed 1px #CCCCCC; padding-bottom: 4px">'+
+                '<h4><a href="{{json.path}}" class="">{{json.title}} {{json.text}}</a></h4>'+
+                '<p class="">{{#if json.starts}}  {{smartDates json.starts json.ends}} &mdash; {{else}} Online &mdash;  {{/if}} {{{json.short_description}}}  </p>'+
+                '<span><span class="ebi-tag ebi-tag-topic"><a href="#">{{json.Topic}}</a> </span><small>|</small>  {{{json.topic}}}   <a href="#" class="typeDesc"> {{{json.addedDescriptor}}} </a></span>' +
+                '</div></div>'+
+                '{{/each}}';
+
+
+
+            Handlebars.registerHelper('registerStatus', function(registerDate, startDate) {
+
+                var sdt = Date(startDate);
+                var dt = Date.now();
+                if(sdt < dt){
+                    return "Registration closed"
+                }else if(registerDate){
+                    var rdt = new Date(registerDate)
+                    if(rdt < dt){
+                        return "Registration closed"
+                    }else{
+                        return "Registration open"
+                    }
+                }
+
+            });
+
+// feed processor
+            function feedImporter(feedUrl,feedUrl2, feedUrl3, feedUrl4, template,destination){
+                this.feedUrl = feedUrl;
+                this.feedUrl2 = feedUrl2;
+                this.feedUrl3 = feedUrl3;
+                this.feedUrl4 = feedUrl4;
+                this.template = template;
+                this.destination = destination;
+            }
+            feedImporter.prototype.init = function(){
+                function queryData(properties) {
+                    jQuery.when(
+                        jQuery.ajax(properties.feedUrl),
+                        jQuery.ajax(properties.feedUrl2),
+                        jQuery.ajax(properties.feedUrl3),
+                        jQuery.ajax(properties.feedUrl4)
+                    ).then(function(dataEvents,dataOffsite, dataOnline, dataWebinars) {
+                        jQuery.each(dataEvents[0].results, function( index, value ) {
+                            value.json.addedDescriptor = ' <span class="label">In person-Onsite</span>';
+                            value.json.path = 'https://www.ebi.ac.uk/training/events/'+value.json.year+ '/'  +value.json.path;
+                            value.json.short_description = value.json.short_description + ' <a class="readmore secondary-color" href="'+value.json.path+'">Learn more</a>';
+                        });
+                        jQuery.each(dataOffsite[0].results, function( index, value ) {
+                            value.json.addedDescriptor = ' <span class="label">Offsite</span>';
+                            value.json.path = 'https://www.ebi.ac.uk/training/events/'+value.json.year+ '/'  +value.json.path;
+                            value.json.short_description = value.json.short_description + ' <a class="readmore secondary-color" href="'+value.json.path+ '"/'+ value.json.path  +'">Learn more</a>';
+                        });
+                        jQuery.each(dataOnline[0].results, function( index, value ) {
+                            value.json.addedDescriptor = ' <span class="label">Instant online</span> <small>|</small> <span class="label">Free access</span>';
+                            value.json.path = 'https://www.ebi.ac.uk/training/online/' +value.json.path;
+                            value.json.short_description = value.json.short_description + ' <a class="readmore secondary-color" href="'+value.json.path+'">Start now</a>';
+                        });
+                        jQuery.each(dataWebinars[0].results, function( index, value ) {
+                            value.json.addedDescriptor = ' <span class="label">Webinars</span>';
+                            value.json.path = 'https://www.ebi.ac.uk/training/events/'+value.json.year+ '/'  +value.json.path;
+                            value.json.short_description = value.json.short_description + ' <a class="readmore secondary-color" href="'+value.json.path+'">Learn more</a>';
+                        });
+
+                        var mergedFeeds = jQuery.merge(dataEvents[0].results, dataOffsite[0].results);
+                        var mergedFeeds = jQuery.merge(mergedFeeds, dataOnline[0].results);
+                        var mergedFeeds = jQuery.merge(mergedFeeds, dataWebinars[0].results);
+
+                        var template = Handlebars.compile(properties.template);
+                        jQuery(properties.destination).html(template(mergedFeeds));
+
+                        jQuery('#training-feed-wrapper').liveFilter({
+                            fitlerTargetCustomDiv: 'div.live-filter-target-granularity',
+                            defaultText: false,
+                            noMatches: '<p>No matches found.</p>'
+                        });
+
+                        function mirrorLiveFilter() {
+                            var mirroredText = '';
+                            jQuery('#filter-inputs .mirror').each( function(item) {
+                                mirroredText = mirroredText + ' ' + jQuery(this).val();
+                            });
+
+                            jQuery('#training-feed-wrapper input[type="text"]').val(mirroredText);
+                            var evt = new Event("keyup");
+                            document.getElementById("filter-wrapper-element").dispatchEvent(evt);
+                        }
+
+                        jQuery('#filter-inputs .mirror').on('change', function(e) {
+                            mirrorLiveFilter();
+                        });
+                        jQuery('#filter-inputs input.mirror').on('keyup', function(e) {
+                            mirrorLiveFilter();
+                        });
+
+                        jQuery("#search_submit").click(function(e){
+                            mirrorLiveFilter();
+                        });
+
+                        jQuery(".ebi-tag a").click(function(e){
+                            e.preventDefault();
+                            var typeSelected = jQuery(this).text();
+                            jQuery("#topic").val(typeSelected);
+                            mirrorLiveFilter();
+                        });
+
+                        jQuery(".typeDesc").click(function(e){
+                            e.preventDefault();
+                            var typeSelected = jQuery(this).text();
+                            if(typeSelected.includes("In person")){
+                                jQuery("#type").val("in person");
+                            }
+                            if(typeSelected.includes("Offsite")){
+                                jQuery("#type").val("offsite");
+                            }
+                            if(typeSelected.includes("Instant online")){
+                                jQuery("#type").val("instant online");
+                            }
+                            if(typeSelected.includes("Webinars")){
+                                jQuery("#type").val("webinars");
+                            }
+
+                            mirrorLiveFilter();
+                        });
+
+                    });
+
+                }
+                queryData(this); // bootstrap
+            }
+            newsUpdates = new feedImporter(
+                "https://wwwdev.ebi.ac.uk/training-onsite-feed.json",
+                "https://wwwdev.ebi.ac.uk/offsite-training-feed.json",
+                "https://wwwdev.ebi.ac.uk/training-online-feed.json",
+                "https://wwwdev.ebi.ac.uk/webinars-feed.json",
+                feedTemplate, "#training-feed").init();
+
+
+        });
+    });
+
+    jQuery(document).ajaxComplete(function(){
+        jQuery('.ebi-tag:contains("DNA &amp; RNA")').text(function(index,text){
+            return text.replace('DNA &amp; RNA', 'DNA & RNA');
+        });
+
+
+    });
+</script>
+
+<style>
+    div#training-feed-wrapper  {
+        position: relative;
+    }
+    div#training-feed-wrapper #training-feed {
+        max-height: 800px;
+        overflow: hidden;
+    }
+
+    div#training-feed-wrapper #training-feed:after {
+        display: block;
+        z-index:2;
+        right:0;
+        bottom:0;
+        left:0;
+        border: green;
+        content: " x";
+        height:200px;
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+        background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+        background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+        background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+        position: absolute;
+    }
+
+    .button-show-all {
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Processed state: show all available results */
+    div#training-feed-wrapper.live-filter-processed #training-feed {
+        max-height: 100%;
+    }
+    div#training-feed-wrapper.live-filter-processed .button-show-all,
+    div#training-feed-wrapper.live-filter-processed #training-feed:after {
+        display: none;
+    }
+    .label{
+        cursor: pointer;
+    }
+
+    select {
+        height: 2.5rem;
+    }
+
+    input.clearable{
+        height:2.5rem;
+    }
+
+    .button{
+        padding: 0.8rem 1em;
+    }
+
+    .position-relative { position: relative; }
+
+    a.highlight-caption,
+    .highlight-caption {
+        z-index: 1;
+        position: relative;
+        top: -3rem;
+        color: #fff;
+        padding: .25rem .5rem;
+        background: #333;
+        border-bottom: none; }
+
+    .highlight-caption.highlight-caption-big {
+        top: -8rem;
+        display: inline-block;
+        margin-bottom: -5rem; }
+
+    .position-relative > .highlight-caption.highlight-caption-big {
+        position: absolute;
+        top: initial;
+        bottom: 1%;
+        opacity: 0.8;
+        margin-bottom: 0; }
+</style>
+    </div>
+</body>
+</html>
