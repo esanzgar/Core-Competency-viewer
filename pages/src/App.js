@@ -31,6 +31,7 @@ class App extends Component {
       let name = "";
       let description = "";
       let learningOutcome = "";
+      let organisers = "";
       let type = "";
       let provider = "";
       let url = "";
@@ -42,7 +43,8 @@ class App extends Component {
                 name = item.title;
                   url = item.url;
                   description =   (item.description?item.description:"");
-                  learningOutcome =  (item.learningOutcome?item.learningOutcome:"") ;
+                  learningOutcome =  (item.learningOutcome?item.learningOutcome:"");
+                  organisers = (item.organisers?item.organisers:"");
                   //type = item.typeOnlineOrFacetoface;
                   type = item.type;
                   //provider = item.provider;
@@ -102,7 +104,7 @@ class App extends Component {
       <h3>Learning Outcomes</h3>
       <p> {Parser(learningOutcome)} </p>
       <h3>Organizers/ Partners</h3>
-      <p>Forschungszentrum Juelich</p>
+      <p> {Parser(organisers)}</p>
       <h3>Provider</h3>
           {provider}
           <h3>Competency profile</h3>
