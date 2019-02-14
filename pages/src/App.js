@@ -43,12 +43,12 @@ class App extends Component {
                 name = item.title;
                   url = item.url;
                   description =   (item.description?item.description:"");
-                  learningOutcome =  (item.learningOutcome?item.learningOutcome:"");
+                  learningOutcome =  (item.learning_outcomes?item.learning_outcomes:"");
                   organisers = (item.organisers?item.organisers:"");
                   //type = item.typeOnlineOrFacetoface;
                   type = item.type;
                   //provider = item.provider;
-                  provider = "Some provider";
+                  provider = "";
                   item.competency_profile.map((profile) =>{
                     profile.domains.map((domain) =>{
                         domains.push(domain.title);
@@ -87,7 +87,7 @@ class App extends Component {
                               </div>
                           }
                       )}
-                  }
+
                   </ul>
               });
               }
