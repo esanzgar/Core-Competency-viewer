@@ -23,6 +23,9 @@
 table .absorbing-column {
 	width: 28%;
 }
+a.badge:visited {
+	color: #fefefe;
+}
 
 .badge {
 	display: inline-block;
@@ -37,7 +40,7 @@ table .absorbing-column {
 .tag {
 	display: inline-block;
 	padding: 0.33333rem 0.5rem;
-	font-size: 0.8rem;
+	/* font-size: 0.8rem; */
 	line-height: 1;
 	white-space: nowrap;
 	color: white;
