@@ -1,0 +1,83 @@
+{
+  "name": "krc",
+  "description": "BioExcel Knowledge Resource Centre",
+  "homepage": "https://ebiwd.github.io/Core-Competencies-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "publish": "yarn gh-pages",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "cypress run",
+    "start-server-and-cypress": "start-server-and-test start http://localhost:3000 cypress"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.21",
+    "@types/node": "12.12.5",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "cypress": "^3.6.0",
+    "gh-pages": "^2.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "1.18.2",
+    "react-scripts": "3.2.0",
+    "start-server-and-test": "^1.10.6",
+    "typescript": "3.6.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/path/to/dir/",
+      "!<rootDir>/src/index.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/serviceWorker.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/react-app-env.d.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "node githooks/prepare-commit-msg.js ${HUSKY_GIT_PARAMS}"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md,html}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
