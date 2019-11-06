@@ -1,13 +1,14 @@
 {
   "name": "krc",
   "description": "BioExcel Knowledge Resource Centre",
-  "homepage": "https://ebiwd.github.io/Core-Competencies-viewer",
+  "homepage": "https://krc.bioexcel.eu/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish": "yarn gh-pages",
+    "predeploy": "react-scripts build",
+    "deploy": "yarn gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress": "cypress run",

@@ -20,7 +20,7 @@ yarn start
 To deploy to GitHub pages execute this command:
 
 ```
-yarn publish
+yarn deploy
 ```
 
 ## License
