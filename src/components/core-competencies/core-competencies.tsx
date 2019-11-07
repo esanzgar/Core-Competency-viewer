@@ -1,5 +1,15 @@
 import React from 'react';
 
-export const CoreCompetencies = () => {
-  return <p>core</p>;
+type Props = {
+  domains: import('../../models/competency').Domain[];
+};
+
+export const CoreCompetencies = ({ domains }: Props) => {
+  return (
+    <>
+      {domains.map(domain => (
+        <p>{domain.title}</p>
+      ))}
+    </>
+  );
 };

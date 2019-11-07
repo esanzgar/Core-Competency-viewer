@@ -25,7 +25,7 @@ export const Root = () => {
   useEffect(() => {
     const fetchTraining = async () => {
       const newCourses = await getTrainingResources();
-      setCourses(newCourses);
+      setCourses(newCourses.filter(course => course.archived === '0'));
     };
 
     const fetchCompetencies = async () => {
@@ -61,7 +61,11 @@ export const Root = () => {
       <div className="entry-content">
         <ProgressBar />
 
-        {showKrc ? <TrainingResources /> : <CoreCompetencies />}
+        {showKrc ? (
+          <TrainingResources courses={courses} />
+        ) : (
+          <CoreCompetencies domains={competencies} />
+        )}
 
         <SharedContent />
       </div>
