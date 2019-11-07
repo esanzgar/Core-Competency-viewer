@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { TrainingResources } from '../training-resources/training-resources';
 import { CoreCompetencies } from '../core-competencies/core-competencies';
 import { SharedContent } from '../shared-content/shared-content';
+import { ProgressBar } from '../progress-bar/progress-bar';
 
 import { getTrainingResources } from '../../services/training/training';
 import {
@@ -12,24 +13,28 @@ import {
 
 import styles from './root.module.css';
 
-const fetchTraining = async () => await getTrainingResources();
-const fetchCompetencies = async () => {
-  const version = await getLatestBioExcelVersion();
-  return await getBioExcelDomains(version);
-};
-
 export const Root = () => {
   const [showKrc, setShowKrc] = useState(true);
+  const [competencies, setCompetencies] = useState<
+    import('../../models/competency').Domain[]
+  >([]);
+  const [courses, setCourses] = useState<
+    import('../../models/training').TrainingResource[]
+  >([]);
+
   useEffect(() => {
-    const fetchData = async () => {
-      const [trainingResources, competencies] = await Promise.all([
-        fetchTraining(),
-        fetchCompetencies()
-      ]);
-      console.log(trainingResources, competencies);
+    const fetchTraining = async () => {
+      const newCourses = await getTrainingResources();
+      setCourses(newCourses);
     };
 
-    fetchData();
+    const fetchCompetencies = async () => {
+      const version = await getLatestBioExcelVersion();
+      const domains = await getBioExcelDomains(version);
+      setCompetencies(domains);
+    };
+
+    Promise.all([fetchTraining(), fetchCompetencies()]);
   }, []);
 
   return (
@@ -54,6 +59,8 @@ export const Root = () => {
       </header>
 
       <div className="entry-content">
+        <ProgressBar />
+
         {showKrc ? <TrainingResources /> : <CoreCompetencies />}
 
         <SharedContent />
