@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import styles from './training-resources.module.css';
+
 type TrainingResource = import('../../models/training').TrainingResource;
 
 type Props = {
@@ -12,7 +14,8 @@ export const TrainingResources = ({ courses }: Props) => {
     courses.map(course => ({
       ...course,
       titleNoCase: course.title.toLowerCase(),
-      typeNoCase: course.type.toLowerCase()
+      typeNoCase: course.type.toLowerCase(),
+      keywordsNoCase: course.keywords.toLowerCase()
     }));
 
   const [enhancedCourses, setEnhancedCourses] = useState(
@@ -28,7 +31,8 @@ export const TrainingResources = ({ courses }: Props) => {
       enhancedCourses.filter(
         course =>
           course.titleNoCase.includes(keywordNoCase) ||
-          course.typeNoCase.includes(keywordNoCase)
+          course.typeNoCase.includes(keywordNoCase) ||
+          course.keywordsNoCase.includes(keywordNoCase)
       )
     );
   };
@@ -57,7 +61,7 @@ export const TrainingResources = ({ courses }: Props) => {
 
       <form
         role="search"
-        className="search-form"
+        className={`search-form ${styles.FormLook}`}
         onSubmit={event => event.preventDefault()}
       >
         <input

@@ -14,7 +14,8 @@ import {
 import styles from './root.module.css';
 
 export const Root = () => {
-  const [showKrc, setShowKrc] = useState(true);
+  const [showKrc, setShowKrc] = useState(false);
+  const [version, setVersion] = useState('');
   const [competencies, setCompetencies] = useState<
     import('../../models/competency').Domain[]
   >([]);
@@ -30,6 +31,7 @@ export const Root = () => {
 
     const fetchCompetencies = async () => {
       const version = await getLatestBioExcelVersion();
+      setVersion(version);
       const domains = await getBioExcelDomains(version);
       setCompetencies(domains);
     };
@@ -64,7 +66,7 @@ export const Root = () => {
         {showKrc ? (
           <TrainingResources courses={courses} />
         ) : (
-          <CoreCompetencies domains={competencies} />
+          <CoreCompetencies version={version} domains={competencies} />
         )}
 
         <SharedContent />

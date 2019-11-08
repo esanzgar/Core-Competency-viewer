@@ -46,6 +46,6 @@ interface Attribute {
   uuid: string;
   id: string;
   title: string;
-  type: string;
+  type: 'Knowledge' | 'Skill' | 'Attitude';
   archived: string;
 }
