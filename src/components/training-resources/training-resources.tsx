@@ -75,7 +75,7 @@ export const TrainingResources = ({ courses }: Props) => {
         <thead>
           <tr>
             <th>Title</th>
-            <th>Domain</th>
+            <th>Topics</th>
             <th>Type</th>
           </tr>
         </thead>

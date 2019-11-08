@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
+import { Header } from '../header/header';
+import { ProgressBar } from '../progress-bar/progress-bar';
+import { Course } from '../course/course';
 import { TrainingResources } from '../training-resources/training-resources';
 import { CoreCompetencies } from '../core-competencies/core-competencies';
 import { SharedContent } from '../shared-content/shared-content';
-import { ProgressBar } from '../progress-bar/progress-bar';
 
 import { getTrainingResources } from '../../services/training/training';
 import {
@@ -11,12 +14,10 @@ import {
   getLatestBioExcelVersion
 } from '../../services/competency/competency';
 
-import styles from './root.module.css';
-
 export const Root = () => {
   const [showKrc, setShowKrc] = useState(false);
   const [version, setVersion] = useState('');
-  const [competencies, setCompetencies] = useState<
+  const [domains, setDomains] = useState<
     import('../../models/competency').Domain[]
   >([]);
   const [courses, setCourses] = useState<
@@ -33,7 +34,7 @@ export const Root = () => {
       const version = await getLatestBioExcelVersion();
       setVersion(version);
       const domains = await getBioExcelDomains(version);
-      setCompetencies(domains);
+      setDomains(domains);
     };
 
     Promise.all([fetchTraining(), fetchCompetencies()]);
@@ -41,33 +42,26 @@ export const Root = () => {
 
   return (
     <>
-      <header className="page-entry-header">
-        <h1
-          className={`page-entry-title entry-title ${styles.Tab} ${
-            showKrc ? '' : styles.Inactive
-          }`}
-          onClick={() => setShowKrc(true)}
-        >
-          Knowledge Resource Center
-        </h1>{' '}
-        <h1
-          className={`page-entry-title entry-title ${styles.Tab} ${
-            showKrc ? styles.Inactive : ''
-          }`}
-          onClick={() => setShowKrc(false)}
-        >
-          Core Competencies
-        </h1>
-      </header>
+      <Header />
 
       <div className="entry-content">
         <ProgressBar />
 
-        {showKrc ? (
-          <TrainingResources courses={courses} />
-        ) : (
-          <CoreCompetencies version={version} domains={competencies} />
-        )}
+        <Switch>
+          <Route path="/training/:course" render={() => <Course />} />
+          <Route
+            path="/training"
+            render={() => <TrainingResources courses={courses} />}
+          />
+          <Route
+            path="/competencies"
+            render={() => (
+              <CoreCompetencies version={version} domains={domains} />
+            )}
+          />
+          <Redirect exact from="/" to="/training" />
+          <Redirect to="/training" />
+        </Switch>
 
         <SharedContent />
       </div>
