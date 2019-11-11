@@ -48,7 +48,10 @@ export const Root = () => {
         <ProgressBar />
 
         <Switch>
-          <Route path="/training/:course" render={() => <Course />} />
+          <Route
+            path="/training/:course"
+            render={() => <Course courses={courses} />}
+          />
           <Route
             path="/training"
             render={() => <TrainingResources courses={courses} />}

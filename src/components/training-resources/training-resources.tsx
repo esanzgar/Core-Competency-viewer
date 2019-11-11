@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import styles from './training-resources.module.css';
 
 type TrainingResource = import('../../models/training').TrainingResource;
@@ -80,11 +82,13 @@ export const TrainingResources = ({ courses }: Props) => {
           </tr>
         </thead>
         <tbody>
-          {filteredCourses.map(course => (
-            <tr key={course.id}>
-              <td>{course.title}</td>
-              <td>{course.keywords}</td>
-              <td>{course.type}</td>
+          {filteredCourses.map(({ id, title, keywords, type }) => (
+            <tr key={id}>
+              <td>
+                <Link to={`/training/${id}`}>{title}</Link>
+              </td>
+              <td>{keywords}</td>
+              <td>{type}</td>
             </tr>
           ))}
         </tbody>
