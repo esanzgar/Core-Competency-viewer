@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { PrefaceTraining } from '../preface-training/preface-training';
+import { Filter } from '../filter/filter';
+import { TableCourses } from '../table-courses/table-courses';
+import { Select } from '../select/select';
 
 import styles from './training-resources.module.css';
 
@@ -31,77 +34,29 @@ export const TrainingResources = ({ courses }: Props) => {
           .forEach(keyword => (uniqueKeywords[keyword] = null));
       }
     });
-    setOptions(Object.keys(uniqueKeywords));
+    setOptions(['Topic', ...Object.keys(uniqueKeywords)]);
   }, [courses]);
 
   return (
     <>
-      <p>
-        The BioExcel knowledge resource center is a repository for computational
-        biomolecular training resources aggregated from BioExcel partners and
-        third party providers. The resources are primarily online based, such as
-        tutorials, online courses and videos but also include face-to-face
-        event. If you know of any useful resources that you would like to share
-        with the community let us know through this online{' '}
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfY-GI9sGuhRtMlIJJ1zVZtvD8peM3UnzemjSokUK3yAk0Xtw/viewform?c=0&w=1">
-          form
-        </a>
-        . The training resources in the Knowledge Resource Center have been
-        tagged with the BioExcel competencies.
-      </p>
+      <PrefaceTraining />
 
-      <form
-        role="search"
-        className={`search-form ${styles.FormLook}`}
-        onSubmit={event => event.preventDefault()}
-      >
-        <input
-          type="search"
-          className="search-field"
-          placeholder="Filter by keyword"
-          onKeyUp={event => onFilter(event.currentTarget.value)}
-        />
-      </form>
+      <Filter onFilter={onFilter} />
 
-      <div className={styles.FormLook}>
+      <div className={styles.LowerSpace}>
         <span className={styles.RightSpace}>Or filter by:</span>
-        <select
-          onChange={event => onFilter(event.currentTarget.value)}
+        <Select
+          options={options}
           className={styles.RightSpace}
-        >
-          <option value="">Topic</option>
-          {options.map(value => (
-            <option value={value.toLowerCase()}>{value}</option>
-          ))}
-        </select>
-
-        <select onChange={event => onFilter(event.currentTarget.value)}>
-          <option value="">Type</option>
-          <option value="face-to-face">Face-to-Face</option>
-          <option value="online">Online</option>
-        </select>
+          onChange={onFilter}
+        />
+        <Select
+          options={['Type', 'Face-to-Face', 'Online']}
+          onChange={onFilter}
+        />
       </div>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Topics</th>
-            <th>Type</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredCourses.map(({ id, title, keywords, type }) => (
-            <tr key={id}>
-              <td>
-                <Link to={`/training/${id}`}>{title}</Link>
-              </td>
-              <td>{keywords}</td>
-              <td>{type}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <TableCourses courses={filteredCourses} />
     </>
   );
 };
