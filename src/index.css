@@ -20,6 +20,11 @@
   padding-right: 10px;
 }
 
+.Collapsible:focus-within {
+  outline-offset: -2px;
+  outline: 5px #639cf2 auto;
+}
+
 .Collapsible__trigger:after {
   font-family: 'FontAwesome';
   content: '\f107';
