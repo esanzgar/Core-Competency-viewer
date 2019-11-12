@@ -12,9 +12,10 @@ type Props = {
 
 export const TrainingResources = ({ courses }: Props) => {
   const [filteredCourses, setFilteredCourses] = useState(courses);
+  const [options, setOptions] = useState([] as string[]);
 
   const onFilter = (keyword: string) => {
-    const keywordNoCase = keyword.toLowerCase();
+    const keywordNoCase = keyword.trim().toLowerCase();
     setFilteredCourses(
       courses.filter(course => course.allNoCase.includes(keywordNoCase))
     );
@@ -22,6 +23,15 @@ export const TrainingResources = ({ courses }: Props) => {
 
   useEffect(() => {
     setFilteredCourses(courses);
+    const uniqueKeywords: Record<string, null> = {};
+    courses.forEach(course => {
+      if (course.keywords) {
+        course.keywords
+          .split(', ')
+          .forEach(keyword => (uniqueKeywords[keyword] = null));
+      }
+    });
+    setOptions(Object.keys(uniqueKeywords));
   }, [courses]);
 
   return (
@@ -52,6 +62,26 @@ export const TrainingResources = ({ courses }: Props) => {
           onKeyUp={event => onFilter(event.currentTarget.value)}
         />
       </form>
+
+      <div className={styles.FormLook}>
+        <span className={styles.RightSpace}>Or filter by:</span>
+        <select
+          onChange={event => onFilter(event.currentTarget.value)}
+          className={styles.RightSpace}
+        >
+          <option value="">Topic</option>
+          {options.map(value => (
+            <option value={value.toLowerCase()}>{value}</option>
+          ))}
+        </select>
+
+        <select onChange={event => onFilter(event.currentTarget.value)}>
+          <option value="">Type</option>
+          <option value="face-to-face">Face-to-Face</option>
+          <option value="online">Online</option>
+        </select>
+      </div>
+
       <table>
         <thead>
           <tr>

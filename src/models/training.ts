@@ -12,7 +12,7 @@ export interface TrainingResource {
   target_audience?: string;
   organisers?: string;
   learning_outcomes?: string;
-  keywords?: any;
+  keywords?: string;
   archived: string;
   author: string;
   competency_profile: Competencyprofile[];
