@@ -15,10 +15,9 @@ import {
 } from '../../services/competency/competency';
 
 export const Root = () => {
-  const [showKrc, setShowKrc] = useState(false);
-  const [version, setVersion] = useState('');
+  const [version, setVersion] = useState('1.0');
   const [domains, setDomains] = useState<
-    import('../../models/competency').Domain[]
+    import('../../models/competency').CleanDomain[]
   >([]);
   const [courses, setCourses] = useState<
     import('../../models/training').TrainingResource[]

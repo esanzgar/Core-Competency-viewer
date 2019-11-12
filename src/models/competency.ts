@@ -39,7 +39,7 @@ interface Competency {
   type: string;
   archived: string;
   mapped_other_competency?: any;
-  attributes: (Attribute | Attribute)[];
+  attributes: Attribute[];
 }
 
 interface Attribute {
@@ -48,4 +48,17 @@ interface Attribute {
   title: string;
   type: 'Knowledge' | 'Skill' | 'Attitude';
   archived: string;
+}
+
+export interface CleanDomain {
+  id: string;
+  title: string;
+  competencies: CleanCompetency[];
+}
+
+interface CleanCompetency {
+  id: string;
+  title: string;
+  attributes: Record<'Knowledge' | 'Skill' | 'Attitude', string[]>;
+  allNoCase: string;
 }

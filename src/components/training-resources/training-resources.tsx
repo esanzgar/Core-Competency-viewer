@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -11,38 +11,17 @@ type Props = {
 };
 
 export const TrainingResources = ({ courses }: Props) => {
-  // Added lowercase version of some properties for easy filtering
-  const improveCourses = (courses: TrainingResource[]) =>
-    courses.map(course => ({
-      ...course,
-      titleNoCase: course.title.toLowerCase(),
-      typeNoCase: course.type.toLowerCase(),
-      keywordsNoCase: course.keywords.toLowerCase()
-    }));
-
-  const [enhancedCourses, setEnhancedCourses] = useState(
-    improveCourses(courses)
-  );
-  const [filteredCourses, setFilteredCourses] = useState(
-    improveCourses(courses)
-  );
+  const [filteredCourses, setFilteredCourses] = useState(courses);
 
   const onFilter = (keyword: string) => {
     const keywordNoCase = keyword.toLowerCase();
     setFilteredCourses(
-      enhancedCourses.filter(
-        course =>
-          course.titleNoCase.includes(keywordNoCase) ||
-          course.typeNoCase.includes(keywordNoCase) ||
-          course.keywordsNoCase.includes(keywordNoCase)
-      )
+      courses.filter(course => course.allNoCase.includes(keywordNoCase))
     );
   };
 
   useEffect(() => {
-    const enhancedCourses = improveCourses(courses);
-    setEnhancedCourses(enhancedCourses);
-    setFilteredCourses(enhancedCourses);
+    setFilteredCourses(courses);
   }, [courses]);
 
   return (

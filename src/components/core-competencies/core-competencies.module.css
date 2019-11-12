@@ -1,0 +1,11 @@
+.FormLook {
+  margin-bottom: 16px;
+}
+
+.Heading {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: 1px solid #ededed;
+  margin-top: 16px;
+}

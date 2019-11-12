@@ -3,3 +3,37 @@
   --krc-secondary-color: #fa5742;
   --krc-grey-color: #999999;
 }
+
+.Collapsible {
+  padding: 8px 15px;
+  border: 1px solid #ededed;
+  border-top: 0px;
+}
+
+.Collapsible__contentInner {
+  padding-top: 16px;
+}
+
+.Collapsible__trigger {
+  display: block;
+  position: relative;
+  padding-right: 10px;
+}
+
+.Collapsible__trigger:after {
+  font-family: 'FontAwesome';
+  content: '\f107';
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  display: block;
+  transition: transform 300ms;
+}
+
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
+}
+
+.sharedaddy {
+  margin-top: 32px;
+}

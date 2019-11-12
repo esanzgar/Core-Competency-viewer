@@ -4,14 +4,23 @@ type TrainingResources = import('../../models/training').TrainingResource[];
 
 export async function getTrainingResources(): Promise<TrainingResources> {
   const response = await http.get<TrainingResources>('resources');
-  const bioExcelTrainings = response.data.map(training => ({
-    ...training,
-    competency_profile: training.competency_profile.filter(
+
+  return cleanup(response.data);
+}
+
+function cleanup(courses: TrainingResources): TrainingResources {
+  const bioExcelTrainings = courses.map(course => ({
+    ...course,
+    competency_profile: course.competency_profile.filter(
       competency => competency.framework_label === 'BioExcel'
-    )
+    ),
+
+    // Added lowercase version of some properties for easy filtering
+    allNoCase: `${course.title.toLowerCase()} ${course.type.toLowerCase()} ${course.keywords &&
+      course.keywords.toLowerCase()}`
   }));
 
   return bioExcelTrainings.filter(
-    training => training.competency_profile.length > 0
+    course => course.archived === '0' && course.competency_profile.length > 0
   );
 }

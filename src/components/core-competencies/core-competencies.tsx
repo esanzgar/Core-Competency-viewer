@@ -1,58 +1,33 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+
+import Collapsible from 'react-collapsible';
+
+import styles from './core-competencies.module.css';
 
 type Props = {
-  domains: import('../../models/competency').Domain[];
+  domains: import('../../models/competency').CleanDomain[];
   version: string;
 };
 
-interface CleanCompetency {
-  id: string;
-  title: string;
-  competencies: Competency[];
-}
-
-interface Competency {
-  id: string;
-  title: string;
-  attributes: Attributes;
-  allNoCase: string;
-}
-
-interface Attributes {
-  Knowledge: string[];
-  Skill: string[];
-  Attitude: string[];
-}
-
 export const CoreCompetencies = ({ domains, version }: Props) => {
-  useEffect(() => {
-    const clean: CleanCompetency[] = [];
-    domains.forEach(({ nid, title, competencies }) => {
-      const cleanCompetency = competencies.map(competency => {
-        const cleanAttributes = {
-          Knowledge: [] as string[],
-          Skill: [] as string[],
-          Attitude: [] as string[]
-        };
-        const allNoCase: string[] = [];
-        competency.attributes.forEach(
-          ({ title, type, archived }) =>
-            archived === '0' &&
-            cleanAttributes[type].push(title) &&
-            allNoCase.push(title.toLowerCase())
-        );
-        allNoCase.push(competency.title.toLowerCase());
-        return {
-          id: competency.id,
-          title: competency.title,
-          attributes: cleanAttributes,
-          allNoCase: allNoCase.join('\n')
-        };
-      });
-      clean.push({ id: nid, title: title, competencies: cleanCompetency });
-    });
+  const [filteredDomains, setFilteredDomains] = useState(domains);
 
-    console.log(clean);
+  const onFilter = (keyword: string) => {
+    const keywordNoCase = keyword.toLowerCase();
+    setFilteredDomains(
+      domains
+        .map(domain => ({
+          ...domain,
+          competencies: domain.competencies.filter(competency =>
+            competency.allNoCase.includes(keywordNoCase)
+          )
+        }))
+        .filter(domain => domain.competencies.length > 0)
+    );
+  };
+
+  useEffect(() => {
+    setFilteredDomains(domains);
   }, [domains]);
 
   return (
@@ -71,20 +46,47 @@ export const CoreCompetencies = ({ domains, version }: Props) => {
         link to all the training resources that we have identified as relevant.
       </p>
 
-      {domains.map(domain => (
-        <>
-          <p>{domain.title}</p>
-          {domain.competencies.map(competency => (
-            <>
-              <p>{competency.title}</p>
-              {competency.attributes.map(attribute => (
-                <p>
-                  {attribute.title}, {attribute.type}
-                </p>
-              ))}
-            </>
+      <form
+        role="search"
+        className={`search-form ${styles.FormLook}`}
+        onSubmit={event => event.preventDefault()}
+      >
+        <input
+          type="search"
+          className="search-field"
+          placeholder="Filter by keyword"
+          onKeyUp={event => onFilter(event.currentTarget.value)}
+        />
+      </form>
+
+      {filteredDomains.map(({ id, title, competencies }) => (
+        <div key={id}>
+          <div className={styles.Heading}>{title}</div>
+          {competencies.map(({ id, title, attributes }) => (
+            <Collapsible
+              key={id}
+              tabIndex={0.1}
+              trigger={title}
+              className={styles.Row}
+            >
+              {(['Knowledge', 'Skill', 'Attitude'] as (
+                | 'Knowledge'
+                | 'Skill'
+                | 'Attitude')[]).map(kind =>
+                attributes[kind].length < 1 ? null : (
+                  <>
+                    {kind}:
+                    <ul>
+                      {attributes[kind].map(attribute => (
+                        <li>{attribute}</li>
+                      ))}
+                    </ul>
+                  </>
+                )
+              )}
+            </Collapsible>
           ))}
-        </>
+        </div>
       ))}
 
       {version !== '1.0' ? (
