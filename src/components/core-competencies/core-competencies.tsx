@@ -13,13 +13,12 @@ export const CoreCompetencies = ({ domains, version }: Props) => {
   const [filteredDomains, setFilteredDomains] = useState(domains);
 
   const onFilter = (keyword: string) => {
-    const keywordNoCase = keyword.toLowerCase();
     setFilteredDomains(
       domains
         .map(domain => ({
           ...domain,
           competencies: domain.competencies.filter(competency =>
-            competency.allNoCase.includes(keywordNoCase)
+            competency.allNoCase.includes(keyword)
           )
         }))
         .filter(domain => domain.competencies.length > 0)
@@ -34,7 +33,7 @@ export const CoreCompetencies = ({ domains, version }: Props) => {
     <>
       <PrefaceCompetencies />
 
-      <Filter onFilter={onFilter} />
+      <Filter onChange={onFilter} />
 
       <DomainTable domains={filteredDomains} />
 

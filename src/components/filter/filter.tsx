@@ -3,10 +3,10 @@ import React from 'react';
 import styles from './filter.module.css';
 
 type Props = {
-  onFilter(keyword: string): void;
+  onChange(keyword: string): void;
 };
 
-export const Filter = ({ onFilter }: Props) => (
+export const Filter = ({ onChange }: Props) => (
   <form
     role="search"
     className={`search-form ${styles.FormLook}`}
@@ -16,7 +16,9 @@ export const Filter = ({ onFilter }: Props) => (
       type="search"
       className="search-field"
       placeholder="Filter by keyword"
-      onKeyUp={event => onFilter(event.currentTarget.value)}
+      onKeyUp={event =>
+        onChange(event.currentTarget.value.trim().toLowerCase())
+      }
     />
   </form>
 );

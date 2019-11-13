@@ -14,15 +14,11 @@ type Props = {
 };
 
 export const TrainingResources = ({ courses }: Props) => {
-  const [filteredCourses, setFilteredCourses] = useState(courses);
   const [options, setOptions] = useState([] as string[]);
-
-  const onFilter = (keyword: string) => {
-    const keywordNoCase = keyword.trim().toLowerCase();
-    setFilteredCourses(
-      courses.filter(course => course.allNoCase.includes(keywordNoCase))
-    );
-  };
+  const [filteredCourses, setFilteredCourses] = useState(courses);
+  const [keyword, setKeyword] = useState('');
+  const [topic, setTopic] = useState('');
+  const [kind, setKind] = useState('');
 
   useEffect(() => {
     setFilteredCourses(courses);
@@ -37,22 +33,37 @@ export const TrainingResources = ({ courses }: Props) => {
     setOptions(['Topic', ...Object.keys(uniqueKeywords)]);
   }, [courses]);
 
+  useEffect(() => {
+    setFilteredCourses(
+      courses.filter(course => {
+        const keywords = course.keywords || '';
+        return (
+          keywords.includes(topic) &&
+          course.type.includes(kind) &&
+          course.allNoCase.includes(keyword)
+        );
+      })
+    );
+  }, [keyword, topic, kind, courses]);
+
   return (
     <>
       <PrefaceTraining />
 
-      <Filter onFilter={onFilter} />
+      <Filter onChange={setKeyword} />
 
       <div className={styles.LowerSpace}>
         <span className={styles.RightSpace}>Or filter by:</span>
+
         <Select
           options={options}
           className={styles.RightSpace}
-          onChange={onFilter}
+          onChange={setTopic}
         />
+
         <Select
           options={['Type', 'Face-to-Face', 'Online']}
-          onChange={onFilter}
+          onChange={setKind}
         />
       </div>
 

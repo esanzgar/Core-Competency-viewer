@@ -12,7 +12,9 @@ export const Select = ({ options, onChange, className }: Props) => (
     className={className}
   >
     {options.map((value, index) => (
-      <option value={index === 0 ? '' : value.toLowerCase()}>{value}</option>
+      <option key={value || 'default'} value={index === 0 ? '' : value}>
+        {value}
+      </option>
     ))}
   </select>
 );
