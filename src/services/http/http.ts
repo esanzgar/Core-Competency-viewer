@@ -5,7 +5,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 axios.defaults.baseURL = apiUrl;
 
 axios.interceptors.request.use(config => {
-  config.url = `${config.url}/?_format=json`;
+  config.params = { ...config.params, _format: 'json' };
   return config;
 });
 

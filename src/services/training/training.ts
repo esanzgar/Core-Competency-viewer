@@ -1,18 +1,37 @@
 import { http } from '../http/http';
 
-type TrainingResources = import('../../models/training').TrainingResource[];
+import { cleanupDomain } from '../competency/competency';
 
-export async function getTrainingResources(): Promise<TrainingResources> {
-  const response = await http.get<TrainingResources>('resources');
+type TrainingResource = import('../../models/training').TrainingResource;
 
-  return cleanup(response.data);
+export async function getTrainingResources(): Promise<TrainingResource[]> {
+  const response = await http.get<TrainingResource[]>('resources');
+
+  return cleanupTraining(response.data);
 }
 
-function cleanup(courses: TrainingResources): TrainingResources {
+export async function getTrainingResource(
+  code: string
+): Promise<{
+  courses: TrainingResource[];
+  domains: ReturnType<typeof cleanupDomain>;
+}> {
+  const response = await http.get<TrainingResource>('resources', {
+    params: { id: code }
+  });
+  const courses = cleanupTraining([response.data]);
+  const domains =
+    courses.length > 0 && courses[0].competency_profile.length > 0
+      ? cleanupDomain(courses[0].competency_profile[0].domains || [])
+      : [];
+  return { courses, domains };
+}
+
+function cleanupTraining(courses: TrainingResource[]): TrainingResource[] {
   const bioExcelTrainings = courses.map(course => ({
     ...course,
-    competency_profile: course.competency_profile.filter(
-      competency => competency.framework_label === 'BioExcel'
+    competency_profile: course.competency_profile.filter(competency =>
+      [competency.framework_label, competency.title].includes('BioExcel')
     ),
 
     // Added lowercase version of some properties for easy filtering
@@ -21,6 +40,6 @@ function cleanup(courses: TrainingResources): TrainingResources {
   }));
 
   return bioExcelTrainings.filter(
-    course => course.archived === '0' && course.competency_profile.length > 0
+    course => course.archived === 'no' && course.competency_profile.length > 0
   );
 }

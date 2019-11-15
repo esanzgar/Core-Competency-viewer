@@ -1,35 +1,41 @@
 import React, { useEffect, useState } from 'react';
 
 import { withRouter, Link } from 'react-router-dom';
+import { DomainTable } from '../domain-table/domain-table';
 import parse from 'html-react-parser';
+import { getTrainingResource } from '../../services/training/training';
 
 type TrainingResource = import('../../models/training').TrainingResource;
-type Props = {
-  courses: TrainingResource[];
-} & import('react-router-dom').RouteComponentProps;
 
-export const Course = withRouter(({ match, courses }: Props) => {
+export const Course = withRouter(({ match }) => {
   const [course, setCourse] = useState<TrainingResource | null>(null);
+  const [domains, setDomains] = useState<
+    import('../../models/competency').CleanDomain[]
+  >([]);
   const [found, setFound] = useState(true);
 
   useEffect(() => {
-    if (courses.length > 0) {
-      const courseId = (match.params as Record<string, string>)['course'];
-      const matchingCourses = courses.filter(course => course.id === courseId);
-      if (matchingCourses.length > 0) {
-        setFound(true);
-        setCourse(matchingCourses[0]);
-      } else {
-        setFound(false);
-        setCourse(null);
-      }
-    }
-  }, [match, courses]);
+    getTrainingResource(match.params.course)
+      .then(({ courses, domains }) => {
+        setDomains(domains);
+        if (courses.length === 0) {
+          setCourse(null);
+          setFound(false);
+        } else {
+          setCourse(courses[0]);
+          setFound(true);
+        }
+      })
+      .catch(_ => setFound(false));
+  }, [match.params.course]);
 
   if (!found) {
     return (
       <>
-        <p>Sorry, the requested training resource was not found!</p>
+        <h2>
+          <span className="fas exclamation-triangle"></span> Sorry, the
+          requested training resource was not found!
+        </h2>
         <Link to="/training">List of all training resources</Link>
       </>
     );
@@ -38,17 +44,33 @@ export const Course = withRouter(({ match, courses }: Props) => {
   if (course === null) {
     return null;
   }
+
+  if (course.archived === 'yes') {
+    return (
+      <>
+        <h2>
+          <span className="fas exclamation-triangle"></span> Sorry, the
+          requested training resource has expired!
+        </h2>
+        <Link to="/training">List of all training resources</Link>
+      </>
+    );
+  }
+
   const {
     title,
     description,
     target_audience,
     learning_outcomes,
-    trainers
+    trainers,
+    url
   } = course;
   return (
     <>
       <h1>{title}</h1>
       {parse(description)}
+
+      {url && <a href={url}>External link to the training resource.</a>}
 
       {target_audience && (
         <>
@@ -70,6 +92,16 @@ export const Course = withRouter(({ match, courses }: Props) => {
           {parse(trainers)}
         </>
       )}
+
+      {course.competency_profile.length > 0 && (
+        <>
+          <h2>Competency profile</h2>
+          <DomainTable domains={domains} />
+        </>
+      )}
+
+      <br />
+
       <Link to="/training">List of all training resources</Link>
     </>
   );

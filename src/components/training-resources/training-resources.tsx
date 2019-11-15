@@ -14,23 +14,39 @@ type Props = {
 };
 
 export const TrainingResources = ({ courses }: Props) => {
-  const [options, setOptions] = useState([] as string[]);
   const [filteredCourses, setFilteredCourses] = useState(courses);
   const [keyword, setKeyword] = useState('');
+  const [options, setOptions] = useState([] as string[]);
   const [topic, setTopic] = useState('');
+  const [kindOptions, setKindOptions] = useState([] as string[]);
   const [kind, setKind] = useState('');
+
+  function unique(words: string[]): string[] {
+    // return [...new Set(words)];
+    // return [...words.reduce((myMap, word) => myMap.set(word, null), new Map<string, null>()).keys()];
+    return Object.keys(
+      words.reduce(
+        (uniqueWords, word) => ({ ...uniqueWords, [word]: null }),
+        {} as Record<string, null>
+      )
+    );
+  }
 
   useEffect(() => {
     setFilteredCourses(courses);
-    const uniqueKeywords: Record<string, null> = {};
-    courses.forEach(course => {
-      if (course.keywords) {
+    const topics = courses.reduce(
+      (keywords, course) =>
         course.keywords
-          .split(', ')
-          .forEach(keyword => (uniqueKeywords[keyword] = null));
-      }
-    });
-    setOptions(['Topic', ...Object.keys(uniqueKeywords)]);
+          ? [...keywords, ...course.keywords.split(', ')]
+          : keywords,
+      [] as string[]
+    );
+    setOptions(['Topic', ...unique(topics)]);
+    const kinds = courses.reduce(
+      (keywords, course) => [...keywords, course.type],
+      [] as string[]
+    );
+    setKindOptions(['Type', ...unique(kinds)]);
   }, [courses]);
 
   useEffect(() => {
@@ -61,10 +77,7 @@ export const TrainingResources = ({ courses }: Props) => {
           onChange={setTopic}
         />
 
-        <Select
-          options={['Type', 'Face-to-Face', 'Online']}
-          onChange={setKind}
-        />
+        <Select options={kindOptions} onChange={setKind} />
       </div>
 
       <TableCourses courses={filteredCourses} />

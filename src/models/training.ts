@@ -20,17 +20,7 @@ export interface TrainingResource {
 }
 
 interface Competencyprofile {
-  framework_id: string;
-  framework_uuid: string;
-  framework_label: string;
-  domain_id: string;
-  domain_uuid: string;
-  domain_label: string;
-  competency_id: string;
-  competency_uuid: string;
-  competency_label: string;
-  attribute_id: string;
-  attribute_uuid: string;
-  attribute_label: string;
-  attribute_type: string;
+  framework_label?: string;
+  title?: string;
+  domains?: import('./competency').Domain[]; // Only present in the single training resource API end point: `http://dev-competency-mapper.pantheonsite.io/api/resources?id=1034&_format=json`
 }

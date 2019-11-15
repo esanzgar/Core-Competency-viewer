@@ -26,7 +26,8 @@ export interface Framework {
 
 export interface Domain {
   uuid: string;
-  nid: string;
+  nid?: string; // returned in the competency endpoint `http://dev-competency-mapper.pantheonsite.io/api/bioexcel/1.0/?_format=json`
+  id?: string; // returned in the single training resource endpoint `http://dev-competency-mapper.pantheonsite.io/api/resources/?_format=json&id=1034`
   title: string;
   type: string;
   competencies: Competency[];

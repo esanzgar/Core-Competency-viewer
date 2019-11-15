@@ -42,3 +42,8 @@
 .sharedaddy {
   margin-top: 32px;
 }
+
+.exclamation-triangle:after {
+  content: '\f071';
+  font-family: 'FontAwesome';
+}

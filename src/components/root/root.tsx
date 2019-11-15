@@ -26,7 +26,7 @@ export const Root = () => {
   useEffect(() => {
     const fetchTraining = async () => {
       const newCourses = await getTrainingResources();
-      setCourses(newCourses.filter(course => course.archived === '0'));
+      setCourses(newCourses);
     };
 
     const fetchCompetencies = async () => {
@@ -47,10 +47,7 @@ export const Root = () => {
         <ProgressBar />
 
         <Switch>
-          <Route
-            path="/training/:course"
-            render={() => <Course courses={courses} />}
-          />
+          <Route path="/training/:course" render={() => <Course />} />
           <Route
             path="/training"
             render={() => <TrainingResources courses={courses} />}

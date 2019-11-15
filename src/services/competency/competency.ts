@@ -21,17 +21,19 @@ export async function getBioExcelDomains(
   const response = await http.get<
     import('../../models/competency').Framework[]
   >(`bioexcel/${version}`);
-  return cleanup(response.data[0].domains);
+  return response.data.length === 0
+    ? []
+    : cleanupDomain(response.data[0].domains);
 }
 
-function cleanup(
+export function cleanupDomain(
   domains: import('../../models/competency').Domain[]
 ): CleanDomain[] {
   const clean: CleanDomain[] = [];
 
-  domains.forEach(({ nid, title, competencies }) => {
+  domains.forEach(({ nid, id, title, competencies }, index) => {
     const cleanCompetency = competencies
-      .filter(competency => competency.archived === '0')
+      .filter(competency => competency.archived === 'no')
       .map(competency => {
         const cleanAttributes = {
           Knowledge: [] as string[],
@@ -42,7 +44,7 @@ function cleanup(
         // competency.archived;
         competency.attributes.forEach(
           ({ title, type, archived }) =>
-            archived === '0' &&
+            archived === 'no' &&
             cleanAttributes[type].push(title) &&
             allNoCase.push(title.toLowerCase())
         );
@@ -54,7 +56,11 @@ function cleanup(
           allNoCase: allNoCase.join('\n')
         };
       });
-    clean.push({ id: nid, title: title, competencies: cleanCompetency });
+    clean.push({
+      id: nid || id || '' + index,
+      title: title,
+      competencies: cleanCompetency
+    });
   });
 
   return clean;
